@@ -1,6 +1,6 @@
 {
   "vendor": "festabox",
-  "name": "children-party",
+  "name": "festabox",
   "version": "1.0.0-beta.0",
   "builders": {
     "styles": "2.x",
