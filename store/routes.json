@@ -1,0 +1,29 @@
+{
+  "store.custom#hotsite-meninos": {
+    "path": "/festa-meninos"
+  },
+  "store.custom#hotsite-meninas": {
+    "path": "/festa-meninas"
+  },  
+  "store.custom#hotsite-ballons": {
+    "path": "/bexigas-e-baloes"
+  },  
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#sobre-festabox": {
+    "path": "/sobre-festabox"
+  },
+  "store.custom#loja-fisica-festabox": {
+    "path": "/loja-fisica"
+  },  
+  "store.custom#privacidade": {
+    "path": "/politica-privacidade"
+  },
+  "store.custom#troca-devolucao": {
+    "path": "/trocas-e-devolucoes"
+  },
+  "store.custom#duvidas": {
+    "path": "/duvidas"
+  }             
+}

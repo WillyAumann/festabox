@@ -1,0 +1,276 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "sticky-layout#2-desktop",
+      "flex-layout.row#3-desktop"
+    ]
+  },
+
+        "flex-layout.row#1-desktop": {
+          "props": {
+            "blockClass": "menu-link",
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+          },
+          "children": [
+            // "vtex.menu@2.x:menu#websites",
+            "rich-text#social-header1",
+            "rich-text#social-header2",
+            "rich-text#social-header3",            
+            "flex-layout.col#spacer",
+            // "vtex.menu@2.x:menu#websites",
+            "rich-text#quick-nav-contact",  
+            "rich-text#quick-nav-orders",     
+            "rich-text#sobre-festabox",
+            "flex-layout.col#spacer",
+            "rich-text#slogan",
+            "image#contact-whatsapp"
+            //"vtex.menu@2.x:menu#institutional"
+          ]
+        },
+                    "rich-text#social-header1":{
+                      "props":{
+                        "text":"[![Pinterest](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bcacf6f9-81b8-4f12-8ff8-fbf139b45769___75fe4ec805d7a35ddb964071dbefa55d.png)](https://pinterest.com/festabox)",
+                        "blockClass": "social-header1"
+                      }
+                    },
+                    "rich-text#social-header2":{
+                      "props":{
+                        "text":"[![Instagram](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/aec53c57-37a7-4baa-9d33-4ae7b3cd036d___70484d34908e0de3d07f61dfe4c67c7f.png)](https://instagram.com/festabox)",
+                        "blockClass": "social-header2"
+                      }
+                    },
+                    "rich-text#social-header3":{
+                      "props":{
+                        "text":"[![Blog](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/23cd65bb-cedc-44e1-a57d-8800d37f39ef___ae4196ae81794300394fba687a9a4d8f.png)](http://blog.festabox.com.br/)",
+                        "blockClass": "social-header3"
+                      }
+                    },                    
+                    "rich-text#quick-nav-contact":{
+                      "props":{
+                        "text":"[Contato](/duvidas)",
+                        "blockClass":"quick-nav"
+                      }
+                    },
+                    "rich-text#quick-nav-orders":{
+                      "props":{
+                        "text":"[Meus Pedidos](account#/orders)",
+                        "blockClass":"quick-nav"
+                      }
+                    }, 
+                    "rich-text#sobre-festabox": {
+                      "props":{
+                        "text":"[Sobre a Festabox](/sobre-festabox)",
+                        "target":"_blank",
+                        "blockClass":"quick-nav-last"
+                      }
+                    }, 
+                    "rich-text#slogan":{
+                      "props":{
+                        "text":"Artigos para Festa e Decoração de Festa",
+                        "blockClass": "slogan"
+                      }
+                    },
+                    "image#contact-whatsapp":{
+                      "props":{
+                        "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/dfa41a68-89bc-4b93-b7c3-118e97894467___e68b22d….png",
+                        "link":"https://wa.me/5511949408882",
+                        "blockClass":"btn-wpp"
+                      }
+                    },                   
+                    "flex-layout.col#spacer": {
+                      "props": {
+                        "width": "grow"
+                      }
+                    },
+        "sticky-layout#2-desktop": {
+          "props": {
+            "blockClass": "sticky-header",
+            "sticky": true
+          },
+          "children": [
+            "flex-layout.row#2-desktop"
+          ]
+        },
+                    "flex-layout.row#2-desktop": {
+                      "props": {
+                        "blockClass": "main-header",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "center",
+                        "preventVerticalStretch": true,
+                        "fullWidth": true
+                      },
+                      "children": [
+                        "flex-layout.col#logo-desktop",
+                        "flex-layout.col#search",
+                        "header-spacer",
+                        "flex-layout.col#login",
+                        "flex-layout.col#cart"
+                      ]
+                    },
+                          "flex-layout.col#logo-desktop": {
+                            "children": ["logo#desktop"],
+                            "props": {
+                              "verticalAlign": "middle",
+                              "width":"18%",
+                              "blockClass":"col-logo"
+                            }        
+                          },      
+                              "logo#desktop": {
+                                "props": {
+                                  "title": "Logo",
+                                  "href": "/",
+                                  "url": "",
+                                  "width": "180"
+                                }
+                              },                                        
+                          "flex-layout.col#search":{
+                            "children": ["search-bar#desktop"],
+                            "props": {
+                              "verticalAlign": "middle",
+                              "width": "62%",
+                              "rowGap": 0,
+                              "blockClass":"col-search"                              
+                            }
+                          },
+                              "search-bar#desktop":{
+                                "props":{
+                                  "placeholder": "Busque pelo tema da festa ou produto",
+                                  "hasIconRight":false,
+                                  "compactMode": false,
+                                  "blockClass":"search-bar-content"
+                                }
+                              },                          
+                          "flex-layout.col#login":{
+                            "children": ["login#desktop"],
+                            "props": {
+                              "verticalAlign": "middle",
+                              "width":"10%",
+                              "blockClass":"col-login"
+                            }
+                          },      
+                              "login#desktop":{
+                                "props": {
+                                  "showIconProfile": true,
+                                  "emailAndPasswordTitle": "LOGIN",
+                                  "accessCodeTitle": "Receber código",
+                                  "emailPraceholder": "E-mail",
+                                  "passwordPlaceholder": "Senha",
+                                  "showPasswordVerificationIntoTooltip": true,
+                                  "blockClass":"login-desktop"
+                                }                                
+                              },  
+                          "flex-layout.col#cart":{
+                            "children": ["minicart.v2"],
+                            "props": {
+                              "verticalAlign": "middle",
+                              "width":"14%",
+                              "blockClass":"col-cart"
+                            }
+                          },                               
+                    "flex-layout.row#3-desktop":{
+                      "props": {
+                        "blockClass": "main-header-menu",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "center",
+                        "preventHorizontalStretch": true,
+                        "preventVerticalStretch": true,
+                        "fullWidth": true
+                      },
+                      "children": [
+                        "category-menu"
+                      ]
+                    },
+                          "category-menu": {
+                            "props": {
+                              "showAllDepartments": false,
+                              "showSubcategories": true,
+                              "menuDisposition": "center",
+                              "departments": []
+                            }
+                          },  
+  /* Header Mobile */                              
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+      "sticky-layout#1-mobile":{
+        "children":[
+          "header-row#header-mobile",
+          "image#contact-whatsapp"
+        ],
+        "props":{
+          "blockClass":"sticky-mobile",
+          "sticky": true
+        }
+      },
+          "header-row#header-mobile":{
+            "children":[
+              "category-menu#menu-mobile",
+              "logo#mobile",
+              "search-bar#mobile",
+              // "image#header-whats-mobile",
+              "login#mobile",
+              "minicart.v2"
+              //"minicart#mobile"
+            ]
+          },
+          // menu
+          "category-menu#menu-mobile": {
+            "props": {
+              "showAllDepartments": false,
+              "showSubcategories": true,
+              "menuDisposition": "center",
+              "mobileMode": true,
+              "departments": []
+            }
+          },            
+              "login#mobile":{
+                "props":{
+                  "blockClass": "login-mobile",
+                  "labelClasses": "label-class",
+                  "showIconProfile": true,
+                  "hideIconLabel": false
+                }
+              },                          
+              ///////////////
+              "logo#mobile": {
+                "props": {
+                  "title": "Logo",
+                  "href": "/",
+                  "url": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/a8476bb6-54d3-44b5-bf98-5d68bcf79f41___1b4032106279990caedf341989b13fee.png",
+                  "width": "30",
+                  "blockClass":"logo-mobile"
+                }
+              },
+              "search-bar#mobile":{
+                "props":{
+                  "placeholder":"Buscar produto ou tema",
+                  "blockClass": "mobile-search"
+                }
+              },
+              "image#header-whats-mobile":{
+                "props":{
+                  "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/4de9eda4-ea75-460f-a9e8-c750efc5dcd9___b44556cbbe81a47ea4bbd9ded0709761.png",
+                  "alt":"Entre em contato com a Festabox através do número (11) 3312-6600",
+                  "blockClass":"whats-mobile"
+                }
+              },
+              "minicart#mobile":{
+                "blocks":[
+                  "product-summary.shelf#minicart"
+                ],
+                "props":{
+                  "blockClass": "minicart-mobile"
+                }
+              }                            
+                  
+}

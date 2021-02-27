@@ -1,0 +1,58 @@
+.departmentList{height:auto;}
+.departmentLink:hover{
+    border-color:#e5257c;
+}
+.firstLevelLink:hover{
+    color: #e5257c;
+}
+.departmentLink{font-weight:500;font-size:.8em;color:#000;}
+.section--category{
+    background: #fff;
+    border: 1px solid #ccc;
+    max-height: 300px;
+    overflow-y: scroll;
+    box-shadow: 0 8px 10px #d6d2d2;
+    max-width: 95vw;
+    border-radius: 0;
+    z-index: 9999;    
+}
+
+.submenuItem{
+    width: 200px;
+}
+
+.firstLevelLink{
+    font-size: .8em;
+    line-height: 1;    
+}
+
+.menuIcon{
+    color: #a5a5a5;
+}
+
+.sidebarHeader .closeIcon{display:none;}
+.sidebarHeader{
+    padding:0;
+    background: #f0f0f0;
+}
+.sidebarHeader::before{
+    content: "Escolha a Categoria";
+    background: #f0f0f0;
+    display: block;
+    width: 100%;
+    padding: 1em;
+    font-weight: bold;
+    font-size: .8em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sidebarItemContainer{
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.plusIcon,
+.minusIcon{
+    width: 11px;
+    color: #888;    
+}

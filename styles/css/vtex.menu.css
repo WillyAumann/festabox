@@ -1,0 +1,24 @@
+.menuContainerNav--mobile-menu{
+    width: 100%;
+}
+.styledLinkContainer--menu-mobile{
+    padding:0;
+}
+
+.menuContainerNav{
+    width:100%;
+}
+
+.styledLinkContent--menu-mobile{
+    font-size:1.1em;
+    font-weight: bold;
+    padding: .5em 0;
+    border-bottom: 1px dashed #eee;    
+}
+
+.styledLinkContent{
+    font-size:1em;
+    line-height: 1.5;
+    padding: .5em 0;
+    border-bottom: 1px dashed #eee;    
+}

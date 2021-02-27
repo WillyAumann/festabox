@@ -1,0 +1,97 @@
+.listPrice {
+  color: #727273;
+  margin-bottom: .25rem;
+  font-size: 1rem;
+}
+
+.sellingPrice {
+  color: #3f3f40;
+  font-size: 1.5rem;
+}
+
+.sellingPriceValue {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.installments {
+  color: #727273;
+  margin-bottom: 1rem;
+}
+
+
+.sellingPriceValue--summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #F294AD;
+}
+
+.listPrice--summary {
+  margin-bottom: 0.;
+  font-size: .75rem;
+}
+
+.installments--summary {
+  font-size: .7em;
+  text-transform: lowercase;
+}
+
+.savings--summary-savings{
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  background: #dd1659;
+  padding: 3px;
+  font-size: .6em;
+  color: #fff;  
+}
+
+@media screen and (max-width: 40em){
+  .sellingPriceValue--summary{
+    color:#F294AD;
+    padding-left:.3em;
+  }
+  .listPrice--summary{
+    padding-left: .5em;
+  }
+  .installments--summary{
+    padding: 0 .5em;
+  }
+  .buyButtonContainer{
+    width:90%;
+    margin: 0 .5em;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .savings--summary-savings{
+    top:3px !important;
+    right:3px !important;
+  }
+}
+
+@media screen and (min-width: 40em){
+  .savings{
+    display: none;
+  }
+  .sellingPrice--hasListPrice{
+    color: #61d6bb;
+  }
+}
+
+
+/* Product Page */
+
+.sellingPriceValue--selling-price-product{
+  width: 96vw;
+  text-align: center;
+  display: block;
+  font-size: 1.5rem;
+  color: #61d6bb;
+}
+
+.listPrice--list-price-product{
+  width: 96vw;
+  text-align: center;
+  display: block;  
+  font-size:.9rem;
+}

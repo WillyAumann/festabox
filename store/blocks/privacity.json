@@ -1,0 +1,52 @@
+{
+  "store.custom#privacidade": {
+    "blocks": [
+      "flex-layout.row#privacidade"
+    ]
+  },
+
+  "flex-layout.row#privacidade": {
+    "children": [
+      "flex-layout.col#text-privacidade"
+    ],
+    "props":{
+      "blockClass":"content-institucional"
+    }
+  },
+
+  "flex-layout.col#text-privacidade": {
+    "children": [
+      "rich-text#title-privacidade",
+      "flex-layout.row#privacy"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-privacidade": {
+    "props": {
+      "text":
+      "Política de Privacidade",
+      "blockClass": "title-about"
+    }
+  },
+  "flex-layout.row#privacy":{
+    "children":[
+      "flex-layout.col#col-privacy"
+    ]
+  },
+  "flex-layout.col#col-privacy":{
+    "children":[
+      "rich-text#privacidade"
+    ]
+  },
+
+  "rich-text#privacidade": {
+    "props": {
+      "text": "A FestaBox estabelece o compromisso de total respeito pela privacidade de seus clientes e garante o sigilo de todas as informações que você nos fornece. Corresponder à sua confiança é de grande importância para nós. Sua segurança e sua privacidade são garantidas pelas seguintes condições: \n\n **1) Informações Coletadas.** \n\n Todas as informações pessoais coletadas no site são mantidas em absoluto sigilo. O único objetivo de coletá-las é para conhecer você um pouco mais e melhor atendê-lo. Dessa forma, podemos aprimorar nossa prestação de serviços, propondo ofertas interessantes, fazendo promoções especiais e enviando informações novas de mercado. Ou seja, propor serviços personalizados.  Todas as informações são mantidas em total sigilo. Não são cedidas a parceiros, anunciantes ou fornecedores em hipótese alguma. Sempre que realizarmos uma pesquisa ou promoção conjunta com algum parceiro, você será informado antes de preencher qualquer cadastro. \n\n **2) Proteção Tecnológica.** \n\n A FestaBox utiliza o servidor http com Secured Socket Layer (SSL). Esta tecnologia de segurança na Internet criptografa (codifica) as informações privadas, tais como número de Conta Corrente e número de Cartão de Crédito. Assim, essas informações serão utilizadas apenas no processo de compra. Elas não serão armazenadas pelo nosso site e nem poderão ser acessadas por alguém na rede. \n\n **3) Segurança Reconhecida.** \n\n Se você ainda tem alguma dúvida sobre a segurança da Festabox, pode ficar tranquilo. Além de nós, as empresas E-bit e Ciashop garantem a excelência de nosso site, basta olhar o selo de certificação em nosso rodapé. Tudo para você navegar mais tranquilo! \n\n Caso tenha qualquer dúvida ou sugestão sobre a política de de privacidade ou sobre qualquer outro aspecto do nosso processo de compra não deixe de nos contatar através do e-mail atendimento@festabox.com.br ou pelo nosso telefone.",
+      "blockClass": "about"
+    }
+  }
+}

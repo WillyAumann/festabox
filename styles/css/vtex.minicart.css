@@ -1,0 +1,52 @@
+@media screen and (max-width: 80em) {
+        .openIconContainer{
+                padding: .75rem .20rem;
+        }
+}
+
+@media screen and (min-width: 80em) {
+        .minicartWrapperContainer{margin:0 1em;}
+        .openIconContainer{height:50px;background: #61D6BB;padding: .40rem;min-width:10em;border-radius:40px;}
+        .openIconContainer :global(.vtex-button):hover{background:transparent;}
+        .cartIcon{color:#fff;}
+        .minicartIconContainer::after{content:"No seu Carrinho";padding-left:4px;font-size:.7rem;color:#fff;width:110px;font-weight: 400;position:absolute;top:-.4rem;}
+        .minicartQuantityBadgeDefault{top:.3rem;right:inherit;left:2rem;font-weight: bold;background:none;}
+        .minicartQuantityBadgeDefault::after{content:"iten(s)";font-size:.6rem;padding-left:2px;font-weight: normal}
+
+}
+        /* Drawer cart */
+        .closeIconContainer{display: none;}
+        .minicartTitle{
+                text-align: center;
+                border-bottom: 1px solid #a01554;
+                padding: .5em;
+                font-weight: 300;
+                background: #e5257c;
+                color: #fff;
+                font-size: 1em;
+                text-transform: uppercase;   
+                margin-top:0;     
+        } 
+        .minicartProductListContainer :global(.vtex-product-list-0-x-productBrandName){display: none;}       
+        .minicartProductListContainer :global(.vtex-product-list-0-x-productName){font-size:.8em;}
+        .minicartProductListContainer :global(.vtex-product-list-0-x-productVariationsItem){font-size:.8em;text-transform: lowercase;}
+        .minicartProductListContainer :global(.vtex-dropdown__container){height:20px;font-size:.8em;border: 1px solid #ccc;border-radius:2px;}
+        .minicartProductListContainer :global(.vtex-dropdown__button){padding: 0 .3em;}
+        .minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRowContent){margin-top:.4em}
+         /*.minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRow){border-bottom:1px dashed #eee;} */
+.openIconContainer--minicart-mobile{padding:0;}
+.cartIcon--minicart-mobile{
+        color: transparent;
+        background: url(https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/f1780de8-1137-43ff-9a1a-a48d60d3bbe4___51743f7….png);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 1em;
+        background-size: 22px;
+        height: 22px;
+        width: auto;
+}
+.badge{background:#61D6BB;}
+.sidebarOpen .badge{top:0 !important; right:0 !important;}
+.sidebarScrim{
+        background: #03044e;
+}

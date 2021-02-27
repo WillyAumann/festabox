@@ -1,0 +1,51 @@
+{
+  "store.custom#troca-devolucao": {
+    "blocks": [
+      "rich-text#title-trocas",
+      "flex-layout.row#troca"
+    ]
+  },
+
+  "flex-layout.row#troca": {
+    "props":{
+      "blockClass":"content-institucional"
+    },    
+    "children": [
+      "flex-layout.col#text-troca"
+    ]
+  },
+
+  "flex-layout.col#text-troca": {
+    "children": [
+      "flex-layout.row#troca"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-trocas":{
+    "props": {
+      "text":"Trocas e Devoluções",
+      "blockClass": "title-about"
+    }
+  },
+  "flex-layout.row#troca":{
+    "children":[
+      "flex-layout.col#col-troca"
+    ]
+  },
+  "flex-layout.col#col-troca":{
+    "children":[
+      "rich-text#troca"
+    ]
+  },
+
+  "rich-text#troca": {
+    "props": {
+      "text": "**Política de Troca** \n\n Ao fazer uma compra na FestaBox, o cliente tem a opção de trocar o produto por outro do mesmo valor ou, caso tenha desistido da compra, também poderá devolvê-lo. \n\n Os produtos só poderão ser trocados ou devolvidos por desistência do comprador, no entanto, caso ocorra qualquer das hipóteses abaixo: \n - Embalagem aberta ou avariada. \n - Produto avariado. \n - Produto em desacordo com o pedido. \n\n **Troca ou Desistência** \n\n O código do consumidor assegura o direito de troca do produto no caso de defeito ou desistência desde que ocorra em até 7 dias úteis após a entrega do mesmo. \n Caso o cliente opte por realizar uma troca devido a algum erro no pedido, a FestaBox irá arcar com as despesas de recolhimento/postagem do pedido. \n No entanto, caso haja apenas desistência da compra e o cliente deseje devolver o produto, a FestaBox não irá arcar com os custos do envio para o retorno do pedido à loja. \n Comunicando a FestaBox Para trocar um produto, é necessário que você comunique nossa Central de Atendimento pelo e-mail atendimento@festabox.com.br, informando o número do pedido, a data da compra e a referência do item que será trocado. \n\n **Importante:** \n *Só aceitamos devoluções depois de confirmada essa comunicação e dentro do prazo.Caso contrário, não aceitaremos a devolução e sua compra será reenviada sem consulta prévia.*",
+      "blockClass": "about"
+    }
+  }
+}

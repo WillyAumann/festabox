@@ -1,0 +1,173 @@
+{
+    "store.custom#hotsite-meninas": {
+      "blocks": [
+        "search-result-layout.customQuery#meninas"
+      ]
+    },
+//
+//
+"search-result-layout.customQuery#meninas": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Festa Meninas",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+        "search-result-layout.desktop#hotsite-meninas",
+        "search-result-layout.mobile#hotsite-meninas"
+    ]
+  },
+//
+//    
+    "search-result-layout.desktop#hotsite-meninas":{
+        "children":[
+            "flex-layout.row#hotsite-meninas-bannerFull",
+            "flex-layout.row#hotsite-meninas-highlights",
+            "flex-layout.row#hotsite-meninas-highlights2",
+            "flex-layout.row#hotsite-meninas-tabs"            
+        ]
+    },
+    // DESKTOP
+        "flex-layout.row#hotsite-meninas-bannerFull":{
+            "children":[
+                "flex-layout.col#hotsite-meninas-firstStep"
+            ],
+            "props":{
+                "blockClass":"content-hotsite-bannerFull-meninas"
+            }
+        },
+            "flex-layout.col#hotsite-meninas-firstStep":{
+                "children":[
+                    "flex-layout.row#hotsite-meninas-breadcrumb",
+                    "flex-layout.row#hotsite-meninas-title",
+                    "flex-layout.row#hotsite-meninas-slogan"            
+                ]
+            },
+                "flex-layout.row#hotsite-meninas-breadcrumb":{
+                    "children":[
+                        "rich-text#hotsite-meninas-breadcrumb"
+                    ],
+                    "props":{
+                        "blockClass":"hotsite-breadcrumb"
+                    }        
+                },
+                    "rich-text#hotsite-meninas-breadcrumb":{
+                        "props":{
+                            "text":"[Festabox](/) / Festa Infantil Meninas",
+                            "blockClass": "hotsite-breadcrumb"
+                        }
+                    },
+                "flex-layout.row#hotsite-meninas-title":{
+                    "children":[
+                        "rich-text#hotsite-meninas-title"
+                    ],
+                    "props":{
+                        "blockClass":"hotsite-title"
+                    }   
+                },
+                    "rich-text#hotsite-meninas-title":{
+                        "props":{
+                            "text":"# Temas Infantis - Meninas",
+                            "blockClass": "hotsite-title"
+                        }
+                    },
+                "flex-layout.row#hotsite-meninas-slogan":{
+                    "children":[
+                        "rich-text#hotsite-meninas-slogan"
+                    ],
+                    "props":{
+                        "blockClass":"hotsite-meninos-slogan"
+                    }
+                },
+                    "rich-text#hotsite-meninas-slogan":{
+                        "props":{
+                            "text":"Nós escolhemos os melhores temas infantis para meninas. Temos certeza que você vai amar. Aproveite",
+                            "blockClass":"hotsite-slogan"
+                        }
+                    },
+        // Highlight
+        "flex-layout.row#hotsite-meninas-highlights":{
+            "children":[
+                "flex-layout.col#col-hotsite-meninas-highlight1",
+                "flex-layout.col#col-hotsite-meninas-highlight2",
+                "flex-layout.col#col-hotsite-meninas-highlight3"
+            ],
+            "props":{
+                "fullWidth": false,
+                "blockClass":"hotsite-meninas-highlights-row"
+            }
+        },
+        // Tabs
+        "flex-layout.row#hotsite-meninas-tabs":{
+            "children":[
+                "tab-layout#tab-desktop-meninas"
+            ],
+            "props":{
+                "blockClass":"hotsite-content-tabs"
+            }
+        },        
+    //
+    // RESPONSIVE MOBILE E TABLET
+    //
+    "search-result-layout.mobile#hotsite-meninas":{
+        "children":[
+            "flex-layout.row#hotsite-meninas-bannerFull",
+            "flex-layout.row#highlights-mobile-hotsite-meninas",
+            "rich-text#highlights-mobile-hotsite-title-meninas",
+            "tab-layout#tab-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"highlights-mobile-hotsite-flexLayout"
+        }        
+    },
+        "flex-layout.row#highlights-mobile-hotsite-meninas":{
+            "children":[
+                "rich-text#title-highlights-mobile-hotsite-meninas",
+                "slider-layout#slider-highlights-mobile-hotsite-meninas"
+            ],
+            "props":{
+                "blockClass":"highlights-mobile-hotsite-row-meninas"
+            }
+        },
+            "rich-text#title-highlights-mobile-hotsite-meninas":{
+                "props":{
+                    "text":"Mais Vendidos",
+                    "blockClass":"title-highlights-mobile-hotsite"
+                }
+            },
+            "slider-layout#slider-highlights-mobile-hotsite-meninas": {
+                "props": {
+                "itemsPerPage": {
+                    "desktop": 1,
+                    "tablet": 2,
+                    "phone": 2
+                },
+                "centerMode": "center",
+                "showNavigationArrows": "never",
+                "showPaginationDots": "never",
+                "usePagination": true,
+                "blockClass": "slider-highlights",
+                "infinite": true
+                },
+                "children": [
+                    "flex-layout.row#highlights-1-meninas",
+                    "flex-layout.row#highlights-2-meninas",
+                    "flex-layout.row#highlights-3-meninas",
+                    "flex-layout.row#highlights-4-meninas",
+                    "flex-layout.row#highlights-5-meninas",
+                    "flex-layout.row#highlights-6-meninas"
+                ]
+            },
+    /////
+    "rich-text#highlights-mobile-hotsite-title-meninas":{
+        "props":{
+            "text": "FILTRE OS TEMAS",
+            "blockClass":"highlights-title-filter"
+        }
+    }
+  }
+  

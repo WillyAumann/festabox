@@ -1,0 +1,65 @@
+{
+  "store.custom#loja-fisica-festabox": {
+    "blocks": [
+      "flex-layout.row#lojaFisica-festabox"
+    ]
+  },
+
+  "flex-layout.row#lojaFisica-festabox": {
+    "children": [
+      "flex-layout.col#text-lojaFisica-festabox"
+    ],
+    "props":{
+      "blockClass":"content-institucional"
+    }
+  },
+
+  "flex-layout.col#text-lojaFisica-festabox": {
+    "children": [
+      "rich-text#title-about-lojaFisica",
+      "flex-layout.row#lojaFisica"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+      "rich-text#title-about-lojaFisica":{
+        "props":{
+          "text":"Conheça nossa **loja**",
+          "blockClass": "title-about"
+        }
+      },
+      "flex-layout.row#lojaFisica":{
+        "children":[
+          "flex-layout.col#lojaFisica-left",
+          "flex-layout.col#lojaFisica-right"
+        ]
+      },
+      "flex-layout.col#lojaFisica-left":{
+        "children":[
+          "iframe#lojaFisica"
+        ],
+        "props":{
+          "width":"40%"
+        }
+      },
+      "iframe#lojaFisica":{
+        "props":{
+          "src":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7317.220050776401!2d-46.581085!3d-23.510552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f477e44c9c7%3A0xe8643c79eba96b8a!2sAv.%20das%20Cerejeiras%2C%20545%20-%20Jardim%20Japao%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002124-002%2C%20Brasil!5e0!3m2!1spt-BR!2sca!4v1614192201536!5m2!1spt-BR!2sca",
+          "width":500,
+          "height":460,
+          "blockClass": "image-lojaFisica"
+        }
+      },
+      "flex-layout.col#lojaFisica-right":{
+        "children":[
+          "rich-text#texto-lojaFisica"
+        ]
+      },
+      "rich-text#texto-lojaFisica":{
+        "props":{
+          "text":"**Estrutura** \n\n O Grupo FestaBox se encontra no Centro de São Paulo, com uma loja física de 600m² e com mais de 10 mil itens cadastrados. O Grupo FestaBox conta com um corpo de 50 funcionários que tem como missão garantir aos clientes a melhor experiência de compra. \n\n **Procedência** \n\n Todas as mercadorias comercializadas pelo Grupo FestaBox são provenientes de fabricantes licenciados ou de distribuidores oficiais, oferecendo aos clientes artigos com garantia conjunta de nossa empresa e dos distribuidores. \n\n **Horários de Funcionamento** \n\n Segunda a Sexta-feira: 08:00h às 17:30h \n Sábado: 08:00h às 15:00h. \n\n **Endereço** \n\n Avenida das Cerejeiras 545 - Vila Maria. São Paulo - SP. CEP: 02124-000. Fone: (11) 3312-6600"
+        }
+      }
+}

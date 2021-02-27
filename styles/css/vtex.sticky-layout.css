@@ -1,0 +1,15 @@
+.wrapper--stuck,
+.wrapper--sticky-mobile--stuck{
+    background: rgb(255 255 255 / 0.9);   
+}
+.wrapper--stuck:not(:hover){
+    background: rgba(255,255,255,0.9) !important;
+}
+.wrapper--sticky-mobile{
+    max-height: 62px !important;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+.wrapper--sticky-header{
+    z-index: 999 !important;
+}

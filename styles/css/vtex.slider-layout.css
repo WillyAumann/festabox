@@ -1,0 +1,109 @@
+.sliderLayoutContainer--shelf{padding-left:10px !important;padding-right:10px !important;}
+/* promotions tag */
+.sliderLayoutContainer--promotions-tag{background:#e5257c;}
+.sliderLayoutContainer--carousel{background:#fff;}
+/*.slide--carousel{margin-left: .25% !important;margin-right: .25% !important;} */
+
+.sliderLayoutContainer--carousel{margin-top:1em;margin-bottom: 1em;}
+
+/* Carousel grid */
+.paginationDot--carousel-grid{
+  height: .3em !important;
+  width: 1em !important;
+  border-radius: 5px;
+  padding: 0;
+  background: rgb(58 58 58 / 0.8);
+}
+
+.paginationDot--carousel-grid--isActive{
+  background:rgb(221 22 89 / .6);
+}
+
+.paginationDotsContainer--carousel-grid{
+  bottom: .5em;
+}
+
+.paginationDotsContainer--carousel{
+  bottom: 5px;
+}
+
+.paginationDot--carousel{
+  width: 20px !important;
+  height: 0 !important;
+  border-radius: 50px;
+  background: #fff;
+  padding: .18em;
+}
+
+.paginationDot--carousel--isActive{
+  background: #f71963;
+}
+
+.sliderArrows--carousel-grid{
+  background: #fff !important;
+  border-radius: 100%;
+  padding: .5em;
+}
+
+.caretIcon--carousel-grid{
+  width:15px;
+  height: 15px;
+}
+
+.sliderArrows{
+  background: rgba(255,255,255,.5) !important;
+  border-radius: 100%;
+  padding: .5em .8em;
+  margin: 0 1em;  
+}
+
+.caretIcon--shelf{
+  width:15px;
+  color: #e5257c;
+}
+
+.sliderArrows--carousel-grid{
+  padding: .5em;
+}
+.caretIcon--carousel-grid,
+.caretIcon--carousel{
+  color: #e5257c;
+}
+
+.sliderArrows--carousel{
+  padding: .5em;
+}
+
+/* Hotsite */
+
+.slide--slider-highlights{
+  background: #fff;
+  border-radius: 5px;
+  padding: .2em;
+  box-shadow: 0 0 3px #e8e8e8;
+  text-align: center
+}
+
+@media screen and (min-width: 80rem) {
+  .sliderLayoutContainer--shelf{padding-left:50px !important;padding-right:50px !important;}
+}
+
+/***** MOBILE ******/
+
+.slideChildrenContainer--banner-full-mobile{padding: 1em .4em;}
+.paginationDotsContainer--banner-full-mobile{bottom:20px;left:0;}
+.paginationDot--banner-full-mobile{background:#fff;}
+.paginationDot--banner-full-mobile--isActive{background:#f71963;}
+
+@media screen and (max-width: 40em){
+  .sliderTrack--shelf{background:#fff;}
+  .slide--shelf{
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+    width:5.1% !important;
+    background: #fff;
+  }
+  .sliderLayoutContainer--shelf{
+    padding: 0 !important;
+  }
+}

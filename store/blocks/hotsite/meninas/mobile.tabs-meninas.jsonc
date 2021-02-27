@@ -1,0 +1,2362 @@
+{
+    "tab-layout#tab-mobile-meninas":{ 
+        "children": [
+            "tab-list#tab-mobile-meninas",
+            "tab-content#tab-mobile-meninas"
+        ],
+        "props": {
+            "blockClass": "tab-mobile",
+            "defaultActiveTabId": "tab-item-mobile1-meninas"
+        }
+    },
+    "tab-list#tab-mobile-meninas": {
+        "children": [
+            "tab-list.item#tab-item-mobile1-meninas",
+            "tab-list.item#tab-item-mobile2-meninas",
+            "tab-list.item#tab-item-mobile3-meninas"
+        ]
+    },
+    "tab-list.item#tab-item-mobile1-meninas": {
+        "props": {
+        "tabId": "tab-item-mobile1-meninas",
+            "label": "Todos os temas",
+            "defaultActiveTab": true,
+            "blockClass":"tab-active-boy"
+        }
+    },
+    "tab-list.item#tab-item-mobile2-meninas": {
+        "props": {
+        "tabId": "tab-item-mobile2-meninas",
+            "label": "Donas da Festa"
+        }
+    },
+    "tab-list.item#tab-item-mobile3-meninas": {
+        "props": {
+        "tabId": "tab-item-mobile3-meninas",
+            "label": "Temas Disney"
+        }
+    },        
+    "tab-content#tab-mobile-meninas": {
+        "children": [
+            "tab-content.item#tab-item-mobile1-meninas",
+            "tab-content.item#tab-item-mobile2-meninas",
+            "tab-content.item#tab-item-mobile3-meninas"
+        ],
+        "props":{
+            "blockClass":"content-tabs-meninas-mobile"
+        }
+    },
+    "tab-content.item#tab-item-mobile1-meninas": {
+        "children": [
+            "rich-text#tab-section-1-mobile-title-meninas",
+            "flex-layout.row#tab-row-1-mobile-meninas",
+            "flex-layout.row#tab-row-2-mobile-meninas",
+            "flex-layout.row#tab-row-3-mobile-meninas",
+            "flex-layout.row#tab-row-4-mobile-meninas",
+            "flex-layout.row#tab-row-5-mobile-meninas",
+            "flex-layout.row#tab-row-6-mobile-meninas",
+            //
+            "rich-text#tab-section-2-mobile-title-meninas",
+            "flex-layout.row#tab-row-7-mobile-meninas",
+            "flex-layout.row#tab-row-8-mobile-meninas",
+            "flex-layout.row#tab-row-9-mobile-meninas",
+            "flex-layout.row#tab-row-10-mobile-meninas",
+            "flex-layout.row#tab-row-11-mobile-meninas",
+            //
+            "rich-text#tab-section-3-mobile-title-meninas",
+            "flex-layout.row#tab-row-12-mobile-meninas",
+            "flex-layout.row#tab-row-13-mobile-meninas",
+            "flex-layout.row#tab-row-14-mobile-meninas",
+            "flex-layout.row#tab-row-15-mobile-meninas",
+            "rich-text#tab-section-4-mobile-title-meninas",
+            "flex-layout.row#tab-row-16-mobile-meninas",
+            "flex-layout.row#tab-row-17-mobile-meninas",
+            "flex-layout.row#tab-row-18-mobile-meninas",
+            "flex-layout.row#tab-row-19-mobile-meninas",
+            "flex-layout.row#tab-row-20-mobile-meninas",
+            "flex-layout.row#tab-row-21-mobile-meninas"
+        ],
+        "props": {
+            "tabId": "tab-item-mobile1-meninas"
+        }
+    },  
+    "rich-text#tab-section-1-mobile-title-meninas":{
+        "props":{
+            "text":"0 - 3 anos",
+            "blockClass":"hotsite-title-section"
+        }
+    },  
+    "rich-text#tab-section-2-mobile-title-meninas":{
+        "props":{
+            "text":"Donas da Festa",
+            "blockClass":"hotsite-title-section"
+        }
+    },       
+    "rich-text#tab-section-3-mobile-title-meninas":{
+        "props":{
+            "text":"Temas Disney",
+            "blockClass":"hotsite-title-section"
+        }
+    }, 
+    "rich-text#tab-section-4-mobile-title-meninas":{
+        "props":{
+            "text":"Outros Temas",
+            "blockClass":"hotsite-title-section"
+        }
+    },               
+//// LINHA 01 DE PRODUTOS - 0 a 3 anos ////// 
+    "flex-layout.row#tab-row-1-mobile-meninas":{
+        "children":[
+            "flex-layout.col#tab-grid-content-1-mobile-meninas",
+            "flex-layout.col#tab-grid-content-2-mobile-meninas",
+            "flex-layout.col#tab-grid-content-3-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"products-hotsite-grid"
+        }
+    },
+        "flex-layout.col#tab-grid-content-1-mobile-meninas":{
+            "children":[
+                "image#tab-grid-image-1-mobile-meninas",
+                "rich-text#tab-grid-name-1-mobile-meninas",
+                "rich-text#tab-grid-description-1-mobile-meninas"
+            ],
+            "props":{
+                "blockClass":"product-hotsite-content",
+                "width":"33%"
+            }
+        },
+        //
+        //
+        
+            "image#tab-grid-image-1-mobile-meninas":{
+                "props":{
+                    "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/18cdd24e-6a6f-467f-9ca2-e1b8a7451ccd___1d5d960b9ff4e3298277fb074701ee85.png",
+                    "alt":"Festa Infantil Arca de Noé | Festabox",
+                    "link":"/festa-infantil/baby/arca-de-noe",
+                    "blockClass": "image-hotsite-meninas-mobile"
+                }
+            },
+            "rich-text#tab-grid-name-1-mobile-meninas":{
+                "props":{
+                    "text":"[Arca de Noé](/festa-infantil/baby/arca-de-noe)",
+                    "blockClass":"product-hotsite-meninas-name"
+                }
+            },
+            "rich-text#tab-grid-description-1-mobile-meninas":{
+                "props":{
+                    "text":"[Kit Festa Infantil com copos, pratos e muito mais...](/festa-infantil/baby/arca-de-noe)",
+                    "blockClass":"product-hotsite-meninas-description"
+                }
+            },  
+        "flex-layout.col#tab-grid-content-2-mobile-meninas":{
+            "children":[
+                "image#tab-grid-image-2-mobile-meninas",
+                "rich-text#tab-grid-name-2-mobile-meninas",
+                "rich-text#tab-grid-description-2-mobile-meninas"
+            ],
+            "props":{
+                "blockClass":"product-hotsite-content",
+                "width":"33%"
+            }
+        },
+            "image#tab-grid-image-2-mobile-meninas":{
+                "props":{
+                    "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/5fea6cd8-9278-449b-8388-d354fc5833fd___57a54da7a6e9cf47fd9240edbe928383.jpg",
+                    "alt":"Festa Infantil Madagascar | Festabox",
+                    "link":"/festa-meninos/madagascar-3",
+                    "blockClass": "image-hotsite-meninas-mobile"
+                }
+            },
+            "rich-text#tab-grid-name-2-mobile-meninas":{
+                "props":{
+                    "text":"[Madagascar](/festa-meninos/madagascar-3)",
+                    "blockClass":"product-hotsite-meninas-name"
+                }
+            },
+            "rich-text#tab-grid-description-2-mobile-meninas":{
+                "props":{
+                    "text":"[Toda essa turma vai estar na festa com você, vem ver...](/festa-meninos/madagascar-3)",
+                    "blockClass":"product-hotsite-meninas-description"
+                }
+            },         
+        "flex-layout.col#tab-grid-content-3-mobile-meninas":{
+            "children":[
+                "image#tab-grid-image-3-mobile-meninas",
+                "rich-text#tab-grid-name-3-mobile-meninas",
+                "rich-text#tab-grid-description-3-mobile-meninas"
+            ],
+            "props":{
+                "blockClass":"product-hotsite-content",
+                "width":"33%"
+            }
+        },
+            "image#tab-grid-image-3-mobile-meninas":{
+                "props":{
+                    "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/89a6e808-b110-40fd-9701-82987814f955___4d5d3a17836b104184b18220236375c3.jpg",
+                    "alt":"Festa Infantil Meu Malvado Favorito | Festabox",
+                    "link":"/festa-meninos/meu-malvado-favorito",
+                    "blockClass": "image-hotsite-meninas-mobile"
+                }
+            },
+            "rich-text#tab-grid-name-3-mobile-meninas":{
+                "props":{
+                    "text":"[Malvado Favorito](/festa-meninos/meu-malvado-favorito)",
+                    "blockClass":"product-hotsite-meninas-name"
+                }
+            },
+            "rich-text#tab-grid-description-3-mobile-meninas":{
+                "props":{
+                    "text":"[Faça a melhor festa com os minions e o meu malvado...](/festa-meninos/meu-malvado-favorito)",
+                    "blockClass":"product-hotsite-meninas-description"
+                }
+            },                         
+//// LINHA 02 DE PRODUTOS - 0 a 3 anos //////
+"flex-layout.row#tab-row-2-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-4-mobile-meninas",
+        "flex-layout.col#tab-grid-content-5-mobile-meninas",
+        "flex-layout.col#tab-grid-content-6-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-4-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-4-mobile-meninas",
+            "rich-text#tab-grid-name-4-mobile-meninas",
+            "rich-text#tab-grid-description-4-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-4-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/8158bc24-3563-46fa-8992-6fe726f8433e___d81e7794e69c74f576b114a8cc9094a1.jpg",
+                "alt":"Festa Infantil Baby Shark | Festabox",
+                "link":"/festa-infantil/baby/festa-baby-shark",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-4-mobile-meninas":{
+            "props":{
+                "text":"[Baby Shark](/festa-infantil/baby/festa-baby-shark)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-4-mobile-meninas":{
+            "props":{
+                "text":"[Baby Shark, doo doo doo doo. Monte sua festa infatil agora...](/festa-infantil/baby/festa-baby-shark)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-5-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-5-mobile-meninas",
+            "rich-text#tab-grid-name-5-mobile-meninas",
+            "rich-text#tab-grid-description-5-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-5-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/be8bd2df-a89e-409e-9886-e09e939d9d1f___bc09e71696e75df0f0245fddb8f60857.png",
+                "alt":"Festa Infantil Bailarina | Festabox",
+                "link":"/festa-infantil/baby/bailarina",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-5-mobile-meninas":{
+            "props":{
+                "text":"[Bailarina](/festa-infantil/baby/bailarina)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-5-mobile-meninas":{
+            "props":{
+                "text":"[Na ponta dos dedos, sua festa será linda com esse tema...](/festa-infantil/baby/bailarina)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-6-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-6-mobile-meninas",
+            "rich-text#tab-grid-name-6-mobile-meninas",
+            "rich-text#tab-grid-description-6-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-6-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/7a1ea3ce-7e42-4a99-95fa-ee87646f7315___d08cda96a4623ff080cf63b28d0cf049.jpg",
+                "alt":"Festa Infantil Patati Patatá Baby | Festabox",
+                "link":"/festa-meninos/patati-patata",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-6-mobile-meninas":{
+            "props":{
+                "text":"[Patati Patatá](/festa-meninos/patati-patata)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-6-mobile-meninas":{
+            "props":{
+                "text":"[Os palhaços mais bonitinhos querem estar na sua festa...](/festa-meninos/patati-patata)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        }, 
+//// LINHA 03 DE PRODUTOS - 0 a 3 anos //////
+"flex-layout.row#tab-row-3-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-7-mobile-meninas",
+        "flex-layout.col#tab-grid-content-8-mobile-meninas",
+        "flex-layout.col#tab-grid-content-9-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-7-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-7-mobile-meninas",
+            "rich-text#tab-grid-name-7-mobile-meninas",
+            "rich-text#tab-grid-description-7-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-7-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/e53db0f9-61e3-4db5-9ef6-d50fa9dec969___b557d15e94d91b769d8d13e2fb531fec.jpg",
+                "alt":"Festa Infantil Zoo | Festabox",
+                "link":"/festa-infantil/baby/zoologico",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-7-mobile-meninas":{
+            "props":{
+                "text":"[Zoo](/festa-infantil/baby/zoologico)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-7-mobile-meninas":{
+            "props":{
+                "text":"[Festa da turma do zoo, copinhos, pratos, decoração e mais...](/festa-infantil/baby/zoologico)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-8-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-8-mobile-meninas",
+            "rich-text#tab-grid-name-8-mobile-meninas",
+            "rich-text#tab-grid-description-8-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-8-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/ec26247a-8b3b-44b3-bc99-5bb390d0ba1f___cf8dc5d7022d422c334fa727b103ee2a.png",
+                "alt":"Festa Infantil Chuva de Amor | Festabox",
+                "link":"/festa-infantil/baby/chuva-de-amor",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-8-mobile-meninas":{
+            "props":{
+                "text":"[Chuva de Amor](/festa-infantil/baby/chuva-de-amor)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-8-mobile-meninas":{
+            "props":{
+                "text":"[Uma chuva de amor vai invadir sua festa, vem conferir...](/festa-infantil/baby/chuva-de-amor)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-9-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-9-mobile-meninas",
+            "rich-text#tab-grid-name-9-mobile-meninas",
+            "rich-text#tab-grid-description-9-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-9-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/06567582-b2b8-4b29-94b1-bc5adec87550___3ed5ebcc2d7f324e93e34ce36a22dbb8.jpg",
+                "alt":"Festa Infantil Selva | Festabox",
+                "link":"/festa-infantil/baby/selva",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-9-mobile-meninas":{
+            "props":{
+                "text":"[Selva](/festa-infantil/baby/selva)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-9-mobile-meninas":{
+            "props":{
+                "text":"[Todos os animais da selva estão prontos para a festa...](/festa-infantil/baby/selva)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+//// LINHA 04 DE PRODUTOS - 0 a 3 anos //////
+"flex-layout.row#tab-row-4-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-10-mobile-meninas",
+        "flex-layout.col#tab-grid-content-11-mobile-meninas",
+        "flex-layout.col#tab-grid-content-12-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-10-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-10-mobile-meninas",
+            "rich-text#tab-grid-name-10-mobile-meninas",
+            "rich-text#tab-grid-description-10-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-10-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/7f05f8c1-3e87-4cdb-86d4-1044b4609899___4b2cfc4ecd382ac67f6c0f45293258ff.jpg",
+                "alt":"Festa Infantil Peixonauta | Festabox",
+                "link":"/festa-infantil/baby/peixonauta",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-10-mobile-meninas":{
+            "props":{
+                "text":"[Peixonauta](/festa-infantil/baby/peixonauta)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-10-mobile-meninas":{
+            "props":{
+                "text":"[O agente secreto da OSTRA está vindo para sua festa...](/festa-infantil/baby/peixonauta)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-11-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-11-mobile-meninas",
+            "rich-text#tab-grid-name-11-mobile-meninas",
+            "rich-text#tab-grid-description-11-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-11-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/d74b179e-04a4-4107-87e0-cb88b20e55ad___9d523f76f8b84177f2b4885d119c744a.jpg",
+                "alt":"Festa Infantil Fazendinha | Festabox",
+                "link":"/festa-infantil/baby/fazendinha",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-11-mobile-meninas":{
+            "props":{
+                "text":"[Fazendinha](/festa-infantil/baby/fazendinha)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-11-mobile-meninas":{
+            "props":{
+                "text":"[Deixa de manha e vem pra festa com a turma da fazendinha...](/festa-infantil/baby/fazendinha)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-12-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-12-mobile-meninas",
+            "rich-text#tab-grid-name-12-mobile-meninas",
+            "rich-text#tab-grid-description-12-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-12-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/c3205dde-39c0-4efb-a1ce-852f1363f428___88061872684cccb8b3077fa8a7825fa3.jpg",
+                "alt":"Festa Infantil Fundo do Mar | Festabox",
+                "link":"/festa-infantil/baby/fundo-do-mar",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-12-mobile-meninas":{
+            "props":{
+                "text":"[Fundo do Mar](/festa-infantil/baby/fundo-do-mar)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-12-mobile-meninas":{
+            "props":{
+                "text":"[Uma festa no fundo do mar vai animar seus convidados...](/festa-infantil/baby/fundo-do-mar)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },    
+//// LINHA 05 DE PRODUTOS - 0 a 3 anos //////
+"flex-layout.row#tab-row-5-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-13-mobile-meninas",
+        "flex-layout.col#tab-grid-content-14-mobile-meninas",
+        "flex-layout.col#tab-grid-content-15-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-13-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-13-mobile-meninas",
+            "rich-text#tab-grid-name-13-mobile-meninas",
+            "rich-text#tab-grid-description-13-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-13-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/3e89c2f9-6558-4999-9395-f9ea3cd70b52___ca2425dab3733be62152e89ae341955b.png",
+                "alt":"Festa Infantil Unicórnio | Festabox",
+                "link":"/festa-infantil/baby/festa-unicornio",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-13-mobile-meninas":{
+            "props":{
+                "text":"[Unicórnio](/festa-infantil/baby/festa-unicornio)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-13-mobile-meninas":{
+            "props":{
+                "text":"[Festa mágica de unicórnio, tudo que você precisa e mais...](/festa-infantil/baby/festa-unicornio)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-14-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-14-mobile-meninas",
+            "rich-text#tab-grid-name-14-mobile-meninas",
+            "rich-text#tab-grid-description-14-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-14-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/6e487582-1878-4989-8cc9-60e2d5bcc1a4___4aaa2c7403d6af0e12b48417f1782787.png",
+                "alt":"Festa Infantil Galinha Pintadinha | Festabox",
+                "link":"/festa-infantil/baby/galinha-pintadinha",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-14-mobile-meninas":{
+            "props":{
+                "text":"[Galinha Pintadinha](/festa-infantil/baby/galinha-pintadinha)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-14-mobile-meninas":{
+            "props":{
+                "text":"[Toda a alegria da galinha pintadinha na sua festa, vem ver...](/festa-infantil/baby/galinha-pintadinha)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-15-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-15-mobile-meninas",
+            "rich-text#tab-grid-name-15-mobile-meninas",
+            "rich-text#tab-grid-description-15-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-15-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/99f3fb35-54b3-4707-a48f-e7e5b38112e1___c28f0d853b08046a41efa13cead53413.png",
+                "alt":"Festa Infantil Princesa | Festabox",
+                "link":"/festa-meninas/princesas",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-15-mobile-meninas":{
+            "props":{
+                "text":"[Princesa](/festa-meninas/princesas)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-15-mobile-meninas":{
+            "props":{
+                "text":"[As princesas da festa vão gostar, confere aqui...](/festa-meninas/princesas)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },       
+//// LINHA 06 DE PRODUTOS - 0 a 3 anos //////
+"flex-layout.row#tab-row-6-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-16-mobile-meninas",
+        "flex-layout.col#tab-grid-content-17-mobile-meninas",
+        "flex-layout.col#tab-grid-content-18-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-16-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-16-mobile-meninas",
+            "rich-text#tab-grid-name-16-mobile-meninas",
+            "rich-text#tab-grid-description-16-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-16-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/fa3b67bb-11fb-4cb9-a5da-8ff2de0e60f7___9cd8cde1f5a743565acb1b56f752328e.png",
+                "alt":"Festa Infantil Ursinho de Pelúcia | Festabox",
+                "link":"/festa-infantil/baby/ursinho-pelucia-menina",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-16-mobile-meninas":{
+            "props":{
+                "text":"[Urso de Pelúcia](/festa-infantil/baby/ursinho-pelucia-menina)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-16-mobile-meninas":{
+            "props":{
+                "text":"[Toda a fofura desse ursinho vai encantar sua festa, vem...](/festa-infantil/baby/ursinho-pelucia-menina)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-17-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-17-mobile-meninas",
+            "rich-text#tab-grid-name-17-mobile-meninas",
+            "rich-text#tab-grid-description-17-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-17-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/1c4b5993-caab-4aee-99a3-a311bd42005f___3ee83b3a599d4b138b571ed3ec07136a.png",
+                "alt":"Festa Infantil Abelhinha | Festabox",
+                "link":"/festa-meninas/abelhinha",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-17-mobile-meninas":{
+            "props":{
+                "text":"[Abelhinha](/festa-meninas/abelhinha)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-17-mobile-meninas":{
+            "props":{
+                "text":"[Copinhos, pratinhos e muito mais da nossa amiga abelhinha...](/festa-meninas/abelhinha)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-18-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-18-mobile-meninas",
+            "rich-text#tab-grid-name-18-mobile-meninas",
+            "rich-text#tab-grid-description-18-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-18-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/77de081c-e932-4710-b71d-f340cdbfe0f5___4c6ca9cc723f68a66571f18ed3e0daad.png",
+                "alt":"Festa Infantil Chápeuzinho Vermelho | Festabox",
+                "link":"/festa-meninas/chapeuzinho-vermelho",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-18-mobile-meninas":{
+            "props":{
+                "text":"[Cháp. Vermelho](/festa-meninas/chapeuzinho-vermelho)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-18-mobile-meninas":{
+            "props":{
+                "text":"[Essa menina e seus amigos em sua festa vão dar o que falar...](/festa-meninas/chapeuzinho-vermelho)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },
+//// LINHA 07 DE PRODUTOS - Donas da Festa ////// 
+"flex-layout.row#tab-row-7-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-19-mobile-meninas",
+        "flex-layout.col#tab-grid-content-20-mobile-meninas",
+        "flex-layout.col#tab-grid-content-21-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-19-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-19-mobile-meninas",
+            "rich-text#tab-grid-name-19-mobile-meninas",
+            "rich-text#tab-grid-description-19-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+        "image#tab-grid-image-19-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/b73aa836-0101-4c98-9673-957e9a95465b___8c49960a72fe0b53a1dbd0874846065d.png",
+                "alt":"Festa Infantil Arlequina | Festabox",
+                "link":"/festa-meninas/festa-arlequina",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-19-mobile-meninas":{
+            "props":{
+                "text":"[Arlequina](/festa-meninas/festa-arlequina)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-19-mobile-meninas":{
+            "props":{
+                "text":"[A vilã mais querida do mundo está pronta para sua festa...](/festa-meninas/festa-arlequina)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-20-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-20-mobile-meninas",
+            "rich-text#tab-grid-name-20-mobile-meninas",
+            "rich-text#tab-grid-description-20-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-20-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/10e5f259-b9c7-4bdd-9767-809efc7a3e69___a2dbfa55ef24e728bc9e18388c9c1251.png",
+                "alt":"Festa Infantil As Aventuras de Poliana | Festabox",
+                "link":"/festa-meninas/as-aventuras-de-poliana",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-20-mobile-meninas":{
+            "props":{
+                "text":"[As Avent. de Poliana](/festa-meninas/as-aventuras-de-poliana)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-20-mobile-meninas":{
+            "props":{
+                "text":"[Poliana e sua turma vão nessa aventura com você, vem ver...](/festa-meninas/as-aventuras-de-poliana)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-21-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-21-mobile-meninas",
+            "rich-text#tab-grid-name-21-mobile-meninas",
+            "rich-text#tab-grid-description-21-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-21-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/e67caeb3-1b42-476c-877a-1b858a340449___7cbbf4caf6e08578af078bafdce211f5.png",
+                "alt":"Festa Infantil Carinha de Anjo | Festabox",
+                "link":"/festa-meninas/carinha-de-anjo",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-21-mobile-meninas":{
+            "props":{
+                "text":"[Carinha de Anjo](/festa-meninas/carinha-de-anjo)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-21-mobile-meninas":{
+            "props":{
+                "text":"[Monte sua festa junto com a Dulce e amigas confere aqui...](/festa-meninas/carinha-de-anjo)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },        
+//// LINHA 08 DE PRODUTOS - Donas da Festa ////// 
+"flex-layout.row#tab-row-8-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-22-mobile-meninas",
+        "flex-layout.col#tab-grid-content-23-mobile-meninas",
+        "flex-layout.col#tab-grid-content-24-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-22-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-22-mobile-meninas",
+            "rich-text#tab-grid-name-22-mobile-meninas",
+            "rich-text#tab-grid-description-22-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-22-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/39e533b0-dd86-40c2-a5be-1a3b330af798___4fccdd64c2fbe49dc4d111563cee70ab.png",
+                "alt":"Festa Infantil Dora Aventureira | Festabox",
+                "link":"/festa-meninas/dora-aventureira",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-22-mobile-meninas":{
+            "props":{
+                "text":"[Dora Aventureira](/festa-meninas/dora-aventureira)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-22-mobile-meninas":{
+            "props":{
+                "text":"[Dora está prontos para essa aventura, vem conferir...](/festa-meninas/dora-aventureira)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-23-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-23-mobile-meninas",
+            "rich-text#tab-grid-name-23-mobile-meninas",
+            "rich-text#tab-grid-description-23-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-23-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/e72f4d26-e973-4ec5-aaf5-be918712f338___b116a96b11b2c2c453093dbe2b14c559.png",
+                "alt":"Festa Infantil Hello Kit | Festabox",
+                "link":"/festa-meninas/hello-kitty",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-23-mobile-meninas":{
+            "props":{
+                "text":"[Hello Kit](/festa-meninas/hello-kitty)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-23-mobile-meninas":{
+            "props":{
+                "text":"[Kit festa da hello kit, pratos e muito mais...](/festa-meninas/hello-kitty)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-24-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-24-mobile-meninas",
+            "rich-text#tab-grid-name-24-mobile-meninas",
+            "rich-text#tab-grid-description-24-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-24-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/f5eee83f-de48-496e-8ce7-34e1a9982e96___1a0574d3b6910f95000affac06c3873d.png",
+                "alt":"Festa Infantil Jolie | Festabox",
+                "link":"/festa-meninas/jolie",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-24-mobile-meninas":{
+            "props":{
+                "text":"[Jolie](/festa-meninas/jolie)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-24-mobile-meninas":{
+            "props":{
+                "text":"[Faça uma festa inesquecível com a Jolie, confere aqui...](/festa-meninas/jolie)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },                                   
+//// LINHA 09 DE PRODUTOS - Donas da Festa ////// 
+"flex-layout.row#tab-row-9-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-25-mobile-meninas",
+        "flex-layout.col#tab-grid-content-26-mobile-meninas",
+        "flex-layout.col#tab-grid-content-27-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-25-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-25-mobile-meninas",
+            "rich-text#tab-grid-name-25-mobile-meninas",
+            "rich-text#tab-grid-description-25-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-25-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bbfe801a-e98f-47d0-9ffe-3debb1de97f3___90242b3004a52b4f6373ecd49fef83bf.png",
+                "alt":"Festa Infantil LOL Surprise | Festabox",
+                "link":"/festa-meninas/lol-surprise",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-25-mobile-meninas":{
+            "props":{
+                "text":"[LOL Surprise](/festa-meninas/lol-surprise)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-25-mobile-meninas":{
+            "props":{
+                "text":"[LOL Surprise vai surprender a todos com essa festa...](/festa-meninas/lol-surprise)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-26-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-26-mobile-meninas",
+            "rich-text#tab-grid-name-26-mobile-meninas",
+            "rich-text#tab-grid-description-26-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-26-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/12d7b224-4700-4e63-af8b-aec7a18775e6___03ab07caeb09a4127768645caadbd384.png",
+                "alt":"Festa Infantil Magali | Festabox",
+                "link":"/festa-meninas/magali",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-26-mobile-meninas":{
+            "props":{
+                "text":"[Magali](/festa-meninas/magali)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-26-mobile-meninas":{
+            "props":{
+                "text":"[A Magali promete se comportar na sua festa, vem ver...](/festa-meninas/magali)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-27-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-27-mobile-meninas",
+            "rich-text#tab-grid-name-27-mobile-meninas",
+            "rich-text#tab-grid-description-27-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-27-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/26b35bc6-c110-46fb-b12d-ca27421cacd3___ceb793560d3f44d3b785f751cc1db4ac.png",
+                "alt":"Festa Infantil Marie | Festabox",
+                "link":"/festa-meninas/marie",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-27-mobile-meninas":{
+            "props":{
+                "text":"[Marie](/festa-meninas/marie)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-27-mobile-meninas":{
+            "props":{
+                "text":"[A gatinha Marie vai arrasar na sua festa, suas amigas...](/festa-meninas/marie)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },     
+//// LINHA 10 DE PRODUTOS - Donas da Festa ////// 
+"flex-layout.row#tab-row-10-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-28-mobile-meninas",
+        "flex-layout.col#tab-grid-content-29-mobile-meninas",
+        "flex-layout.col#tab-grid-content-30-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-28-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-28-mobile-meninas",
+            "rich-text#tab-grid-name-28-mobile-meninas",
+            "rich-text#tab-grid-description-28-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-28-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/f29f188a-126b-4433-bf04-11e3f1e89460___8578e684c7b404d9b22e5213c98153f0.png",
+                "alt":"Festa Infantil Masha e o Urso | Festabox",
+                "link":"/festa-meninas/masha-e-o-urso",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-28-mobile-meninas":{
+            "props":{
+                "text":"[Masha e o Urso](/festa-meninas/masha-e-o-urso)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-28-mobile-meninas":{
+            "props":{
+                "text":"[Esses amigos estão doidos para irem a sua festa...](/festa-meninas/masha-e-o-urso)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-29-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-29-mobile-meninas",
+            "rich-text#tab-grid-name-29-mobile-meninas",
+            "rich-text#tab-grid-description-29-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-29-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/3b44be45-a059-4e2a-8cb2-eff1412ceb16___c7e6435d405ed0aad129c75696447805.png",
+                "alt":"Festa Infantil Miraculous | Festabox",
+                "link":"/festa-meninas/miraculous-ladybug",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-29-mobile-meninas":{
+            "props":{
+                "text":"[Miraculous](/festa-meninas/miraculous-ladybug)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-29-mobile-meninas":{
+            "props":{
+                "text":"[A conhecida heróina Ladybug vai garantir sua diversão, vem ver...](/festa-meninas/miraculous-ladybug)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-30-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-30-mobile-meninas",
+            "rich-text#tab-grid-name-30-mobile-meninas",
+            "rich-text#tab-grid-description-30-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-30-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/f74ac371-3169-42d2-a08f-82849039cf0c___518550f20854e6e1866f2b0171ac8a0a.png",
+                "alt":"Festa Infantil Monster High | Festabox",
+                "link":"/festa-meninas/monster-high",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-30-mobile-meninas":{
+            "props":{
+                "text":"[Monster High](/festa-meninas/monster-high)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-30-mobile-meninas":{
+            "props":{
+                "text":"[Essas fashion dolls vão sair da escola direto para a festa...](/festa-meninas/monster-high)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },                   
+//// LINHA 11 DE PRODUTOS - Donas da Festa ////// 
+"flex-layout.row#tab-row-11-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-31-mobile-meninas",
+        "flex-layout.col#tab-grid-content-32-mobile-meninas",
+        "flex-layout.col#tab-grid-content-33-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-31-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-31-mobile-meninas",
+            "rich-text#tab-grid-name-31-mobile-meninas",
+            "rich-text#tab-grid-description-31-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-31-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/7ace8ce2-5fc0-46cd-8d40-92244c6a8658___8091bb56e4d031e2bab0a2147ae1d0f3.png",
+                "alt":"Festa Infantil Moranguinho | Festabox",
+                "link":"/festa-meninas/moranguinho",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-31-mobile-meninas":{
+            "props":{
+                "text":"[Moranguinho](/festa-meninas/moranguinho)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-31-mobile-meninas":{
+            "props":{
+                "text":"[A personagem mais charmosa na sua festa, vem ver...](/festa-meninas/moranguinho)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-32-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-32-mobile-meninas",
+            "rich-text#tab-grid-name-32-mobile-meninas",
+            "rich-text#tab-grid-description-32-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-32-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/1acb5f19-b4fa-469f-9a2d-3f91bd9abe7f___68698fe2874ae0796d0d6db17e8e4a77.png",
+                "alt":"Festa Infantil Show da Luna | Festabox",
+                "link":"/festa-meninas/show-da-luna",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-32-mobile-meninas":{
+            "props":{
+                "text":"[Show da Luna](/festa-meninas/show-da-luna)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-32-mobile-meninas":{
+            "props":{
+                "text":"[Essa menina adora ciência e quer estar na festa, vem ver...](/festa-meninas/show-da-luna)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-33-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-33-mobile-meninas",
+            "rich-text#tab-grid-name-33-mobile-meninas",
+            "rich-text#tab-grid-description-33-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-33-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/4e966399-a9b8-46af-a943-0afa7e052e83___6e72049624c22b0227117982e0747ea4.png",
+                "alt":"Festa Infantil Sereia | Festabox",
+                "link":"/festa-meninas/sereia",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-33-mobile-meninas":{
+            "props":{
+                "text":"[Sereia](/festa-meninas/sereia)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-33-mobile-meninas":{
+            "props":{
+                "text":"[Uma aventura mágica no fundo do mar, suas amigas vão...](/festa-meninas/sereia)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },
+//// LINHA 12 DE PRODUTOS - Temas Disney ////// 
+"flex-layout.row#tab-row-12-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-34-mobile-meninas",
+        "flex-layout.col#tab-grid-content-35-mobile-meninas",
+        "flex-layout.col#tab-grid-content-36-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-34-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-34-mobile-meninas",
+            "rich-text#tab-grid-name-34-mobile-meninas",
+            "rich-text#tab-grid-description-34-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-34-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/34f7ae81-6ea1-44ea-81f9-a3fd419909e8___f975372e8f557b75a72f6ea7e1973c98.png",
+                "alt":"Festa Moana | Festabox",
+                "link":"/festa-meninas/moana",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-34-mobile-meninas":{
+            "props":{
+                "text":"[Moana](/festa-meninas/moana)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-34-mobile-meninas":{
+            "props":{
+                "text":"[Toda a magia de Moana vão invadir sua festa, vem conferir...](/festa-meninas/moana)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-35-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-35-mobile-meninas",
+            "rich-text#tab-grid-name-35-mobile-meninas",
+            "rich-text#tab-grid-description-35-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-35-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/d32632e8-32c3-4367-a314-7d386b5a7166___06cb77c434afc66636b8aba9f7a5a07b.png",
+                "alt":"Festa Infantil A Bela e a Fera | Festabox",
+                "link":"/festa-meninas/bela-e-a-fera",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-35-mobile-meninas":{
+            "props":{
+                "text":"[A Bela e a Fera](/festa-meninas/bela-e-a-fera)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-35-mobile-meninas":{
+            "props":{
+                "text":"[Confira esses itens completos para uma festa fantástica...](/festa-meninas/bela-e-a-fera)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-36-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-36-mobile-meninas",
+            "rich-text#tab-grid-name-36-mobile-meninas",
+            "rich-text#tab-grid-description-36-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-36-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/83e750bc-ee8c-44af-ba4b-9f235f703dd7___823e0f2201e602f749ce79d6ad445ed1.png",
+                "alt":"Festa Infantil A Branca de Neve | Festabox",
+                "link":"/festa-meninas/branca-de-neve",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-36-mobile-meninas":{
+            "props":{
+                "text":"[A Branca de Neve](/festa-meninas/branca-de-neve)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-36-mobile-meninas":{
+            "props":{
+                "text":"[Branca de neve e os sete anões estão fantásticos aqui...](/festa-meninas/branca-de-neve)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },    
+//// LINHA 13 DE PRODUTOS - Temas Disney ////// 
+"flex-layout.row#tab-row-13-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-37-mobile-meninas",
+        "flex-layout.col#tab-grid-content-38-mobile-meninas",
+        "flex-layout.col#tab-grid-content-39-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-37-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-37-mobile-meninas",
+            "rich-text#tab-grid-name-37-mobile-meninas",
+            "rich-text#tab-grid-description-37-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-37-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/c5a55975-6014-4c6f-b2bf-ed10734a00d4___1f1409d0b32f1a6f74db3e7cd3fa89dc.jpg",
+                "alt":"Festa Infantil Divertidamente | Festabox",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-37-mobile-meninas":{
+            "props":{
+                "text":"Divertidamente",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-37-mobile-meninas":{
+            "props":{
+                "text":"Fique no controle da festa com esse tema lindo...",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-38-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-38-mobile-meninas",
+            "rich-text#tab-grid-name-38-mobile-meninas",
+            "rich-text#tab-grid-description-38-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-38-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/906ddb41-4bca-4626-9b42-3b0036a6a85b___154f377158b0d02e0fc19e0d5ee324d3.png",
+                "alt":"Festa Infantil Fadas | Festabox",
+                "link":"/festa-meninas/fadas",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-38-mobile-meninas":{
+            "props":{
+                "text":"[Fadas](/festa-meninas/fadas)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-38-mobile-meninas":{
+            "props":{
+                "text":"[Encante a todos com esses itens lindos de festa de fadas...](/festa-meninas/fadas)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-39-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-39-mobile-meninas",
+            "rich-text#tab-grid-name-39-mobile-meninas",
+            "rich-text#tab-grid-description-39-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-39-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/b83a3c71-6823-431f-969c-614b9c0298e3___eeda7194753a2a1d68e6002492fd1da3.png",
+                "alt":"Festa Infantil Frozen | Festabox",
+                "link":"/festa-meninas/frozen-disney",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-39-mobile-meninas":{
+            "props":{
+                "text":"[Frozen](/festa-meninas/frozen-disney)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-39-mobile-meninas":{
+            "props":{
+                "text":"[Essa aventura congelante vai direto para sua festa...](/festa-meninas/frozen-disney)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },   
+//// LINHA 14 DE PRODUTOS - Temas Disney ////// 
+"flex-layout.row#tab-row-14-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-40-mobile-meninas",
+        "flex-layout.col#tab-grid-content-41-mobile-meninas",
+        "flex-layout.col#tab-grid-content-42-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-40-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-40-mobile-meninas",
+            "rich-text#tab-grid-name-40-mobile-meninas",
+            "rich-text#tab-grid-description-40-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-40-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bd6299c9-aa9d-4fa9-bbb8-abd40a914dad___e968150f4bba386389dc6b03442d15e1.jpg",
+                "alt":"Festa Infantil O Rei Leão | Festabox",
+                "link":"/festa-meninos/festa-o-rei-leao",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-40-mobile-meninas":{
+            "props":{
+                "text":"[Rei Leão](/festa-meninos/festa-o-rei-leao)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-40-mobile-meninas":{
+            "props":{
+                "text":"[Timão e Pumba estão doidos para essa festa...](/festa-meninos/festa-o-rei-leao)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-41-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-41-mobile-meninas",
+            "rich-text#tab-grid-name-41-mobile-meninas",
+            "rich-text#tab-grid-description-41-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-41-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/9dbde8d6-0747-4780-808d-59714281c4f6___23ef5dee5e8a6a01abc359d397c75c37.png",
+                "alt":"Festa Infantil Minnie | Festabox",
+                "link":"/festa-meninas/minnie",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-41-mobile-meninas":{
+            "props":{
+                "text":"[Minnie](/festa-meninas/minnie)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-41-mobile-meninas":{
+            "props":{
+                "text":"[Vem conferir esses itens completos da festa da minnie...](/festa-meninas/minnie)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-42-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-42-mobile-meninas",
+            "rich-text#tab-grid-name-42-mobile-meninas",
+            "rich-text#tab-grid-description-42-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-42-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/efbe74ea-0935-4ee9-9672-5ab6b7ae222f___f86861cf005a8b2d3b72ae02cd6dae80.jpg",
+                "alt":"Festa Infantil Monstros SA | Festabox",
+                "link":"/festa-meninos/monstros-sa",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-42-mobile-meninas":{
+            "props":{
+                "text":"[Monstros SA](/festa-meninos/monstros-sa)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-42-mobile-meninas":{
+            "props":{
+                "text":"[Esses monstrinhos estão por toda parte nesse tema...](/festa-meninos/monstros-sa)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },
+//// LINHA 15 DE PRODUTOS - Temas Disney ////// 
+"flex-layout.row#tab-row-15-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-43-mobile-meninas",
+        "flex-layout.col#tab-grid-content-44-mobile-meninas",
+        "flex-layout.col#tab-grid-content-45-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-43-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-43-mobile-meninas",
+            "rich-text#tab-grid-name-43-mobile-meninas",
+            "rich-text#tab-grid-description-43-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-43-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/c0e3ca53-bda9-4d80-aa67-cf7373206218___6339656c81114225ae1b07019f568f74.png",
+                "alt":"Festa Infantil Vampirina | Festabox",
+                "link":"/festa-meninas/vampirina",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-43-mobile-meninas":{
+            "props":{
+                "text":"[Vampirina](/festa-meninas/vampirina)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-43-mobile-meninas":{
+            "props":{
+                "text":"[Essa vampirinha vai voar direto para sua festa, conheça...](/festa-meninas/vampirina)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-44-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-44-mobile-meninas",
+            "rich-text#tab-grid-name-44-mobile-meninas",
+            "rich-text#tab-grid-description-44-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-44-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/b8a03019-99b6-4841-844b-290d041f2068___f14f4dca234520c0996ee3046b5ce698.jpg",
+                "alt":"Festa Infantil Toy Story | Festabox",
+                "link":"/festa-meninos/toy-story",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-44-mobile-meninas":{
+            "props":{
+                "text":"[Toy Story](/festa-meninos/toy-story)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-44-mobile-meninas":{
+            "props":{
+                "text":"[Encante a todos com esse tema do Woddy e Buzz, vem ver isso...](/festa-meninos/toy-story)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-45-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-45-mobile-meninas",
+            "rich-text#tab-grid-name-45-mobile-meninas",
+            "rich-text#tab-grid-description-45-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-45-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/cff1abfe-d183-4097-ab9b-52a9ba701b16___84a0054a8d07e34b213ba84b0dee712d.jpg",
+                "alt":"",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-45-mobile-meninas":{
+            "props":{
+                "text":"",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-45-mobile-meninas":{
+            "props":{
+                "text":"",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },        
+//// LINHA 16 DE PRODUTOS - Outros Temas ////// 
+"flex-layout.row#tab-row-16-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-46-mobile-meninas",
+        "flex-layout.col#tab-grid-content-47-mobile-meninas",
+        "flex-layout.col#tab-grid-content-48-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-46-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-46-mobile-meninas",
+            "rich-text#tab-grid-name-46-mobile-meninas",
+            "rich-text#tab-grid-description-46-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-46-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/61f1a9ef-7406-4e54-b0ff-bf6cf4c680bf___6c0ec32271769950b6ede281f7bbbee7.png",
+                "alt":"Festa Infantil Vaquinha | Festabox",
+                "link":"/festa-meninas/vaquinha",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-46-mobile-meninas":{
+            "props":{
+                "text":"[Vaquinha](/festa-meninas/vaquinha)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-46-mobile-meninas":{
+            "props":{
+                "text":"[Copinhos, Pratinhos e kit festa completo de vaquinha...](/festa-meninas/vaquinha)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-47-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-47-mobile-meninas",
+            "rich-text#tab-grid-name-47-mobile-meninas",
+            "rich-text#tab-grid-description-47-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-47-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/9cc4fbcf-3c88-4226-b353-55b2872077a6___53fce41f262d8b6a7e2433de04a01a70.jpg",
+                "alt":"Festa Infantil 03 Palavrinhas | Festabox",
+                "link":"/festa-meninos/3-palavrinhas",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-47-mobile-meninas":{
+            "props":{
+                "text":"[03 Palavrinhas](/festa-meninos/3-palavrinhas)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-47-mobile-meninas":{
+            "props":{
+                "text":"[Deus é amor, decore sua festa com esses lindos itens de festa...](/festa-meninos/3-palavrinhas)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-48-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-48-mobile-meninas",
+            "rich-text#tab-grid-name-48-mobile-meninas",
+            "rich-text#tab-grid-description-48-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-48-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/e313d32d-35e0-4379-b7c0-ded4f107ed1b___d1a2ca321f530e507802a1d33cd85057.png",
+                "alt":"Festa Infantil UglyDolls | Festabox",
+                "link":"/festa-meninas/festa-ugly-dolls",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-48-mobile-meninas":{
+            "props":{
+                "text":"[UglyDolls](/festa-meninas/festa-ugly-dolls)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-48-mobile-meninas":{
+            "props":{
+                "text":"[Toda animação desse musical direto para sua festa, confere...](/festa-meninas/festa-ugly-dolls)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },      
+//// LINHA 17 DE PRODUTOS - Outros Temas ////// 
+"flex-layout.row#tab-row-17-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-49-mobile-meninas",
+        "flex-layout.col#tab-grid-content-50-mobile-meninas",
+        "flex-layout.col#tab-grid-content-51-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-49-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-49-mobile-meninas",
+            "rich-text#tab-grid-name-49-mobile-meninas",
+            "rich-text#tab-grid-description-49-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-49-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/1139e2cf-245c-4fa7-9263-6075d0b9d34d___41ead535692e213c0281768f3d5512e4.png",
+                "alt":"Festa Infantil Trolls | Festabox",
+                "link":"/festa-meninas/trolls-2",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-49-mobile-meninas":{
+            "props":{
+                "text":"[Trolls](/festa-meninas/trolls-2)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-49-mobile-meninas":{
+            "props":{
+                "text":"[Poppy e Branch vão se aventurar pelo salão, você está...](/festa-meninas/trolls-2)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-50-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-50-mobile-meninas",
+            "rich-text#tab-grid-name-50-mobile-meninas",
+            "rich-text#tab-grid-description-50-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-50-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/f49146ac-bbd9-4bbd-8019-74836756fa39___72cd6a66432f1d53993856087e8c6e17.png",
+                "alt":"Festa Infantil Smurfs | Festabox",
+                "link":"/festa-meninos/smurfs",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-50-mobile-meninas":{
+            "props":{
+                "text":"[Smurfs](/festa-meninos/smurfs)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-50-mobile-meninas":{
+            "props":{
+                "text":"[Nem o Gargamel vai impedir os smurfs de aparecem na sua...](/festa-meninos/smurfs)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-51-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-51-mobile-meninas",
+            "rich-text#tab-grid-name-51-mobile-meninas",
+            "rich-text#tab-grid-description-51-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-51-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/628b5a3f-61c5-4957-97e8-6c8ae5e89a54___5d33698c879abcf59d636937ae18f111.png",
+                "alt":"Festa Infantil Shopkins | Festabox",
+                "link":"/festa-meninas/shopkins",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-51-mobile-meninas":{
+            "props":{
+                "text":"[Shopkins](/festa-meninas/shopkins)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-51-mobile-meninas":{
+            "props":{
+                "text":"[Todos os rostinhos shopkins estão aqui neste tema, você...](/festa-meninas/shopkins)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },    
+//// LINHA 18 DE PRODUTOS - Outros Temas ////// 
+"flex-layout.row#tab-row-18-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-52-mobile-meninas",
+        "flex-layout.col#tab-grid-content-53-mobile-meninas",
+        "flex-layout.col#tab-grid-content-54-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-52-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-52-mobile-meninas",
+            "rich-text#tab-grid-name-52-mobile-meninas",
+            "rich-text#tab-grid-description-52-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-52-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/7a8de87b-25b3-492a-a71a-6bca97c1b02a___ae28c5a650a01d6198120bd7b826e88f.jpg",
+                "alt":"Festa Infantil Scooby Doo | Festabox",
+                "link":"/festa-meninos/scooby-doo",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-52-mobile-meninas":{
+            "props":{
+                "text":"[Scooby Doo](/festa-meninos/scooby-doo)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-52-mobile-meninas":{
+            "props":{
+                "text":"[Desvende mistérios com o salsicha e scooby, vem ver...](/festa-meninos/scooby-doo)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-53-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-53-mobile-meninas",
+            "rich-text#tab-grid-name-53-mobile-meninas",
+            "rich-text#tab-grid-description-53-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-53-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/304f8db0-7e5d-424a-a056-8d4299843356___8c6a44e0436e5429ac3199bc3c174d2b.jpg",
+                "alt":"Festa Infantil Safari | Festabox",
+                "link":"/festa-meninos/safari",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-53-mobile-meninas":{
+            "props":{
+                "text":"[Safari](/festa-meninos/safari)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-53-mobile-meninas":{
+            "props":{
+                "text":"[A turminha do safari tem um tema incrível aqui, vem ver...](/festa-meninos/safari)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-54-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-54-mobile-meninas",
+            "rich-text#tab-grid-name-54-mobile-meninas",
+            "rich-text#tab-grid-description-54-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-54-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/c4250f95-369b-4db2-8253-bd67c3fc7e04___3cccad4d369511966d8d4f01f7718ec2.jpg",
+                "alt":"Festa Infantil Now United | Festabox",
+                "link":"/festas-tematicas/now-united",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-54-mobile-meninas":{
+            "props":{
+                "text":"[Now United](/festas-tematicas/now-united)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-54-mobile-meninas":{
+            "props":{
+                "text":"[O grupo musical mais fantástico do mundo na sua festa, veja...](/festas-tematicas/now-united)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },       
+//// LINHA 19 DE PRODUTOS - Outros Temas ////// 
+"flex-layout.row#tab-row-19-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-55-mobile-meninas",
+        "flex-layout.col#tab-grid-content-56-mobile-meninas",
+        "flex-layout.col#tab-grid-content-57-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-55-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-55-mobile-meninas",
+            "rich-text#tab-grid-name-55-mobile-meninas",
+            "rich-text#tab-grid-description-55-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-55-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/fa09076a-2b20-4308-bbdc-823ba2400b10___50426f0b4bd1ebbcab3cd6ee58e51c75.jpg",
+                "alt":"Festa Infantil Doki | Festabox",
+                "link":"/festa-meninos/doki",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-55-mobile-meninas":{
+            "props":{
+                "text":"[Doki](/festa-meninos/doki)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-55-mobile-meninas":{
+            "props":{
+                "text":"[Copinhos, pratinhos, cachepot e muito mais do tema doki...](/festa-meninos/doki)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-56-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-56-mobile-meninas",
+            "rich-text#tab-grid-name-56-mobile-meninas",
+            "rich-text#tab-grid-description-56-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-56-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/c44567cf-6a5b-4259-b280-527aa4f4f883___d4fbd96ee247eeb41f041cb898b1e3df.jpg",
+                "alt":"Festa Infantil Cachorrinhos | Festabox",
+                "link":"/festa-meninos/festa-cachorrinhos",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-56-mobile-meninas":{
+            "props":{
+                "text":"[Cachorrinhos](/festa-meninos/festa-cachorrinhos)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-56-mobile-meninas":{
+            "props":{
+                "text":"[Esses cachorrinhos estão lindos nesse tema, vem conferir...](/festa-meninos/festa-cachorrinhos)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-57-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-57-mobile-meninas",
+            "rich-text#tab-grid-name-57-mobile-meninas",
+            "rich-text#tab-grid-description-57-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-57-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/814b7a5f-d9fc-4479-8183-d42dad0d20d7___4d675b0779bae5b8146c54b9b8cfad39.jpg",
+                "alt":"Festa Infantil Bosque | Festabox",
+                "link":"/festa-meninos/festa-bosque",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-57-mobile-meninas":{
+            "props":{
+                "text":"[Bosque](/festa-meninos/festa-bosque)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-57-mobile-meninas":{
+            "props":{
+                "text":"[Artigos de festa no bosque, copos, pratos e muito mais...](/festa-meninos/festa-bosque)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        }, 
+//// LINHA 20 DE PRODUTOS - Outros Temas ////// 
+"flex-layout.row#tab-row-20-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-58-mobile-meninas",
+        "flex-layout.col#tab-grid-content-59-mobile-meninas",
+        "flex-layout.col#tab-grid-content-60-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-58-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-58-mobile-meninas",
+            "rich-text#tab-grid-name-58-mobile-meninas",
+            "rich-text#tab-grid-description-58-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-58-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/2b177a51-a65d-4d7d-81ff-971ed1290b23___1c6b8adea41c8c2cda294d46bea44f07.png",
+                "alt":"Festa Infantil Panda | Festabox",
+                "link":"/festa-meninas/panda",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-58-mobile-meninas":{
+            "props":{
+                "text":"[Panda](/festa-meninas/panda)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-58-mobile-meninas":{
+            "props":{
+                "text":"[Toda a fofura do panda vai encantar seus convidados...](/festa-meninas/panda)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-59-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-59-mobile-meninas",
+            "rich-text#tab-grid-name-59-mobile-meninas",
+            "rich-text#tab-grid-description-59-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-59-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/fd564b32-b20d-478e-859e-bc3a2e74589d___4b4765fa7c57b1918d3d4bc4bb635f71.png",
+                "alt":"Festa Infantil My Little Pony | Festabox",
+                "link":"/festa-meninas/my-little-pony",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-59-mobile-meninas":{
+            "props":{
+                "text":"[My Little Pony](/festa-meninas/my-little-pony)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-59-mobile-meninas":{
+            "props":{
+                "text":"[A Pônei Twilight Sparkle está ansiosa por sua festa, veja...](/festa-meninas/my-little-pony)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-60-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-60-mobile-meninas",
+            "rich-text#tab-grid-name-60-mobile-meninas",
+            "rich-text#tab-grid-description-60-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-60-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/b92ee476-dd07-4907-9861-20dfb9c6dd32___27837567928bff4f7320cc3a0414b1e6.png",
+                "alt":"Festa Infantil Mundo Bita | Festabox",
+                "link":"/festa-meninas/mundo-bita",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-60-mobile-meninas":{
+            "props":{
+                "text":"[Mundo Bita](/festa-meninas/mundo-bita)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-60-mobile-meninas":{
+            "props":{
+                "text":"[Os Singles de Mundo Bita estão presentes aqui, vem ver...](/festa-meninas/mundo-bita)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },    
+//// LINHA 21 DE PRODUTOS - Outros Temas ////// 
+"flex-layout.row#tab-row-21-mobile-meninas":{
+    "children":[
+        "flex-layout.col#tab-grid-content-61-mobile-meninas",
+        "flex-layout.col#tab-grid-content-62-mobile-meninas",
+        "flex-layout.col#tab-grid-content-63-mobile-meninas"
+    ],
+    "props":{
+        "blockClass":"products-hotsite-grid"
+    }
+},
+    "flex-layout.col#tab-grid-content-61-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-61-mobile-meninas",
+            "rich-text#tab-grid-name-61-mobile-meninas",
+            "rich-text#tab-grid-description-61-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+    //
+    //
+    
+        "image#tab-grid-image-61-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/4b69f2cc-97ac-4f28-8670-aae85740fece___88329060a3f8d8ee11855b87fa787bda.png",
+                "alt":"Festa Infantil Melancia | Festabox",
+                "link":"/festa-meninas/melancia",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-61-mobile-meninas":{
+            "props":{
+                "text":"[Melancia](/festa-meninas/melancia)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-61-mobile-meninas":{
+            "props":{
+                "text":"[Quem não gosta de uma festa com tema melancia, vem ver...](/festa-meninas/melancia)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },  
+    "flex-layout.col#tab-grid-content-62-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-62-mobile-meninas",
+            "rich-text#tab-grid-name-62-mobile-meninas",
+            "rich-text#tab-grid-description-62-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-62-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/5309090b-2469-4a30-bfc3-f7dcfbdf6c56___52f9b195427ba9d01ab054fd6ec83b83.png",
+                "alt":"Festa Infantil Joaninha | Festabox",
+                "link":"/festa-meninas/joaninha",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-62-mobile-meninas":{
+            "props":{
+                "text":"[Joaninha](/festa-meninas/joaninha)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-62-mobile-meninas":{
+            "props":{
+                "text":"[Prepare seus amigos para essa festa incrível, vem ver...](/festa-meninas/joaninha)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },         
+    "flex-layout.col#tab-grid-content-63-mobile-meninas":{
+        "children":[
+            "image#tab-grid-image-63-mobile-meninas",
+            "rich-text#tab-grid-name-63-mobile-meninas",
+            "rich-text#tab-grid-description-63-mobile-meninas"
+        ],
+        "props":{
+            "blockClass":"product-hotsite-content",
+            "width":"33%"
+        }
+    },
+        "image#tab-grid-image-63-mobile-meninas":{
+            "props":{
+                "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/8fb3178e-a008-4096-8a16-a89910511dbc___f99c3a0c40c011ea92d328ee4f495f08.png",
+                "alt":"Festa Infantil Jardim Encantado | Festabox",
+                "link":"/festa-meninas/jardim-encantado",
+                "blockClass": "image-hotsite-meninas-mobile"
+            }
+        },
+        "rich-text#tab-grid-name-63-mobile-meninas":{
+            "props":{
+                "text":"[Jardim Encantado](/festa-meninas/jardim-encantado)",
+                "blockClass":"product-hotsite-meninas-name"
+            }
+        },
+        "rich-text#tab-grid-description-63-mobile-meninas":{
+            "props":{
+                "text":"[Esse tema encantado vai transformar sua festa, vem ver...](/festa-meninas/jardim-encantado)",
+                "blockClass":"product-hotsite-meninas-description"
+            }
+        },                                                                                               
+// TAB 02 ///
+    "tab-content.item#tab-item-mobile2-meninas": {
+        "children": [
+            "rich-text#tab-section-2-mobile-title-meninas",
+            "flex-layout.row#tab-row-7-mobile-meninas",
+            "flex-layout.row#tab-row-8-mobile-meninas",
+            "flex-layout.row#tab-row-9-mobile-meninas",
+            "flex-layout.row#tab-row-10-mobile-meninas",
+            "flex-layout.row#tab-row-11-mobile-meninas"
+        ],
+        "props": {
+            "tabId": "tab-item-mobile2-meninas"
+        }
+    },
+// TAB 03 ///
+    "tab-content.item#tab-item-mobile3-meninas": {
+        "children": [
+            "rich-text#tab-section-3-mobile-title-meninas",
+            "flex-layout.row#tab-row-12-mobile-meninas",
+            "flex-layout.row#tab-row-13-mobile-meninas",
+            "flex-layout.row#tab-row-14-mobile-meninas",
+            "flex-layout.row#tab-row-15-mobile-meninas"
+        ],
+        "props": {
+            "tabId": "tab-item-mobile3-meninas"
+        }
+    }  
+}

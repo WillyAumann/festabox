@@ -1,0 +1,87 @@
+{
+    "store.custom#duvidas": {
+      "blocks": [
+        "rich-text#title-duvidas",
+        "flex-layout.row#duvidas"
+      ],
+      "props":{
+          "blockClass":"main-institucional"
+      }
+    },
+
+    "rich-text#title-duvidas": {
+      "props": {
+        "text":"Dúvidas Frequentes",
+        "blockClass": "title-about"
+      }
+    },    
+
+    "flex-layout.row#duvidas": {
+      "children": [
+        "flex-layout.col#duvidas"
+      ],
+      "props":{
+        "blockClass":"content-institucional"
+      }
+    },
+    "flex-layout.col#duvidas":{
+      "children":[
+        "disclosure-layout-group#group"
+      ],
+      "props":{
+        "blockClass":"content-duvidas"
+      }
+    },
+
+    "disclosure-layout-group#group": {
+      "children": ["disclosure-layout#first", "disclosure-layout#second"],
+      "props":{"blockClass":"group-duvidas"}
+    },
+  
+    "disclosure-layout#first": {
+      "children": ["disclosure-trigger#first", "disclosure-content#first"],
+      "props":{"blockClass":"first-duvidas"}
+    },
+    "disclosure-trigger#first": {
+      "children": ["rich-text#question1"],
+      "props":{"blockClass":"trigger-duvidas"}
+    },
+    "disclosure-content#first": {
+      "children": ["rich-text#answer1"],
+      "props":{"blockClass":"disclosure-duvidas"}
+    },
+    "rich-text#question1": {
+      "props": {
+        "text": "Posso retirar meu pedido na loja?",
+        "props":{"blockClass":"texto-duvidas"}
+      }
+    },
+    "rich-text#answer1": {
+      "props": {
+        "text": "Sim. Para isso, o pedido deverá ser feito e concluído pelo nosso site, estando disponível para retirada em até 2 dias úteis após a confirmação do pagamento. Para retirar o seu pedido, basta fazer o agendamento pelo e-mail atendimento@festabox.com.br ou ligando para (11) 3312-6600.",
+        "props":{"blockClass":"resposta-duvidas"}
+      }
+    },
+  
+    "disclosure-layout#second": {
+      "children": ["disclosure-trigger#first", "disclosure-content#first"]
+    },
+    "disclosure-trigger#second": {
+      "children": ["rich-text#question1"]
+    },
+    "disclosure-content#second": {
+      "children": ["rich-text#answer1"]
+    },
+    "rich-text#question2": {
+      "props": {
+        "text": "Quais as formas de envio do meu pedido?"
+      }
+    },
+    "rich-text#answer2": {
+      "props": {
+        "text": "Ao realizar sua compra na FestaBox, você pode escolher entre as seguintes formas de envio: \n Sedex (entrega em até 3 dias úteis após a confirmação do pagamento) \n E-sedex (entrega em 4 a 7 dias úteis após a confirmação do pagamento) \n Expressa SP (entrega em 2 a 3 dias úteis após a confirmação do pagamento) \n Expressa MG/RJ (entrega em 3 a 5 dias úteis após a confirmação do pagamento) \n PAC SP (entrega em até 7 dias úteis após a confirmação do pagamento) \n PAC (entrega em até 15 dias úteis após a confirmação do pagamento) \n Motoboy – Apenas para São Paulo (entrega em 2 dias úteis após a confirmação do pagamento)"
+      }
+    }    
+
+  }
+  

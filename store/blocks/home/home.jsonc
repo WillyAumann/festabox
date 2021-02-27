@@ -1,0 +1,1122 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop#promotions-tag",
+      "responsive-layout.desktop#banners",
+      "responsive-layout.desktop#content",
+      "responsive-layout.mobile#mobile"
+    ]
+  },
+  /////
+  "responsive-layout.desktop#promotions-tag":{
+    "children":[
+      "slider-layout#promotions-tag"
+    ]
+  },
+      "slider-layout#promotions-tag": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "autoplay":{
+            "timeout": 10000,
+            "stopOnHover": false
+          },
+          "showNavigationArrows": "never",
+          "showPaginationDots":"never",
+          "blockClass": "promotions-tag"
+        },
+        "children": ["rich-text#promo-tag1", "rich-text#promo-tag2"]
+      },
+            "rich-text#promo-tag1": {
+              "props": {
+                "text": "10% OFF na primeira compra. Aproveite",
+                "blockClass":"promotions-tags"
+              }
+            },
+            "rich-text#promo-tag2": {
+              "props": {
+                "text": "FRETE GRÁTIS ACIMA DE R$ 299,00",
+                "blockClass":"promotions-tags"
+              }
+            },  
+  //////
+//////////////////////////
+/////////////////////////
+/*******  Desktop Banners ********/
+/////////////////////////
+/////////////////////////   
+  "responsive-layout.desktop#banners":{
+    "children":[
+      //"carousel#carousel-main"
+      "slider-layout#banner-dft",
+      "flex-layout.row#grid-banners1",
+      "flex-layout.row#grid-banners2"
+    ],
+    "props":{
+      "blockClass":"grid-banners-desktop"
+    }
+  },  
+  "slider-layout#banner-dft": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#banner-dft-1", "image#banner-dft-2"]
+  },   
+          "image#banner-dft-1": {
+            "props": {
+              "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/c2943987-b7b1-4c98-85de-77531372ea28___e00e93b75a902f8e9f1940f46dd0d264.jpg",
+              "alt": "As festas começam aqui na festabox"
+            }
+          },
+          "image#banner-dft-2": {
+            "props": {
+              "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/6e43dd5c-9297-4945-9edf-08d5054cd8de___1a7c89284396bac7c79f63db592fab55.jpg",
+              "alt": "Bexigas e Balões",
+              "link":"/bexigas-e-baloes"
+            }
+          },    
+// Grid banners
+          "flex-layout.row#grid-banners1":{
+            "props":{
+              "blockClass":"grid-banners1"
+            },
+            "children":[
+              "flex-layout.col#grid-banners1-01",
+              "flex-layout.col#grid-banners1-02",
+              "flex-layout.col#grid-banners1-03",
+              "flex-layout.col#grid-banners1-04"
+            ]
+          },
+              "flex-layout.col#grid-banners1-01":{
+                  "children":["image#grid-banners1-image-1"],
+                  "props":{"marginLeft":4,"marginRight":4}
+              },
+              "flex-layout.col#grid-banners1-02":{
+                "children":["image#grid-banners1-image-2"],
+                "props":{"marginLeft":4,"marginRight":4}
+              },        
+              "flex-layout.col#grid-banners1-03":{
+                "children":["image#grid-banners1-image-3"],
+                "props":{"marginLeft":4,"marginRight":4}
+              },      
+              "flex-layout.col#grid-banners1-04":{
+                "children":[
+                  "image#grid-banners1-image-4"
+                ],
+                "props":{"marginLeft":4,"marginRight":4}
+              },
+                  "image#grid-banners1-image-1":{
+                    "props":{
+                      "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/96ec03fa-9193-4bac-8e03-7be4c69cb5f8___db8f64a3d0d89004b634e227873abe2f.jpg",
+                      "alt":"Festa Meninas | Festabox",
+                      "link":"/festa-meninas"
+                    }
+                  },
+                  "image#grid-banners1-image-2":{
+                    "props":{
+                      "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/deeb46ac-dc1b-4084-aa26-be25450cb819___fa539fa5e4ac5b9af7b8d8d22790c974.jpg",
+                      "alt":"Festa Meninos | Festabox",
+                      "link":"/festa-meninos"
+                    }
+                  },                
+                  "image#grid-banners1-image-3":{
+                    "props":{
+                      "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/366ddf6c-41e2-4291-8434-a057d96e54c4___20fe9de7b4dc4a88043a0edbe65d1ee1.jpg",
+                      "alt":"Bexigas e Balões | Festabox",
+                      "link":"/bexigas-e-baloes"
+                    }
+                  },     
+                  "image#grid-banners1-image-4":{
+                    "props":{
+                      "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/84ccbf4b-ab19-4e36-8a90-d4b873804d38___04feb05000d81bf8df03110afd3a1617.jpg",
+                      "alt":"Festa Infantil Sereia | Festabox",
+                      "link":"/festa-meninas/sereia"
+                    }
+                  },   
+// Grid banners 2
+          "flex-layout.row#grid-banners2":{
+            "props":{
+              "blockClass":"grid-banners2"
+            },
+            "children":[
+              "flex-layout.col#grid-banners2-01",
+              "flex-layout.col#grid-banners2-02",
+              "flex-layout.col#grid-banners2-03"
+            ]
+          },                
+              "flex-layout.col#grid-banners2-01":{
+                  "children":["image#grid-banners2-image-1", "image#grid-banners2-image-2"],
+                  "props":{"marginLeft":4,"marginRight":4, "width":"25%"}          
+              },
+              "flex-layout.col#grid-banners2-02":{
+                "children":["image#grid-banners2-image-3"],
+                "props":{"marginLeft":4,"marginRight":4,"width":"25%"}          
+              },           
+              "flex-layout.col#grid-banners2-03":{
+              "children":[
+                // "image#grid-banners2-image-04"
+                "slider-layout#banners-grid"
+              ],
+              "props":{"marginLeft":4,"marginRight":4,"width":"50%"}          
+              },               
+                  "image#grid-banners2-image-1":{
+                    "props":{
+                      "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/85ab13ad-ad5e-4035-a85a-9971fe257090___1f77fec4686283f33e00e470cf029851.jpg",
+                      "alt":"Festa Infantil Dinossauro | Festabox",
+                      "link":"/festa-meninos/jurassic-park-world"
+                    }
+                  },   
+                  "image#grid-banners2-image-2":{
+                    "props":{
+                      "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/c5d7dad2-3cf4-43b5-91b4-4d7aa3ef19da___da97f445a78d7a7622d8a8c4666042d7.jpg",
+                      "alt":"Festa Infantil Maria Clara & JP | Festabox",
+                      "link":"/festa-infantil/unissex/maria-clara-e-jp"
+                    }
+                  },               
+                  "image#grid-banners2-image-3":{
+                    "props":{
+                      "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bcd081f7-33df-4ecd-935f-c59b2a8b9078___79f9539450c2a8e7c341395c71dca509.jpg",
+                      "alt":"Artigos para Festa Infantil | Festabox",
+                      "link":"/lembrancinhas-infantis"
+                    }
+                  },              
+                      "slider-layout#banners-grid": {
+                        "props": {
+                          "autoplay":{
+                            "timeout": 5000,
+                            "stopOnHover": true
+                          },                           
+                          "itemsPerPage": {
+                            "desktop": 1,
+                            "tablet": 1,
+                            "phone": 1
+                          },                         
+                          "infinite": true,
+                          "showNavigationArrows": "desktopOnly",
+                          "blockClass": "carousel-grid"
+                        },
+                        "children": ["image#banner-grid-img1", "image#banner-grid-img2", "image#banner-grid-img3"]
+                      },  
+                              "image#banner-grid-img1":{
+                                  "props":{
+                                    "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/53ff2d93-2a0f-4c2d-aa7f-f95325e2d61b___533bb1b7ed820a74388e97d399f871c4.jpg",
+                                    "alt": "Festa Infantil Bolofofos | Festabox",
+                                    "link":"/festa-infantil/baby/bolofofos"                                    
+                                  }
+                              },   
+                              "image#banner-grid-img2":{
+                                "props":{
+                                  "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/5a9bdb9c-bd97-4204-a3fa-c9ea4ced404c___a9f9a08fff41e2298d2842ebfeb30456.jpg",
+                                  "alt": "Festa Infantil Naruto | Festabox",
+                                  "link":"/festa-meninos/festa-naruto"
+                                }
+                              }, 
+                              "image#banner-grid-img3":{
+                                "props":{
+                                  "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/c7690318-5a8b-4a83-822d-f2a3036f4c40___52583d1031439228c3a6f8d4c2d60024.jpg",
+                                  "alt": "Festa Infantil Now United | Festabox",
+                                  "link":"/festas-tematicas/now-united"
+                                }
+                              },                               
+//////////////////////////
+/////////////////////////
+/*******  Desktop Content ********/
+/////////////////////////
+/////////////////////////                                      
+"responsive-layout.desktop#content":{
+  "children":[
+    "__fold__.experimentalLazyAssets",
+    "rich-text#shelf-title",
+    "flex-layout.row#shelf",
+    "rich-text#shelf-title2",
+    "flex-layout.row#shelf2", 
+    "image#banner-middle-shelf",     
+    "rich-text#shelf-title3",
+    "flex-layout.row#shelf3",    
+    "rich-text#title-blog",
+    "flex-layout.row#blog",
+    "rich-text#shelf-title4",
+    "flex-layout.row#shelf4",       
+    "flex-layout.row#feedInstagram"
+  ]
+},                                                              
+  /* Vitrine */   
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Festa de princesa",
+      "blockClass": "shelfTitle"
+    }
+  },  
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Festa de Princesa"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 3
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":false
+    }
+  }, 
+  /* Vitrine 2 */
+  "rich-text#shelf-title2": {
+    "props": {
+      "text": "## Festa Dinossauro",
+      "blockClass": "shelfTitle"
+    }
+  },  
+  "flex-layout.row#shelf2": {
+    "children": ["list-context.product-list#shelf2"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#shelf2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Festa Dinossauro"
+    }
+  },
+  "slider-layout#demo-products2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":false
+    }
+  }, 
+  /* Vitrine 3*/   
+  "rich-text#shelf-title3": {
+    "props": {
+      "text": "## Festa Now United",
+      "blockClass": "shelfTitle"
+    }
+  },  
+  "flex-layout.row#shelf3": {
+    "children": ["list-context.product-list#shelf3"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#shelf3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products3"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Festa Now United"
+    }
+  },
+  "slider-layout#demo-products3": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":false
+    }
+  },   
+  "image#banner-middle-shelf":{
+    "props":{
+      "alt": "Temas Disney",
+      "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/fe12fa3a-9ada-4467-b051-fb882ed4a4d2___bfb40a597402b80095293642956a3962.jpg",
+      "link":"/festa-meninas",
+      "blockClass":"banner-middle-shelf"
+    }
+  },
+  /* Vitrine 4 */   
+  "rich-text#shelf-title4": {
+    "props": {
+      "text": "## Festa Vampirinha",
+      "blockClass": "shelfTitle"
+    }
+  },  
+  "flex-layout.row#shelf4": {
+    "children": ["list-context.product-list#shelf4"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#shelf4": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products4"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Festa Vampirinha"
+    }
+  },
+  "slider-layout#demo-products4": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":false
+    }
+  },   
+  /* Blog */
+  "rich-text#title-blog":{
+    "props":{
+      "text": "Dicas de Festa em Nosso Blog",
+      "blockClass": "title-default"
+    }
+  },
+  "flex-layout.row#blog":{
+    "props":{
+      "blockClass":"content-blog"
+    },
+    "children":[
+      "flex-layout.col#article1",
+      "flex-layout.col#article2",
+      "flex-layout.col#article3",
+      "flex-layout.col#article4"
+    ]
+  },
+        "flex-layout.col#article1":{
+          "children":[
+            "image#image-article1",
+            "rich-text#title-article1",
+            "rich-text#resum-article1",
+            "rich-text#link-article1"
+          ],
+          "props":{
+            "blockClass":"content-article"
+          }
+        },
+            "image#image-article1":{
+              "props":{
+                "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/913d10fd-977b-4faf-9113-69ffc8ed3cfd___23d3c0f968c6f8dbdf407a41bc68b56b.jpg",
+                "alt": "Galinha Pintadinha | Saiba tudo sobre festa da galinha pintadinha | Festabox"
+              }
+            },
+            "rich-text#title-article1":{
+              "props":{
+                "text":"Galinha Pintadinha: Saiba tudo sobre ela",
+                "blockClass": "title-article"
+              }
+            },
+            "rich-text#resum-article1":{
+              "props":{
+                "text":"Os papais de plantão conhecem, os filhos ficam completamente hipnotizados quando assistem a Galinha Pintadinha. Com mais de 350 milhões de visualizações no Youtube, a Galinha mais querida do Brasil mostra todo o seu potencial de seduzir a garotada e trazer alegria para centenas de crianças...",
+                "blockClass": "resum-article"
+              }
+            },            
+            "rich-text#link-article1":{
+              "props":{
+                "text":"[ver artigo](http://blog.festabox.com.br/galinha-pintadinha-saiba-tudo-sobre/)",
+                "blockClass": "link-article"
+              }
+            },   
+        "flex-layout.col#article2":{
+          "children":[
+            "image#image-article2",
+            "rich-text#title-article2",
+            "rich-text#resum-article2",
+            "rich-text#link-article2"
+          ],
+          "props":{
+            "blockClass":"content-article"
+          }          
+        },
+            "image#image-article2":{
+              "props":{
+                "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/74da4c94-dda8-4b5d-aa45-fbb6c6e24800___8223258fa600f4540e80e1d335caff22.png",
+                "alt": "Grupo Now United | Com certeza você já deve ter ouvido falar sobre o Now United | Festabox"
+              }
+            },
+            "rich-text#title-article2":{
+              "props":{
+                "text":"Now United: Conheça os Membros",
+                "blockClass": "title-article"
+              }
+            },
+            "rich-text#resum-article2":{
+              "props":{
+                "text":"Com certeza você já deve ter ouvido falar sobre o Now United, não é mesmo? Popular entre os pré-adolescentes, o grupo ganhou fama e se tornou o maior de música pop do mundo! O interessante do grupo é que o mesmo é composto por pessoas de diversas nacionalidades. Ao todo são 16 jovens...",
+                "blockClass": "resum-article"
+              }
+            },            
+            "rich-text#link-article2":{
+              "props":{
+                "text":"[ver artigo](http://blog.festabox.com.br/now-united-conheca-os-membros/)",
+                "blockClass": "link-article"
+              }
+            },     
+        "flex-layout.col#article3":{
+          "children":[
+            "image#image-article3",
+            "rich-text#title-article3",
+            "rich-text#resum-article3",
+            "rich-text#link-article3"
+          ],
+          "props":{
+            "blockClass":"content-article"
+          }          
+        },
+            "image#image-article3":{
+              "props":{
+                "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/b5deab4f-2992-49b5-9011-e26fd53a728b___61185dfd7c408f68433bb9c7949dc05c.png",
+                "alt": "Minecraft | Com certeza você já deve ter ouvido falar sobre o Minecraft | Festabox"
+              }
+            },
+            "rich-text#title-article3":{
+              "props":{
+                "text":"Minecraft: O que é e Como Surgiu?",
+                "blockClass": "title-article"
+              }
+            },
+            "rich-text#resum-article3":{
+              "props":{
+                "text":"Quem aí nunca ouviu falar do Minecraft, um dos jogos mais populares da atualidade? O game, que conta com uma legião de fãs, começou a ser desenvolvido em 2009 e se tornou um dos jogos mais lucrativos. Apesar da simplicidade do jogo e de que qualquer pessoa pode jogá-lo, existem vários...",
+                "blockClass": "resum-article"
+              }
+            },            
+            "rich-text#link-article3":{
+              "props":{
+                "text":"[ver artigo](http://blog.festabox.com.br/minecraft-o-que-e-como-surgiu/)",
+                "blockClass": "link-article"
+              }
+            },       
+        "flex-layout.col#article4":{
+          "children":[
+            "image#image-article4",
+            "rich-text#title-article4",
+            "rich-text#resum-article4",
+            "rich-text#link-article4"
+          ],
+          "props":{
+            "blockClass":"content-article"
+          }          
+        },
+            "image#image-article4":{
+              "props":{
+                "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/d1985c72-b0e6-441a-822b-80aaaae71406___7fe5707e7df74175bc4d27bebcc2f684.png",
+                "alt": "Festa Adulto | Entenda como montar uma festa para adulto | Festabox"
+              }
+            },
+            "rich-text#title-article4":{
+              "props":{
+                "text":"Aniversário Adulto: Como planejar?",
+                "blockClass": "title-article"
+              }
+            },
+            "rich-text#resum-article4":{
+              "props":{
+                "text":"Está planejando um aniversário de adulto e não sabe por onde começar? A gente te ajuda! A verdade é que não são apenas as crianças que merecem uma boa decoração para a comemoração da passagem de mais um ano. Os adultos também merecem uma atenção especial no seu grande dia...",
+                "blockClass": "resum-article"
+              }
+            },            
+            "rich-text#link-article4":{
+              "props":{
+                "text":"[ver artigo](http://blog.festabox.com.br/aniversario-adulto-como-planejar/)",
+                "blockClass": "link-article"
+              }
+            },                                                
+  // Instagram 
+  "flex-layout.row#feedInstagram":{
+    "children":[
+      "sandbox#feedInstagram"
+    ],
+    "props":{
+      "blockClass":"feedInstagram"
+    }
+  },
+      "sandbox#feedInstagram":{
+        "props":{
+          "initialContent":"<script src='https://apps.elfsight.com/p/platform.js' defer></script><div class='elfsight-app-cc58f57a-df2c-4766-a7f8-ec0e68683c4c'></div>",
+          "width":"100%",
+          "height":"378px"
+        }
+      },
+//////////////////////////
+/////////////////////////
+/*******  Mobile ********/
+/////////////////////////
+///////////////////////// 
+
+"responsive-layout.mobile#mobile":{
+  "children":[
+    "flex-layout.row#content-1-mobile",
+    "flex-layout.row#title-shelf-1-mobile",
+    "flex-layout.row#shelf-1-mobile",
+    "__fold__",
+    "flex-layout.row#grid-banners-mobile-1",
+    "flex-layout.row#grid-mobile--row-2",
+    "flex-layout.row#grid-banners-mobile-3",        
+    "flex-layout.row#title-shelf-2-mobile",
+    "flex-layout.row#shelf-2-mobile",
+    "image#grid-banners-middle",
+    "flex-layout.row#title-shelf-3-mobile",
+    "flex-layout.row#shelf-3-mobile"    
+    // "flex-layout.row#shelf-mobile"    
+  ]
+},
+  // Row Content 1 Mobile
+  "flex-layout.row#content-1-mobile":{
+    "children":[
+      "slider-layout#banner-full-mobile",
+      "rich-text#menu-categorias-mobile",
+      "slider-layout#menu-categorias"
+    ],
+    "props":{
+      "blockClass":"content-1-mobile"
+    }
+  },
+  // Slider Layout Banner Full Mobile
+      "slider-layout#banner-full-mobile": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "autoplay":{
+            "timeout": 10000,
+            "stopOnHover": false
+          },
+          "showNavigationArrows": "never",
+          "showPaginationDots":"always",
+          "blockClass": "banner-full-mobile"
+        },
+        "children": ["image#banner-full-mobile0","image#banner-full-mobile1", "image#banner-full-mobile2"]
+      },
+      "image#banner-full-mobile0":{
+        "props":{
+          "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/3201f314-5311-40e3-9617-e90fbc2eb0d3___53d31cdd9a620f268c59a94efcb77707.jpg",
+          "alt":"Festa Infantil Bolofofos | Festabox",
+          "link":"/festa-infantil/baby/bolofofos",
+          "blockClass":"img-full-banner-mobile"
+        }
+      },      
+      "image#banner-full-mobile1":{
+        "props":{
+          "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/e1df108f-226f-4039-b5e9-826dff8a4902___2ee5bf8a1031767fb2a949ae8139bb64.png",
+          "alt":"Bexigas e Balões para Festa Infantil | Festabox",
+          "link":"/bexigas-e-baloes",
+          "blockClass":"img-full-banner-mobile"
+        }
+      },
+      "image#banner-full-mobile2":{
+        "props":{
+          "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/c0e9658d-4f01-4f55-bce3-1412dcaea543___d35506aa79c9c9968984f4ce385732e1.jpg",
+          "alt":"Festa Infantil Now United | Festabox",
+          "link":"/festas-tematicas/now-united",
+          "blockClass":"img-full-banner-mobile"
+        }
+      },    
+  // Menu Categorias
+      "rich-text#menu-categorias-mobile":{
+        "props":{
+          "text":"**Categorias**",
+          "blockClass":"menu-categorias-mobile"
+        }
+      },
+  // Menu Categorias Slider Mobile
+  "slider-layout#menu-categorias":{
+    "children":[
+      "flex-layout.col#menu-categoria1",
+      "flex-layout.col#menu-categoria2",
+      "flex-layout.col#menu-categoria3",
+      "flex-layout.col#menu-categoria4",
+      "flex-layout.col#menu-categoria5"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 5
+      },
+      "infite":false,
+      "showNavigationArrows": "never",
+      "showPaginationDots":"never",
+      "blockClass": "menu-categorias-mobile"
+    }    
+  },
+      "flex-layout.col#menu-categoria1":{
+        "children":[
+          "image#icon-menu-categoria-1",
+          "rich-text#link-menu-categoria-1"
+        ],
+        "props":{
+          "blockClass":"col-menu-categorias"
+        }
+      },
+          "image#icon-menu-categoria-1":{
+            "props":{
+              "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/44155511-103e-4681-962d-dc334ecbc973___81c40e2b82cd9caa60aa48f1d9dcf97e.png",
+              "alt": "Bexigas e Balões",
+              "blockClass":"img-menu-categoria",
+              "link":"/bexigas-e-baloes"
+            }
+          },
+          "rich-text#link-menu-categoria-1":{
+            "props":{
+              "text":"[Bexigas e Balões](/bexigas-e-baloes)",
+              "blockClass":"link-menu-categoria"
+            }
+          },
+      // 
+      "flex-layout.col#menu-categoria2":{
+        "children":[
+          "image#icon-menu-categoria-2",
+          "rich-text#link-menu-categoria-2"
+        ],
+        "props":{
+          "blockClass":"col-menu-categorias"
+        }        
+      },
+          "image#icon-menu-categoria-2":{
+            "props":{
+              "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/0c9cc445-fe40-4748-9285-a9ed45ea7d6a___ebfa9b30bf2f13798327a804b410218e.png",
+              "alt": "Decoração de Festa",
+              "link":"/decoracao-de-festa",
+              "blockClass":"img-menu-categoria"
+            }
+          },
+          "rich-text#link-menu-categoria-2":{
+            "props":{
+              "text":"[Decoração de Festa](/decoracao-de-festa)",
+              "blockClass":"link-menu-categoria"
+            }
+          },      
+      // 
+      "flex-layout.col#menu-categoria3":{
+        "children":[
+          "image#icon-menu-categoria-3",
+          "rich-text#link-menu-categoria-3"
+        ],
+        "props":{
+          "blockClass":"col-menu-categorias"
+        }        
+      },    
+          "image#icon-menu-categoria-3":{
+            "props":{
+              "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/c0508101-4136-45fa-961d-0ac1e90f1b3c___ac629d25fa19c6c227a73ee8a88d2cce.png",
+              "alt": "Festa de Menino",
+              "link":"/festa-meninos",
+              "blockClass":"img-menu-categoria"
+            }
+          },
+          "rich-text#link-menu-categoria-3":{
+            "props":{
+              "text":"[Festa de Menino](/festa-meninos)",
+              "blockClass":"link-menu-categoria"
+            }
+          },               
+      // 
+      "flex-layout.col#menu-categoria4":{
+        "children":[
+          "image#icon-menu-categoria-4",
+          "rich-text#link-menu-categoria-4"
+        ],
+        "props":{
+          "blockClass":"col-menu-categorias"
+        }        
+      },     
+          "image#icon-menu-categoria-4":{
+            "props":{
+              "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/a87fae00-6d88-4120-9445-c96e24f855cd___42255c853bd56e4e6692d5539d64e51a.png",
+              "alt": "Festa de Menina",
+              "link":"/festa-meninas",
+              "blockClass":"img-menu-categoria"
+            }
+          },
+          "rich-text#link-menu-categoria-4":{
+            "props":{
+              "text":"[Festa de Menina](/festa-meninas)",
+              "blockClass":"link-menu-categoria"
+            }
+          },        
+      // 
+      "flex-layout.col#menu-categoria5":{
+        "children":[
+          "image#icon-menu-categoria-5",
+          "rich-text#link-menu-categoria-5"
+        ],
+        "props":{
+          "blockClass":"col-menu-categorias"
+        }        
+      },
+          "image#icon-menu-categoria-5":{
+            "props":{
+              "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/8190c078-7987-4c34-81bc-99acde8f6be3___6de1c7b66c203b1ca334de4414bc39a8.png",
+              "alt": "Festas Temáticas",
+              "link":"/festas-tematicas",
+              "blockClass":"img-menu-categoria"
+            }
+          },
+          "rich-text#link-menu-categoria-5":{
+            "props":{
+              "text":"[Festas Temáticas](/festas-tematicas)",
+              "blockClass":"link-menu-categoria"
+            }
+          },         
+  // Título Vitrine Mobile 01
+  "flex-layout.row#title-shelf-1-mobile":{
+    "children":[
+      "flex-layout.col#title-shelf-1",
+      "flex-layout.col#link-shelf-1"
+    ],
+    "props":{
+      "blockClass":"row-shelf-mobile"
+    }
+  },
+      "flex-layout.col#title-shelf-1":{
+        "children":[
+          "rich-text#shelf-title-mobile"
+        ],
+        "props":{
+          "blockClass":"content-title-shelf-1",
+          "width":"50%"
+        }
+      },
+      "flex-layout.col#link-shelf-1":{
+        "children":[
+          "rich-text#link-title-mobile"
+        ],
+        "props":{
+          "blockClass":"content-link-shelf-1",
+          "width":"50%"
+        }
+      },
+          "rich-text#shelf-title-mobile":{
+            "props":{
+              "text":"Festa Now United",
+              "blockClass":"shelf-title-mobile"
+            }
+          },
+          "rich-text#link-title-mobile":{
+            "props":{
+              "text":"VER TUDO",
+              "blockClass":"link-title-mobile"
+            }
+          },
+  // Produtos Vitrine Mobile 01
+  "flex-layout.row#shelf-1-mobile": {
+    "children": ["list-context.product-list#shelfmobile"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#shelfmobile": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Novos produtos que você vai gostar"
+    }
+  },
+  "slider-layout#shelf-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "centerMode":"center",
+      "showPaginationDots":false,
+      "showNavigationArrows":false
+    }
+  },  
+  // Grid Banners Mobile
+  "flex-layout.row#grid-banners-mobile-1":{
+    "children":[
+      "flex-layout.col#banner-mobile-1",
+      "flex-layout.col#banner-mobile-2"
+    ],
+    "props":{
+      "blockClass":"grid-banners-mobile"
+    }
+  },
+      "flex-layout.col#banner-mobile-1":{
+        "children":[
+          "image#banner-grid-mobile-1"
+        ],
+        "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+      },
+          "image#banner-grid-mobile-1":{
+            "props":{
+              "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/5c23e8bb-2bf2-4448-8e45-c82104ea48c3___dd53411a78a459dc356464f6cfe1f594.jpg",
+              "alt":"Festa Meninas | Festabox",
+              "link":"/festa-meninas"
+            }
+          },
+      "flex-layout.col#banner-mobile-2":{
+        "children":[
+          "image#banner-grid-mobile-2"
+        ],
+        "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+      },
+          "image#banner-grid-mobile-2":{
+            "props":{
+              "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/e1f7523d-bee9-4927-b5ae-4c71deae6fbd___30942fc05d702a663137e7083b736dc0.jpg",
+              "alt":"Festa Meninos | Festabox",
+              "link":"/festa-meninos"
+            }
+          },   
+  // Grid Banners Mobile 2
+  "flex-layout.row#grid-mobile--row-2":{
+    "children":[
+      "flex-layout.col#grid-mobile--col-3",
+      "flex-layout.col#grid-mobile--col-4"
+    ],
+    "props":{
+      "blockClass":"grid-banners-mobile"
+    }
+  },
+      "flex-layout.col#grid-mobile--col-3":{
+        "children":[
+          "image#grid-mobile--img-3"
+        ],
+        "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+      },
+          "image#grid-mobile--img-3":{
+            "props":{
+              "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/32190802-e65a-4068-b427-3e0a237888db___ac01ca75ce9b12465c1d45dda4659fe1.jpg",
+              "alt": "Bexigas e Balões | Festabox",
+              "link":"/bexigas-e-baloes"
+            }
+          },
+      "flex-layout.col#grid-mobile--col-4":{
+        "children":[
+          "image#grid-mobile--img-4"
+        ],
+        "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+      },
+          "image#grid-mobile--img-4":{
+            "props":{
+              "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/7f621b38-83f0-460a-a418-0db3ad44b1fe___0c2568b3dc476e2ff0f9121d393946fa.jpg",
+              "alt":"Festa Infantil de Sereia | Festabox",
+              "link":"/festa-meninas/sereia"
+            }
+          },  
+  // Grid Banners Mobile 3
+  "flex-layout.row#grid-banners-mobile-3":{
+    "children":[
+      "flex-layout.col#banner-mobile-4",
+      "flex-layout.col#banner-mobile-5"
+    ],
+    "props":{
+      "blockClass":"grid-banners-mobile"
+    }
+  },
+      "flex-layout.col#banner-mobile-4":{
+        "children":[
+          "image#banner-grid-mobile-4",
+          "image#banner-grid-mobile-5"
+        ],
+        "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+      },
+          "image#banner-grid-mobile-4":{
+            "props":{
+              "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/77220178-2ff3-485f-9f46-c1d21e88c5e3___a857b09c2335c20ee80b2c682bdb8756.jpg",
+              "alt":"Festa Infantil Dinossauro | Festabox",
+              "link":"/festa-meninos/jurassic-park-world"
+            }
+          },   
+          "image#banner-grid-mobile-5":{
+            "props":{
+              "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/f64c50b0-9a61-4e2c-a7cd-155de7f53257___fd2e11fcd9cd9ec4184c2b2cdf904d9d.jpg",
+              "alt":"Festa Infantil Maria Clara & JP | Festabox",
+              "link":"/festa-infantil/unissex/maria-clara-e-jp"
+            }
+          },               
+      "flex-layout.col#banner-mobile-5":{
+        "children":[
+          "image#banner-grid-mobile-6"
+        ],
+        "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+      },
+          "image#banner-grid-mobile-6":{
+            "props":{
+              "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/42c12fd7-331b-48c1-b9c6-0bd7b52270d4___a67d594cc45d01962b3882f8bcdbfa02.jpg",
+              "alt":"Artigos para Festa Infantil | Festabox",
+              "link":"/lembrancinhas-infantis"
+            }
+          },
+// Vitrine 2
+  // Título Vitrine Mobile 02
+  "flex-layout.row#title-shelf-2-mobile":{
+    "children":[
+      "flex-layout.col#title-shelf-2",
+      "flex-layout.col#link-shelf-2"
+    ],
+    "props":{
+      "blockClass":"row-shelf-mobile"
+    }
+  },
+      "flex-layout.col#title-shelf-2":{
+        "children":[
+          "rich-text#shelf-title-mobile-2"
+        ],
+        "props":{
+          "blockClass":"content-title-shelf-2",
+          "width":"50%"
+        }
+      },
+      "flex-layout.col#link-shelf-2":{
+        "children":[
+          "rich-text#link-title-mobile-2"
+        ],
+        "props":{
+          "blockClass":"content-link-shelf-2",
+          "width":"50%"
+        }
+      },
+          "rich-text#shelf-title-mobile-2":{
+            "props":{
+              "text":"Festa Now United",
+              "blockClass":"shelf-title-mobile"
+            }
+          },
+          "rich-text#link-title-mobile-2":{
+            "props":{
+              "text":"VER TUDO",
+              "blockClass":"link-title-mobile"
+            }
+          },
+  // Produtos Vitrine Mobile 01
+  "flex-layout.row#shelf-2-mobile": {
+    "children": ["list-context.product-list#shelfmobile2"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#shelfmobile2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-products-2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Novos produtos que você vai gostar"
+    }
+  },
+  "slider-layout#shelf-products-2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "centerMode":"center",
+      "showPaginationDots":false,
+      "showNavigationArrows":false
+    }
+  },
+  // Grid Banners Middle
+  "image#grid-banners-middle":{
+    "props":{
+      "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/ae817bc1-77b7-4f51-9967-822e0d8dcc61___463d0a0cb785109b691a60539f7fc9d9.png",
+      "alt":"Temas Disney"
+    }
+  },   
+// Vitrine 3
+  // Título Vitrine Mobile 03
+  "flex-layout.row#title-shelf-3-mobile":{
+    "children":[
+      "flex-layout.col#title-shelf-3",
+      "flex-layout.col#link-shelf-3"
+    ],
+    "props":{
+      "blockClass":"row-shelf-mobile"
+    }
+  },
+      "flex-layout.col#title-shelf-3":{
+        "children":[
+          "rich-text#shelf-title-mobile-3"
+        ],
+        "props":{
+          "blockClass":"content-title-shelf-3",
+          "width":"50%"
+        }
+      },
+      "flex-layout.col#link-shelf-3":{
+        "children":[
+          "rich-text#link-title-mobile-3"
+        ],
+        "props":{
+          "blockClass":"content-link-shelf-3",
+          "width":"50%"
+        }
+      },
+          "rich-text#shelf-title-mobile-3":{
+            "props":{
+              "text":"Festa Now United",
+              "blockClass":"shelf-title-mobile"
+            }
+          },
+          "rich-text#link-title-mobile-3":{
+            "props":{
+              "text":"VER TUDO",
+              "blockClass":"link-title-mobile"
+            }
+          },
+  // Produtos Vitrine Mobile 01
+  "flex-layout.row#shelf-3-mobile": {
+    "children": ["list-context.product-list#shelfmobile3"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#shelfmobile3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-products-3"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Novos produtos que você vai gostar"
+    }
+  },
+  "slider-layout#shelf-products-3":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "centerMode":"center",
+      "showPaginationDots":false,
+      "showNavigationArrows":false
+    }
+  }                        
+}

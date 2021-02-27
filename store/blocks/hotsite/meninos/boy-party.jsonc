@@ -1,0 +1,174 @@
+{
+    "store.custom#hotsite-meninos": {
+      "blocks": [
+        "search-result-layout.customQuery"
+      ]
+    },
+//
+//
+"search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Festa Meninos",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+        "search-result-layout.desktop#hotsite-meninos",
+        "search-result-layout.mobile#hotsite-meninos"
+    ]
+  },
+//
+//    
+    "search-result-layout.desktop#hotsite-meninos":{
+        "children":[
+            "flex-layout.row#hotsite-meninos-bannerFull",
+            "flex-layout.row#hotsite-meninos-highlights",
+            "flex-layout.row#hotsite-meninos-highlights2",
+            "flex-layout.row#hotsite-meninos-tabs"            
+        ]
+    },
+    // DESKTOP
+        "flex-layout.row#hotsite-meninos-bannerFull":{
+            "children":[
+                "flex-layout.col#hotsite-meninos-firstStep"
+            ],
+            "props":{
+                "blockClass":"content-hotsite-bannerFull"
+            }
+        },
+            "flex-layout.col#hotsite-meninos-firstStep":{
+                "children":[
+                    "flex-layout.row#hotsite-meninos-breadcrumb",
+                    "flex-layout.row#hotsite-meninos-title",
+                    "flex-layout.row#hotsite-meninos-slogan"            
+                ]
+            },
+                "flex-layout.row#hotsite-meninos-breadcrumb":{
+                    "children":[
+                        "rich-text#hotsite-meninos-breadcrumb"
+                    ],
+                    "props":{
+                        "blockClass":"hotsite-breadcrumb"
+                    }        
+                },
+                    "rich-text#hotsite-meninos-breadcrumb":{
+                        "props":{
+                            "text":"[Festabox](/) / Festa Infantil Meninos",
+                            "blockClass": "hotsite-breadcrumb"
+                        }
+                    },
+                "flex-layout.row#hotsite-meninos-title":{
+                    "children":[
+                        "rich-text#hotsite-meninos-title"
+                    ],
+                    "props":{
+                        "blockClass":"hotsite-title"
+                    }   
+                },
+                    "rich-text#hotsite-meninos-title":{
+                        "props":{
+                            "text":"# Temas Infantis - Meninos",
+                            "blockClass": "hotsite-title"
+                        }
+                    },
+                "flex-layout.row#hotsite-meninos-slogan":{
+                    "children":[
+                        "rich-text#hotsite-meninos-slogan"
+                    ],
+                    "props":{
+                        "blockClass":"hotsite-meninos-slogan"
+                    }
+                },
+                    "rich-text#hotsite-meninos-slogan":{
+                        "props":{
+                            "text":"Nós escolhemos os melhores temas infantis para meninos. Temos certeza que você vai amar. Aproveite",
+                            "blockClass":"hotsite-slogan"
+                        }
+                    },
+        // Highlight
+        "flex-layout.row#hotsite-meninos-highlights":{
+            "children":[
+                "flex-layout.col#col-hotsite-meninos-highlight1",
+                "flex-layout.col#col-hotsite-meninos-highlight2",
+                "flex-layout.col#col-hotsite-meninos-highlight3"
+            ],
+            "props":{
+                "fullWidth": false,
+                "blockClass":"hotsite-meninos-highlights-row"
+            }
+        },
+        // Tabs
+        "flex-layout.row#hotsite-meninos-tabs":{
+            "children":[
+                "tab-layout#tab-desktop"
+            ],
+            "props":{
+                "blockClass":"hotsite-content-tabs"
+            }
+        },        
+    //
+    // RESPONSIVE MOBILE E TABLET
+    //
+    "search-result-layout.mobile#hotsite-meninos":{
+        "children":[
+            "flex-layout.row#hotsite-meninos-bannerFull",
+            "flex-layout.row#highlights-mobile-hotsite",
+            "rich-text#highlights-mobile-hotsite-title",
+            "tab-layout#tab-mobile"
+        ],
+        "props":{
+            "blockClass":"highlights-mobile-hotsite-flexLayout"
+        }        
+    },
+        "flex-layout.row#highlights-mobile-hotsite":{
+            "children":[
+                "rich-text#title-highlights-mobile-hotsite",
+                "slider-layout#slider-highlights-mobile-hotsite"
+            ],
+            "props":{
+                "blockClass":"highlights-mobile-hotsite-row"
+            }
+        },
+            "rich-text#title-highlights-mobile-hotsite":{
+                "props":{
+                    "text":"Mais Vendidos",
+                    "blockClass":"title-highlights-mobile-hotsite"
+                }
+            },
+            "slider-layout#slider-highlights-mobile-hotsite": {
+                "props": {
+                "itemsPerPage": {
+                    "desktop": 1,
+                    "tablet": 2,
+                    "phone": 2
+                },
+                "centerMode": "center",
+                "showNavigationArrows": "never",
+                "showPaginationDots": "never",
+                "usePagination": true,
+                "blockClass": "slider-highlights",
+                "infinite": true
+                },
+                "children": [
+                    "flex-layout.row#highlights-1",
+                    "flex-layout.row#highlights-2",
+                    "flex-layout.row#highlights-3",
+                    "flex-layout.row#highlights-4",
+                    "flex-layout.row#highlights-5",
+                    "flex-layout.row#highlights-6",
+                    "flex-layout.row#highlights-7"
+                ]
+            },
+    /////
+    "rich-text#highlights-mobile-hotsite-title":{
+        "props":{
+            "text": "FILTRE OS TEMAS",
+            "blockClass":"highlights-title-filter"
+        }
+    }
+  }
+  

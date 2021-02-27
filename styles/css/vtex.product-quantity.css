@@ -1,0 +1,52 @@
+.quantitySelectorContainer--content-qtd{display:flex;flex-direction: inherit;}
+.quantitySelectorContainer--content-qtd{margin-bottom: 0;}
+.quantitySelectorTitle{
+    display: inline-flex;
+    width: 68%;
+    color: #383838;
+    font-size: .9em;
+    font-weight: bold;
+    padding-top:.7em;
+}
+
+.quantitySelectorStepper--content-qtd{
+    width:30%;
+    display: inline-flex;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button){ 
+    border-radius: 100% !important;
+    width: 32px !important;
+    margin-left: .4em;
+    border: 1px solid #ccc;
+    line-height: 1;    
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button){ 
+    border-radius: 100% !important;
+    width: 32px !important;
+    margin-right: .4em;
+    border: 1px solid #ccc;
+    line-height: 1;    
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input){
+    border:0;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input){
+    width:3em;
+}
+
+@media screen and (min-width: 80em) {
+    .quantitySelectorTitle{
+        width: 100%;
+        padding-top:0;
+    }    
+    .quantitySelectorTitle{
+        width: 83px;
+        padding-top: 0;
+        text-align: center;
+        margin: 0 auto .4em;        
+    }
+}

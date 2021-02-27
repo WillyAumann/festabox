@@ -1,0 +1,64 @@
+{
+  "store.custom#sobre-festabox": {
+    "blocks": [
+      "flex-layout.row#sobre-festabox"
+    ]
+  },
+
+  "flex-layout.row#sobre-festabox": {
+    "children": [
+      "flex-layout.col#text-sobre-festabox"
+    ],
+    "props":{
+      "blockClass":"content-institucional"
+    }
+  },
+
+  "flex-layout.col#text-sobre-festabox": {
+    "children": [
+      "rich-text#title-about",
+      "flex-layout.row#sobre"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+      "rich-text#title-about":{
+        "props":{
+          "text":"Conectando **pessoas** através da **festa**",
+          "blockClass": "title-about"
+        }
+      },
+      "flex-layout.row#sobre":{
+        "children":[
+          "flex-layout.col#sobre-left",
+          "flex-layout.col#sobre-right"
+        ]
+      },
+      "flex-layout.col#sobre-left":{
+        "children":[
+          "image#sobre"
+        ],
+        "props":{
+          "width":"40%"
+        }
+      },
+      "image#sobre":{
+        "props":{
+          "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/245b27dd-8518-44fb-af43-e00f4e659615___5a2cf09a363b4b70e5316378a935cd1a.jpg",
+          "alt": "Nossa missão é conectar pessoas através da festa | Festabox",
+          "blockClass": "image-sobre"
+        }
+      },
+      "flex-layout.col#sobre-right":{
+        "children":[
+          "rich-text#texto-sobre"
+        ]
+      },
+      "rich-text#texto-sobre":{
+        "props":{
+          "text":"A Festabox é uma Loja Virtual de Artigos para Festas, na qual você encontra a maior variedade de Temas Infantis, Lembrancinhas, Fantasias e Muitos Artigos e Adereços para Animar e Decorar a sua Festa. Tudo isso dispondo das melhores condições de pagamento e com os preços da 25 de Março. \n #### **Missão** \n Vender produtos de festa, levando alegria e satisfação aos clientes com inovação e responsabilidade social. \n #### **Visão** \n Ser reconhecida como a melhor Empresa de festa junto aos clientes, colaboradores e fornecedores. \n Há 8 anos no mercado, a Festabox possui valores que sustentam a qualidade da empresa, atuando sempre com honestidade, transparência, ética, competência e comprometimento com os resultados. \n **Dados da Empresa:** \n **Razão Social:** Artigos para Festa Brasil Ltda. \n **CNPJ:** 00.748.390/0001-82"
+        }
+      }
+}

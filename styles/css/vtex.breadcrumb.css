@@ -1,0 +1,22 @@
+.container{text-align: left;background:#fafafa;padding-left:2.5rem;}
+.homeIcon{
+    width:16px;
+}
+.link{font-size:.8em;}
+.termArrow, .term{display: none;}
+
+/* Botao comprar mais produtos da categoria */
+.container--breadcrumb-link{background: #fff;padding:0;text-align: right;}
+.homeLink--breadcrumb-link,
+.arrow--breadcrumb-link--1{display:none;}
+.link--breadcrumb-link--2{font-weight: bold;text-decoration: underline;}
+.link--breadcrumb-link--2::before{content:"Compre mais produtos "}
+.link--breadcrumb-link--2::after{content: " aqui"}
+
+@media only screen and (max-width: 49rem){
+    .container{
+        text-align: center;
+        padding-left: 0;
+    }
+    .container--breadcrumb-link{margin-top:1em;}
+}
