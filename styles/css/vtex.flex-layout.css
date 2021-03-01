@@ -242,7 +242,7 @@
   text-align: center;
 }
 .flexRow--feedInstagram{margin-bottom: 3em;}
-
+.flexRow--text-artigos{background: #f2f4dd;}
 @media screen and (min-width: 40em) {
   .flexCol--col-hotsite-highlight-content{
     margin: 0;

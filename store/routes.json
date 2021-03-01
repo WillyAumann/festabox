@@ -8,6 +8,9 @@
   "store.custom#hotsite-ballons": {
     "path": "/bexigas-e-baloes"
   },  
+  "store.custom#hotsite-artigos": {
+    "path": "/artigos-para-festa"
+  },    
   "store.custom#hotsite-atHome": {
     "path": "/festa-em-casa"
   },    

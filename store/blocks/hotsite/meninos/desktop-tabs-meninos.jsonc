@@ -180,6 +180,7 @@
             },     
         //
         "flex-layout.col#product-grid-row1-col-4":{
+            
             "children":[
                 "image#product-grid-row1-col-4-image",
                 "rich-text#product-grid-row1-col-4-name",
