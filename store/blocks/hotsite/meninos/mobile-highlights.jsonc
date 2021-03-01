@@ -22,25 +22,25 @@
             "props":{
                 "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/44c00738-2d94-434f-823f-b93c34b77acb___b5841447e32e685ba2e30448ef4b32b8.jpg",
                 "alt":"Festa Infantil Free Fire | Festabox",
-                "link":"/festa-meninos/free-fire",
+                "link":"https://festabox.com.br/festa-meninos/free-fire",
                 "blockClass":"highlights-image"
             }
         },
         "rich-text#highlights-name-1":{
             "props":{
-                "text":"[Free Fire](/festa-meninos/free-fire)",
+                "text":"[Free Fire](https://festabox.com.br/festa-meninos/free-fire)",
                 "blockClass":"highlights-name"
             }
         },
         "rich-text#highlights-description-1":{
             "props":{
-                "text":"[Chame sua guilda para ver esse tema de festa, vai bombar...](/festa-meninos/free-fire)",
+                "text":"[Chame sua guilda para ver esse tema de festa, vai bombar...](https://festabox.com.br/festa-meninos/free-fire)",
                 "blockClass":"highlights-description"
             }
         },            
         "rich-text#highlights-link-1":{
             "props":{
-                "text":"[ver tema](/festa-meninos/free-fire)",
+                "text":"[ver tema](https://festabox.com.br/festa-meninos/free-fire)",
                 "blockClass":"highlights-link"
             }
         }, 
@@ -68,25 +68,25 @@
             "props":{
                 "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/c4250f95-369b-4db2-8253-bd67c3fc7e04___3cccad4d369511966d8d4f01f7718ec2.jpg",
                 "alt":"Festa Infantil Now United | Festabox",
-                "link":"/festas-tematicas/now-united",
+                "link":"https://festabox.com.br/festas-tematicas/now-united",
                 "blockClass":"highlights-image"
             }
         },
         "rich-text#highlights-name-2":{
             "props":{
-                "text":"[Now United](/festas-tematicas/now-united)",
+                "text":"[Now United](https://festabox.com.br/festas-tematicas/now-united)",
                 "blockClass":"highlights-name"
             }
         },
         "rich-text#highlights-description-2":{
             "props":{
-                "text":"[O grupo musical mais fantástico do mundo pode estar na sua festa...](/festas-tematicas/now-united)",
+                "text":"[O grupo musical mais fantástico do mundo pode estar na sua festa...](https://festabox.com.br/festas-tematicas/now-united)",
                 "blockClass":"highlights-description"
             }
         },            
         "rich-text#highlights-link-2":{
             "props":{
-                "text":"[ver tema](/festas-tematicas/now-united)",
+                "text":"[ver tema](https://festabox.com.br/festas-tematicas/now-united)",
                 "blockClass":"highlights-link"
             }
         },
@@ -114,25 +114,25 @@
             "props":{
                 "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/3245c12f-7129-409c-ba3f-244c0ec05709___d414503e887ef64e4f0bf50f5c18976a.jpg",
                 "alt":"Festa Infantil Playstation | Festabox",
-                "link":"/festa-meninos/festa-playstation",
+                "link":"https://festabox.com.br/festa-meninos/festa-playstation",
                 "blockClass":"highlights-image"
             }
         },
         "rich-text#highlights-name-3":{
             "props":{
-                "text":"[Playstation](/festa-meninos/festa-playstation)",
+                "text":"[Playstation](https://festabox.com.br/festa-meninos/festa-playstation)",
                 "blockClass":"highlights-name"
             }
         },
         "rich-text#highlights-description-3":{
             "props":{
-                "text":"[Festa do Playstation é incrível para o seu filho e amigos...](/festa-meninos/festa-playstation)",
+                "text":"[Festa do Playstation é incrível para o seu filho e amigos...](https://festabox.com.br/festa-meninos/festa-playstation)",
                 "blockClass":"highlights-description"
             }
         },            
         "rich-text#highlights-link-3":{
             "props":{
-                "text":"[ver tema](/festa-meninos/festa-playstation)",
+                "text":"[ver tema](https://festabox.com.br/festa-meninos/festa-playstation)",
                 "blockClass":"highlights-link"
             }
         },  
@@ -160,19 +160,19 @@
             "props":{
                 "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/fda4ae18-6896-427f-b72d-e2a4bd218867___b96d917e3b1e3e8d3277bed728a7ca50.jpg",
                 "alt":"Festa Infantil Naruto | Festabox",
-                "link":"/festa-meninos/festa-naruto",
+                "link":"https://festabox.com.br/festa-meninos/festa-naruto",
                 "blockClass":"highlights-image"
             }
         },
         "rich-text#highlights-name-4":{
             "props":{
-                "text":"[Naruto](/festa-meninos/festa-naruto)",
+                "text":"[Naruto](https://festabox.com.br/festa-meninos/festa-naruto)",
                 "blockClass":"highlights-name"
             }
         },
         "rich-text#highlights-description-4":{
             "props":{
-                "text":"[Naruto e os clones da sombra querem fazer bagunça...](/festa-meninos/festa-naruto)",
+                "text":"[Naruto e os clones da sombra querem fazer bagunça...](https://festabox.com.br/festa-meninos/festa-naruto)",
                 "blockClass":"highlights-description"
             }
         },            
@@ -206,25 +206,25 @@
             "props":{
                 "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/442a1a63-92a7-4271-b240-1b65b692f9e4___80c599c932493aa9572424c797be629f.jpg",
                 "alt":"Festa Infantil Jurassica | Festabox",
-                "link":"/festa-meninos/jurassic-park-world",
+                "link":"https://festabox.com.br/festa-meninos/jurassic-park-world",
                 "blockClass":"highlights-image"
             }
         },
         "rich-text#highlights-name-5":{
             "props":{
-                "text":"[Jurassic World](/festa-meninos/jurassic-park-world)",
+                "text":"[Jurassic World](https://festabox.com.br/festa-meninos/jurassic-park-world)",
                 "blockClass":"highlights-name"
             }
         },
         "rich-text#highlights-description-5":{
             "props":{
-                "text":"[Os maiores animais de todos os tempos estão nesse tema](/festa-meninos/jurassic-park-world)",
+                "text":"[Os maiores animais de todos os tempos estão nesse tema](https://festabox.com.br/festa-meninos/jurassic-park-world)",
                 "blockClass":"highlights-description"
             }
         },
         "rich-text#highlights-link-5":{
             "props":{
-                "text":"[ver tema](/festa-meninos/jurassic-park-world)",
+                "text":"[ver tema](https://festabox.com.br/festa-meninos/jurassic-park-world)",
                 "blockClass":"highlights-link"
             }
         },
@@ -252,25 +252,25 @@
             "props":{
                 "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/143e7f65-4f7b-472b-9afe-cfe1cf5a0893___92eed3b0abd63455e77c8e83ef67a877.jpg",
                 "alt":"Festa Infantil Harry Potter | Festabox",
-                "link":"/festa-meninos/harry-potter",
+                "link":"https://festabox.com.br/festa-meninos/harry-potter",
                 "blockClass":"highlights-image"
             }
         },
         "rich-text#highlights-name-6":{
             "props":{
-                "text":"[Harry Potter](/festa-meninos/harry-potter)",
+                "text":"[Harry Potter](https://festabox.com.br/festa-meninos/harry-potter)",
                 "blockClass":"highlights-name"
             }
         },
         "rich-text#highlights-description-6":{
             "props":{
-                "text":"[Encante a todos com esses itens de festa do harry, muita magia envolvida](/festa-meninos/harry-potter)",
+                "text":"[Encante a todos com esses itens de festa do harry, muita magia envolvida](https://festabox.com.br/festa-meninos/harry-potter)",
                 "blockClass":"highlights-description"
             }
         },
         "rich-text#highlights-link-6":{
             "props":{
-                "text":"[ver tema](/festa-meninos/harry-potter)",
+                "text":"[ver tema](https://festabox.com.br/festa-meninos/harry-potter)",
                 "blockClass":"highlights-link"
             }
         },                                               
@@ -298,25 +298,25 @@
             "props":{
                 "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/1d3f5ca4-0c7d-41eb-a6a0-795d2920107f___c4916c048caef9ce80232650d3632ae6.jpg",
                 "alt":"Festa Infantil Dragon Ball | Festabox",
-                "link":"/festa-meninos/dragon-ball-super",
+                "link":"https://festabox.com.br/festa-meninos/dragon-ball-super",
                 "blockClass":"highlights-image"
             }
         },
         "rich-text#highlights-name-7":{
             "props":{
-                "text":"[Dragon Ball](/festa-meninos/dragon-ball-super)",
+                "text":"[Dragon Ball](https://festabox.com.br/festa-meninos/dragon-ball-super)",
                 "blockClass":"highlights-name"
             }
         },
         "rich-text#highlights-description-7":{
             "props":{
-                "text":"[O grupo musical mais fantástico do mundo pode estar na sua festa...](/festa-meninos/dragon-ball-super)",
+                "text":"[O grupo musical mais fantástico do mundo pode estar na sua festa...](https://festabox.com.br/festa-meninos/dragon-ball-super)",
                 "blockClass":"highlights-description"
             }
         },
         "rich-text#highlights-link-7":{
             "props":{
-                "text":"[ver tema](/festa-meninos/dragon-ball-super)",
+                "text":"[ver tema](https://festabox.com.br/festa-meninos/dragon-ball-super)",
                 "blockClass":"highlights-link"
             }
         }
