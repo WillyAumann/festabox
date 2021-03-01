@@ -83,6 +83,8 @@
   box-shadow: 0 0 3px #e8e8e8;
   text-align: center
 }
+.sliderArrows--carousel-itens{background: transparent !important;}
+.caretIcon--carousel-itens{ color: #e5257c;}
 
 @media screen and (min-width: 80rem) {
   .sliderLayoutContainer--shelf{padding-left:50px !important;padding-right:50px !important;}
@@ -94,6 +96,9 @@
 .paginationDotsContainer--banner-full-mobile{bottom:20px;left:0;}
 .paginationDot--banner-full-mobile{background:#fff;}
 .paginationDot--banner-full-mobile--isActive{background:#f71963;}
+.sliderTrackContainer--carousel-itens{
+  padding: 0 3em;
+}
 
 @media screen and (max-width: 40em){
   .sliderTrack--shelf{background:#fff;}

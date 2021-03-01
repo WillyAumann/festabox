@@ -355,4 +355,35 @@
     padding: 0 .5em;
     background: #fafafa;
   }
+  /* Festa em Casa */
+  .flexRowContent--row-happyHour{
+    padding: 3em;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/square_bg.png");
+    background-repeat: repeat;
+    background-position: center top;
+  }
+  .flexRowContent--row-aniversario{
+    padding: 3em;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/ep_naturalblack.png");
+    background-repeat: repeat;
+    background-position: center top;
+  }  
+  .flexCol--col-right-festaCasa{
+    background: #fff;
+    box-shadow: 0 0 5px #eee;
+    border-radius: .3em;
+    padding: .5em;    
+  }
+  .flexColChild--col-right-festaCasa{
+    height: auto;
+  }
+  .flexCol--col-right-festaCasa-escuro{
+    background: rgb(14 20 28 / 40%);
+    box-shadow: 0 0 5px #192735;
+    border-radius: .3em;
+    padding: .5em;    
+  }
+  .flexColChild--col-right-festaCasa-escuro{
+    height: auto;
+  }  
 }

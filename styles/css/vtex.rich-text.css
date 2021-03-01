@@ -707,4 +707,108 @@
     .wrapper--about{
       padding: 0 2em;
     }
+    .wrapper--title-pg-festa-casa{
+      margin: 1.5em auto 0;
+    }
+    .paragraph--title-pg-festa-casa{
+      font-size: 2.5em;
+      text-transform: uppercase;
+      font-weight: 200;
+      text-align: center;
+      margin-bottom: 0;      
+    }
+    .wrapper--composicao-itens{
+      margin: 0 auto;
+    }
+    .paragraph--composicao-itens{
+      margin: .5em 0 5em;
+      font-size: .9em;
+      color: #aaa;
+      max-width: 400px;
+      text-align: center;
+      font-weight: 300;      
+    }
+    .paragraph--info-card-hotsite{
+      font-size: 3.5em;
+      font-weight: 900;
+      max-width: 80%;
+      line-height: 1;
+      margin-left: 1em;      
+    }
+    .paragraph--title-festa-casa{
+      font-size: 3em;
+      font-weight: bold;
+      margin: 0;
+      line-height: 1;
+      color: #333;
+    }
+    .paragraph--title-festa-casa-escuro{
+      font-size: 3em;
+      font-weight: bold;
+      margin: 0;
+      line-height: 1;
+      color: #fff;      
+    }
+    .paragraph--description-festa-casa{
+      color: #999;
+      margin: .5em 0 2em;
+      padding: 1em 0 0;
+      font-size: .9em;
+      line-height: 1.6;
+      max-width: 90%;
+    }
+    .paragraph--btn-festa-casa{
+      margin: 0;
+    }
+    .wrapper--price-festa-casa{
+      margin: 0 auto;
+    }
+    .paragraph--price-festa-casa{
+      color: #333;
+      margin-top: 0;
+      text-align: center;
+    }
+    .italic--price-festa-casa{
+      text-decoration: line-through;
+      color: #aaa;
+      font-style: normal;    
+      font-size: 1em;
+    }
+    .strong--price-festa-casa{
+      color: #63d6bb;
+      font-size: 1.2em;
+    }
+    .link--btn-festa-casa{
+      background: #63d6bb;
+      color: #fff;
+      text-decoration: none;
+      padding: 1em 2em;
+      border-radius: 5em;
+      display: block;      
+    }
+    .wrapper--title-composicao{
+      margin: 0 auto;
+    }
+    .paragraph--title-composicao{
+      font-size: .9em;
+      color: #d4d4d4;
+      text-transform: lowercase;      
+    }
+    .wrapper--content-products-atHome{
+      max-width: 110px;
+      font-size: .7em; 
+      background: #f0f0f0;
+      padding: .5em;
+      border-radius: 5px;     
+    }
+    .image--content-products-atHome{
+      margin-bottom: .5em;
+      max-width: 100px;
+    }
+    .paragraph--content-products-atHome{
+      margin-top:0;
+    }
+    .italic--content-products-atHome{
+      font-style: normal;
+    }
 }
