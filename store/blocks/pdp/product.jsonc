@@ -140,21 +140,22 @@
       },
       "flex-layout.col#productDesk-content-buyButton":{
         "children":[
-          "buy-button#productDesk-buyButton"    
+          //"buy-button#productDesk-buyButton"  
+          "add-to-cart-button"  
         ],
         "props":{
           "blockClass":"productDesk-content-col-buyBox",
           "width":"67%"
         }
       },
-      "buy-button#productDesk-buyButton":{
+      /*"buy-button#productDesk-buyButton":{
         "props": {
           "blockClass": "btn-productDetail",
           "isOneClickBuy": false,
           "showToast": true,
           "buyButtonText": "COMPRAR"
         }        
-      }, 
+      }, */
       "flex-layout.row#link-depto":{
         "children":[
           "breadcrumb#final-category"

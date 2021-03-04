@@ -5,10 +5,10 @@
 }
 
 @media screen and (min-width: 80em) {
-        .minicartWrapperContainer{margin:0 1em;}
+        .container{margin:0 1em;}
         .openIconContainer{height:50px;background: #61D6BB;padding: .40rem;min-width:10em;border-radius:40px;}
         .openIconContainer :global(.vtex-button):hover{background:transparent;}
-        .cartIcon{color:#fff;}
+        .cartIcon{color:#fff;margin-right: .5em;}
         .minicartIconContainer::after{content:"No seu Carrinho";padding-left:4px;font-size:.7rem;color:#fff;width:110px;font-weight: 400;position:absolute;top:-.4rem;}
         .minicartQuantityBadgeDefault{top:.3rem;right:inherit;left:2rem;font-weight: bold;background:none;}
         .minicartQuantityBadgeDefault::after{content:"iten(s)";font-size:.6rem;padding-left:2px;font-weight: normal}
@@ -27,6 +27,7 @@
                 text-transform: uppercase;   
                 margin-top:0;     
         } 
+        .minicartProductListContainer{min-height: 30em;}
         .minicartProductListContainer :global(.vtex-product-list-0-x-productBrandName){display: none;}       
         .minicartProductListContainer :global(.vtex-product-list-0-x-productName){font-size:.8em;}
         .minicartProductListContainer :global(.vtex-product-list-0-x-productVariationsItem){font-size:.8em;text-transform: lowercase;}

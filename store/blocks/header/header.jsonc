@@ -220,7 +220,7 @@
               // "image#header-whats-mobile",
               "login#mobile",
               "minicart.v2"
-              //"minicart#mobile"
+              // "minicart#mobile"
             ]
           },
           // menu
@@ -263,14 +263,14 @@
                   "alt":"Entre em contato com a Festabox através do número (11) 3312-6600",
                   "blockClass":"whats-mobile"
                 }
-              },
-              "minicart#mobile":{
+              }
+              /*"minicart#mobile":{
                 "blocks":[
                   "product-summary.shelf#minicart"
                 ],
                 "props":{
                   "blockClass": "minicart-mobile"
                 }
-              }                            
+              } */                           
                   
 }

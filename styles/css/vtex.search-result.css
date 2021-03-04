@@ -20,9 +20,9 @@
 
 @media screen and (min-width: 40em) {
     .galleryTitle--layout{
-        font-size: 1.8em;
+        font-size: 2.2em;
         text-align: center;
-        font-weight: 600;    
+        font-weight: 300;    
         background: inherit;
         padding: inherit;
         text-transform: uppercase;
