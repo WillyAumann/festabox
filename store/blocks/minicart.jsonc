@@ -1,7 +1,8 @@
 {
   "add-to-cart-button": {
     "props": {
-      "addToCartFeedback": "customEvent",
+      //"addToCartFeedback": "customEvent",
+      "customToastUrl": "/checkout/#/cart",
       "customPixelEventId": "add-to-cart-button",
       "text":"Comprar",
       "unavailableText": "Indisponível"
@@ -10,9 +11,10 @@
 
   "minicart.v2": {
     "props": {
-      "customPixelEventId": "add-to-cart-button",
+      //"customPixelEventId": "add-to-cart-button",
       "quantityDisplay": "always",
-      "backdropMode": "visible"
+      "backdropMode": "visible",
+      "variation":"drawer"
     },
     "children": ["minicart-base-content"]
   }
