@@ -236,12 +236,11 @@
 /////////////////////////                                      
 "responsive-layout.desktop#content":{
   "children":[
-    "__fold__",
+    "__fold__.desktop",
     "rich-text#shelf-title",
     "flex-layout.row#shelf",
     "rich-text#shelf-title2",
     "flex-layout.row#shelf2", 
-    "__fold__",
     "image#banner-middle-shelf",     
     "rich-text#shelf-title3",
     "flex-layout.row#shelf3",    
@@ -577,10 +576,10 @@
     "flex-layout.row#content-1-mobile",
     "flex-layout.row#title-shelf-1-mobile",
     "flex-layout.row#shelf-1-mobile",
-    "__fold__",
+    "__fold__.experimentalLazyAssets",
     "flex-layout.row#grid-banners-mobile-1",
     "flex-layout.row#grid-mobile--row-2",
-    "__fold__",
+    "__fold__.mobile",
     "flex-layout.row#grid-banners-mobile-3",        
     "flex-layout.row#title-shelf-2-mobile",
     "flex-layout.row#shelf-2-mobile",
