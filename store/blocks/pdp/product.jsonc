@@ -18,40 +18,6 @@
       "flex-layout.row#productDesk-content-description"
     ]
   },
-  /*
-  "rich-text#shelf-title-product": {
-    "props": {
-      "text": "## Outros itens desse tema",
-      "blockClass": "shelfTitle"
-    }
-  },    
-  "flex-layout.row#shelf-product": {
-    "children": ["list-context.product-list#product-shelf"],
-    "props":{"blockClass":"container-shelf"}
-  },
-  "list-context.product-list#product-shelf": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-productsss"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "installmentCriteria": "MAX_WITH_INTEREST",
-      "titleText":"Festa de Princesa"
-    }
-  },
-  "slider-layout#demo-productsss": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 3,
-        "phone": 3
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf",
-      "showPaginationDots":false
-    }
-  },   
-  */
   "flex-layout.row#product-main":{
     "props": {
       "colGap": 7,

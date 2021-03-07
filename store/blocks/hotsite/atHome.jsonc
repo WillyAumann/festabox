@@ -130,68 +130,34 @@
               "slider-layout#itens-happyHour"
           ]
       },
-      "slider-layout#itens-happyHour": {
-        "props": {
-          "itemsPerPage": {
-            "desktop": 4,
-            "tablet": 1,
-            "phone": 1
-          },
-          "infinite": false,
-          "showNavigationArrows": "desktopOnly",
-          "showPaginationDots": "never",
-          "blockClass": "carousel-itens"
-        },
-        "children": ["rich-text#product-happyHour01", "rich-text#product-happyHour02","rich-text#product-happyHour03","rich-text#product-happyHour04","rich-text#product-happyHour05","rich-text#product-happyHour06","rich-text#product-happyHour07","rich-text#product-happyHour08"]
-      },   
-      "rich-text#product-happyHour01": {
-        "props": {
-          "text": "![Balão](https://festabox.vteximg.com.br/arquivos/ids/177786-292-292/Balao-Bouquet-Masculino-Estrela.jpg?v=637289702526370000) \n Balão Bouquet Presentinho Azul e Preto \n\n *Qtd:* **03**",
-          "blockClass": "content-products-atHome"
-        }
+      /********** */
+  "flex-layout.row#shelf-happyHour": {
+    "children": ["list-context.product-list#happyHour"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#happyHour": {
+    "blocks": ["product-summary.shelf#emCasa"],
+    "children": ["slider-layout#happyHour-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Festa de Princesa"
+    }
+  },
+  "slider-layout#happyHour-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
       },
-      "rich-text#product-happyHour02": {
-        "props": {
-          "text": "![Balão](https://festabox.vteximg.com.br/arquivos/ids/177786-292-292/Balao-Bouquet-Masculino-Estrela.jpg?v=637289702526370000) \n Balão Bouquet Presentinho Azul e Preto \n\n *Qtd:* **03**",
-          "blockClass": "content-products-atHome"
-        }
-      },      
-      "rich-text#product-happyHour03": {
-        "props": {
-          "text": "![Balão](https://festabox.vteximg.com.br/arquivos/ids/177786-292-292/Balao-Bouquet-Masculino-Estrela.jpg?v=637289702526370000) \n Balão Bouquet Presentinho Azul e Preto \n\n *Qtd:* **03**",
-          "blockClass": "content-products-atHome"
-        }
-      },      
-      "rich-text#product-happyHour04": {
-        "props": {
-          "text": "![Balão](https://festabox.vteximg.com.br/arquivos/ids/177786-292-292/Balao-Bouquet-Masculino-Estrela.jpg?v=637289702526370000) \n Balão Bouquet Presentinho Azul e Preto \n\n *Qtd:* **03**",
-          "blockClass": "content-products-atHome"
-        }
-      },      
-      "rich-text#product-happyHour05": {
-        "props": {
-          "text": "![Balão](https://festabox.vteximg.com.br/arquivos/ids/177786-292-292/Balao-Bouquet-Masculino-Estrela.jpg?v=637289702526370000) \n Balão Bouquet Presentinho Azul e Preto \n\n *Qtd:* **03**",
-          "blockClass": "content-products-atHome"
-        }
-      },      
-      "rich-text#product-happyHour06": {
-        "props": {
-          "text": "![Balão](https://festabox.vteximg.com.br/arquivos/ids/177786-292-292/Balao-Bouquet-Masculino-Estrela.jpg?v=637289702526370000) \n Balão Bouquet Presentinho Azul e Preto \n\n *Qtd:* **03**",
-          "blockClass": "content-products-atHome"
-        }
-      },    
-      "rich-text#product-happyHour07": {
-        "props": {
-          "text": "![Balão](https://festabox.vteximg.com.br/arquivos/ids/177786-292-292/Balao-Bouquet-Masculino-Estrela.jpg?v=637289702526370000) \n Balão Bouquet Presentinho Azul e Preto \n\n *Qtd:* **03**",
-          "blockClass": "content-products-atHome"
-        }
-      },    
-      "rich-text#product-happyHour08": {
-        "props": {
-          "text": "![Balão](https://festabox.vteximg.com.br/arquivos/ids/177786-292-292/Balao-Bouquet-Masculino-Estrela.jpg?v=637289702526370000) \n Balão Bouquet Presentinho Azul e Preto \n\n *Qtd:* **03**",
-          "blockClass": "content-products-atHome"
-        }
-      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":false
+    }
+  },       
+     /* **********/  
       // FESTA 02
       "flex-layout.row#row-aniversario":{
         "children":[

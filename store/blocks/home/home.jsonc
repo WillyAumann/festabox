@@ -53,6 +53,7 @@
       //"carousel#carousel-main"
       "slider-layout#banner-dft",
       "flex-layout.row#grid-banners1",
+      "__fold__.experimentalLazyAssets",
       "flex-layout.row#grid-banners2"
     ],
     "props":{
@@ -235,7 +236,7 @@
 /////////////////////////                                      
 "responsive-layout.desktop#content":{
   "children":[
-    "__fold__.experimentalLazyAssets",
+    "__fold__",
     "rich-text#shelf-title",
     "flex-layout.row#shelf",
     "rich-text#shelf-title2",
@@ -576,7 +577,7 @@
     "flex-layout.row#content-1-mobile",
     "flex-layout.row#title-shelf-1-mobile",
     "flex-layout.row#shelf-1-mobile",
-    "__fold__.experimentalLazyAssets",
+    "__fold__",
     "flex-layout.row#grid-banners-mobile-1",
     "flex-layout.row#grid-mobile--row-2",
     "__fold__",
@@ -620,7 +621,7 @@
       },
       "image#banner-full-mobile0":{
         "props":{
-          "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/3201f314-5311-40e3-9617-e90fbc2eb0d3___53d31cdd9a620f268c59a94efcb77707.jpg",
+          "src":"",
           "alt":"Festa Infantil Bolofofos | Festabox",
           "link":"/festa-infantil/baby/bolofofos",
           "blockClass":"img-full-banner-mobile"
@@ -628,7 +629,7 @@
       },      
       "image#banner-full-mobile1":{
         "props":{
-          "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/e1df108f-226f-4039-b5e9-826dff8a4902___2ee5bf8a1031767fb2a949ae8139bb64.png",
+          "src":"",
           "alt":"Bexigas e Balões para Festa Infantil | Festabox",
           "link":"/bexigas-e-baloes",
           "blockClass":"img-full-banner-mobile"
@@ -636,7 +637,7 @@
       },
       "image#banner-full-mobile2":{
         "props":{
-          "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/c0e9658d-4f01-4f55-bce3-1412dcaea543___d35506aa79c9c9968984f4ce385732e1.jpg",
+          "src":"",
           "alt":"Festa Infantil Now United | Festabox",
           "link":"/festas-tematicas/now-united",
           "blockClass":"img-full-banner-mobile"
@@ -681,7 +682,7 @@
       },
           "image#icon-menu-categoria-1":{
             "props":{
-              "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/44155511-103e-4681-962d-dc334ecbc973___81c40e2b82cd9caa60aa48f1d9dcf97e.png",
+              "src": "",
               "alt": "Bexigas e Balões",
               "blockClass":"img-menu-categoria",
               "link":"/bexigas-e-baloes"
@@ -705,7 +706,7 @@
       },
           "image#icon-menu-categoria-2":{
             "props":{
-              "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/0c9cc445-fe40-4748-9285-a9ed45ea7d6a___ebfa9b30bf2f13798327a804b410218e.png",
+              "src": "",
               "alt": "Decoração de Festa",
               "link":"/decoracao-de-festa",
               "blockClass":"img-menu-categoria"
@@ -729,7 +730,7 @@
       },    
           "image#icon-menu-categoria-3":{
             "props":{
-              "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/c0508101-4136-45fa-961d-0ac1e90f1b3c___ac629d25fa19c6c227a73ee8a88d2cce.png",
+              "src": "",
               "alt": "Festa de Menino",
               "link":"/festa-meninos",
               "blockClass":"img-menu-categoria"
@@ -753,7 +754,7 @@
       },     
           "image#icon-menu-categoria-4":{
             "props":{
-              "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/a87fae00-6d88-4120-9445-c96e24f855cd___42255c853bd56e4e6692d5539d64e51a.png",
+              "src": "",
               "alt": "Festa de Menina",
               "link":"/festa-meninas",
               "blockClass":"img-menu-categoria"
@@ -777,7 +778,7 @@
       },
           "image#icon-menu-categoria-5":{
             "props":{
-              "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/8190c078-7987-4c34-81bc-99acde8f6be3___6de1c7b66c203b1ca334de4414bc39a8.png",
+              "src": "",
               "alt": "Festas Temáticas",
               "link":"/festas-tematicas",
               "blockClass":"img-menu-categoria"
@@ -876,7 +877,7 @@
       },
           "image#banner-grid-mobile-1":{
             "props":{
-              "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/5c23e8bb-2bf2-4448-8e45-c82104ea48c3___dd53411a78a459dc356464f6cfe1f594.jpg",
+              "src": "",
               "alt":"Festa Meninas | Festabox",
               "link":"/festa-meninas"
             }
@@ -889,7 +890,7 @@
       },
           "image#banner-grid-mobile-2":{
             "props":{
-              "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/e1f7523d-bee9-4927-b5ae-4c71deae6fbd___30942fc05d702a663137e7083b736dc0.jpg",
+              "src":"",
               "alt":"Festa Meninos | Festabox",
               "link":"/festa-meninos"
             }
@@ -912,7 +913,7 @@
       },
           "image#grid-mobile--img-3":{
             "props":{
-              "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/32190802-e65a-4068-b427-3e0a237888db___ac01ca75ce9b12465c1d45dda4659fe1.jpg",
+              "src":"",
               "alt": "Bexigas e Balões | Festabox",
               "link":"/bexigas-e-baloes"
             }
@@ -925,7 +926,7 @@
       },
           "image#grid-mobile--img-4":{
             "props":{
-              "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/7f621b38-83f0-460a-a418-0db3ad44b1fe___0c2568b3dc476e2ff0f9121d393946fa.jpg",
+              "src":"",
               "alt":"Festa Infantil de Sereia | Festabox",
               "link":"/festa-meninas/sereia"
             }
@@ -949,14 +950,14 @@
       },
           "image#banner-grid-mobile-4":{
             "props":{
-              "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/77220178-2ff3-485f-9f46-c1d21e88c5e3___a857b09c2335c20ee80b2c682bdb8756.jpg",
+              "src":"",
               "alt":"Festa Infantil Dinossauro | Festabox",
               "link":"/festa-meninos/jurassic-park-world"
             }
           },   
           "image#banner-grid-mobile-5":{
             "props":{
-              "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/f64c50b0-9a61-4e2c-a7cd-155de7f53257___fd2e11fcd9cd9ec4184c2b2cdf904d9d.jpg",
+              "src":"",
               "alt":"Festa Infantil Maria Clara & JP | Festabox",
               "link":"/festa-infantil/unissex/maria-clara-e-jp"
             }
@@ -969,7 +970,7 @@
       },
           "image#banner-grid-mobile-6":{
             "props":{
-              "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/42c12fd7-331b-48c1-b9c6-0bd7b52270d4___a67d594cc45d01962b3882f8bcdbfa02.jpg",
+              "src":"",
               "alt":"Artigos para Festa Infantil | Festabox",
               "link":"/lembrancinhas-infantis"
             }
@@ -1047,7 +1048,7 @@
   // Grid Banners Middle
   "image#grid-banners-middle":{
     "props":{
-      "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/ae817bc1-77b7-4f51-9967-822e0d8dcc61___463d0a0cb785109b691a60539f7fc9d9.png",
+      "src":"",
       "alt":"Temas Disney"
     }
   },   
