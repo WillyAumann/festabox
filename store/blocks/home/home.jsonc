@@ -236,7 +236,7 @@
 /////////////////////////                                      
 "responsive-layout.desktop#content":{
   "children":[
-    "__fold__.desktop",
+    "__fold__",
     "rich-text#shelf-title",
     "flex-layout.row#shelf",
     "rich-text#shelf-title2",
@@ -579,7 +579,7 @@
     "__fold__.experimentalLazyAssets",
     "flex-layout.row#grid-banners-mobile-1",
     "flex-layout.row#grid-mobile--row-2",
-    "__fold__.mobile",
+    "__fold__",
     "flex-layout.row#grid-banners-mobile-3",        
     "flex-layout.row#title-shelf-2-mobile",
     "flex-layout.row#shelf-2-mobile",
