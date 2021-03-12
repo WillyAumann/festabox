@@ -337,11 +337,11 @@
       "blockClass": "productDesk-row-buyButton"
     },
     "children": [
-      "buy-button#btn-productDetail",
+      "add-to-cart-button",
       "flex-layout.row#link-depto"
     ]    
   },
-      "buy-button#btn-productDetail": {
+/*      "buy-button#btn-productDetail": {
         "props": {
           "blockClass": "btn-productDetail",
           "isOneClickBuy": false,
@@ -349,6 +349,7 @@
           "buyButtonText": "COMPRAR"
         }
       },
+      */
   "flex-layout.row#descriptions":{
     "children":[
       "tab-layout#tabLayout-descriptionRating"
