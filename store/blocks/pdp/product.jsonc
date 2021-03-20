@@ -12,7 +12,8 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "shelf.relatedProducts",
+      "rich-text#shelf-related-title",
+      "flex-layout.row#shelf-related",
       //"rich-text#shelf-title-product",
       //"flex-layout.row#shelf-product",
       "flex-layout.row#productDesk-content-description"
@@ -151,6 +152,41 @@
           "width":"67%"
         }
       },
+      // Vitrine relacionados
+      "rich-text#shelf-related-title": {
+        "props": {
+          "text": "## Complemente sua Festa",
+          "blockClass": "shelfTitle-related"
+        }
+      },  
+      "flex-layout.row#shelf-related": {
+        "children": ["list-context.product-list#shelf-related"],
+        "props":{"blockClass":"container-shelf-related"}
+      },
+      "list-context.product-list#shelf-related": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#shelf-related-products"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "installmentCriteria": "MAX_WITH_INTEREST",
+          "titleText":"Festa de Princesa"
+        }
+      },
+      "slider-layout#shelf-related-products": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 6,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf",
+          "showPaginationDots":false
+        }
+      }, 
+
+      // Vitrine relacionados
       /*"buy-button#productDesk-buyButton":{
         "props": {
           "blockClass": "btn-productDetail",
@@ -253,6 +289,8 @@
       "flex-layout.row#sku-selector",
       "flex-layout.row#qtd",
       "flex-layout.row#buy-button",
+      "rich-text#shelf-related-title",
+      "flex-layout.row#shelf-related",      
       "flex-layout.row#descriptions"
     ]
   },

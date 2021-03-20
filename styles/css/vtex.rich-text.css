@@ -30,16 +30,38 @@
   padding-top:1em;
 }
 
+.container--shelfTitle-related{
+  color: #404040;
+  justify-content: center;
+  text-align: center;
+  background: #fff;
+  padding-top:1em;  
+}
+
 .container--title-default{
   color: #404040;
   justify-content: center;
   text-align: center;  
 }
 
-.headingLevel2--shelfTitle{
+.headingLevel2--shelfTitle,
+.headingLevel2--shelfTitle-related{
   font-size: 1.3em;
   margin-top:1em;
   font-weight: bold;
+  position: relative;
+}
+
+.headingLevel2--shelfTitle-related::before{
+  position: absolute;
+  top: -2em;
+  content: "";
+  width: 150px;
+  height: 8px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  margin-left: -75px;
+  left: 50%;
 }
 
 .paragraph--title-default{
