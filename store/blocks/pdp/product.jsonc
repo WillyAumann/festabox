@@ -145,7 +145,7 @@
       "flex-layout.col#productDesk-content-buyButton":{
         "children":[
           //"buy-button#productDesk-buyButton"  
-          "add-to-cart-button"  
+          "add-to-cart-button#product"  
         ],
         "props":{
           "blockClass":"productDesk-content-col-buyBox",
@@ -375,7 +375,7 @@
       "blockClass": "productDesk-row-buyButton"
     },
     "children": [
-      "add-to-cart-button",
+      "add-to-cart-button#product",
       "flex-layout.row#link-depto"
     ]    
   },

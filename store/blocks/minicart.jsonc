@@ -9,6 +9,15 @@
       "unavailableText": "Indisponível"
     }
   },
+  "add-to-cart-button#product": {
+    "props": {
+      //"addToCartFeedback": "customEvent",
+      "customToastUrl": "/checkout/#/cart",
+      "customPixelEventId": "add-to-cart-button",
+      "text":"Comprar",
+      "unavailableText": "Indisponível"
+    }
+  },
 
   "minicart.v2": {
     "props": {
