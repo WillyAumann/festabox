@@ -4,6 +4,7 @@
       //"addToCartFeedback": "customEvent",
       "customToastUrl": "/checkout/#/cart",
       "customPixelEventId": "add-to-cart-button",
+      "onClickBehavior": "ensure-sku-selection",
       "text":"Comprar",
       "unavailableText": "Indisponível"
     }
