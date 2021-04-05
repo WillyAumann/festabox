@@ -11,7 +11,7 @@
       "querySchema": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 8,
+        "maxItemsPerPage": 30,
         "queryField": "Festa Meninas",
         "mapField": "ft"
       }
