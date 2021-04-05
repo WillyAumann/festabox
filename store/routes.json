@@ -1,4 +1,10 @@
 {
+  "store.custom#hotsite-meninos": {
+    "path": "/festa-meninos"
+  },
+  "store.custom#hotsite-meninas": {
+    "path": "/festa-meninas"
+  },  
   "store.custom#hotsite-ballons": {
     "path": "/bexigas-e-baloes"
   },  
