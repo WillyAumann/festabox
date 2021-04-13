@@ -53,3 +53,15 @@
 .sidebarScrim{
         background: #03044e;
 }
+
+.minicartCheckoutButton :global(.vtex-button__label){
+        color: transparent;
+        font-size: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::after{
+        content: "Ir para o carrinho";
+        color: #fff;
+        font-size: 1rem;
+        display: flex;
+}
