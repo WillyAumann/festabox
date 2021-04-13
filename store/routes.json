@@ -10,10 +10,7 @@
   },  
   "store.custom#hotsite-artigos": {
     "path": "/artigos-para-festa"
-  },    
-  "store.custom#hotsite-atHome": {
-    "path": "/festa-em-casa"
-  },    
+  },       
   "store.custom#sobre-festabox": {
     "path": "/sobre-festabox"
   },
