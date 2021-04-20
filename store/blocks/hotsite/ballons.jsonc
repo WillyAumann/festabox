@@ -10,7 +10,7 @@
             "orderByField": "OrderByReleaseDateDESC",
             "hideUnavailableItems": true,
             "maxItemsPerPage": 8,
-            "queryField": "Bexigas e Balões",
+            "queryField": "Bexigas e Balões, bexigas-e-baloes",
             "mapField": "ft"
           }
         },

@@ -12,7 +12,7 @@
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
-        "queryField": "Festa Meninas",
+        "queryField": "Festa Meninas, festa-meninas",
         "mapField": "ft"
       }
     },
