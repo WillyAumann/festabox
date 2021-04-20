@@ -11,8 +11,8 @@
       "querySchema": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 40,
-        "queryField": "Festa Meninos",
+        "maxItemsPerPage": 8,
+        "queryField": "Festa Meninos, festa-meninos",
         "mapField": "ft"
       }
     },
