@@ -10,7 +10,7 @@
             "orderByField": "OrderByReleaseDateDESC",
             "hideUnavailableItems": true,
             "maxItemsPerPage": 8,
-            "queryField": "Artigos para Festa, artigos-para-festa",
+            "queryField": "Artigos para Festa",
             "mapField": "ft"
           }
         },

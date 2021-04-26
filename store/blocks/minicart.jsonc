@@ -24,7 +24,8 @@
       //"customPixelEventId": "add-to-cart-button",
       "quantityDisplay": "always",
       "backdropMode": "visible",
-      "variation":"drawer"
+      "variation":"drawer",
+      "customPixelEventName": "add-to-cart"
     },
     "children": ["minicart-base-content"]
   },
