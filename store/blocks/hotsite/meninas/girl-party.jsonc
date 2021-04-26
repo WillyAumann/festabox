@@ -1,29 +1,12 @@
 {
     "store.custom#hotsite-meninas": {
       "blocks": [
-        "search-result-layout.customQuery#meninas"
+        "responsive-layout.desktop#hotsite-meninas",
+        "responsive-layout.mobile#hotsite-meninas"
       ]
     },
-//
-//
-"search-result-layout.customQuery#meninas": {
-    "props": {
-      "querySchema": {
-        "orderByField": "OrderByReleaseDateDESC",
-        "hideUnavailableItems": true,
-        "maxItemsPerPage": 8,
-        "queryField": "Festa Meninas, festa-meninas",
-        "mapField": "ft"
-      }
-    },
-    "blocks": [
-        "search-result-layout.desktop#hotsite-meninas",
-        "search-result-layout.mobile#hotsite-meninas"
-    ]
-  },
-//
 //    
-    "search-result-layout.desktop#hotsite-meninas":{
+    "responsive-layout.desktop#hotsite-meninas":{
         "children":[
             "flex-layout.row#hotsite-meninas-bannerFull",
             "flex-layout.row#hotsite-meninas-highlights",
@@ -113,7 +96,7 @@
     //
     // RESPONSIVE MOBILE E TABLET
     //
-    "search-result-layout.mobile#hotsite-meninas":{
+    "responsive-layout.mobile#hotsite-meninas":{
         "children":[
             "flex-layout.row#hotsite-meninas-bannerFull",
             "flex-layout.row#highlights-mobile-hotsite-meninas",
