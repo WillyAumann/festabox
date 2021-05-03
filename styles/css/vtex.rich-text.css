@@ -85,6 +85,35 @@
   vertical-align: top;  
 }
 
+.container--title-disney{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.paragraph--title-disney{
+  font-size: 1.8em;
+  font-weight: 300;
+  color: #d52082;
+  text-transform: uppercase;  
+  margin-bottom: 0;
+}
+
+.container--subtitle-disney{
+  display: block;
+  margin: 0 auto;
+  max-width: 550px;
+  text-align: center;
+}
+
+.paragraph--subtitle-disney{
+  font-size: 1em;
+  font-weight: 300;
+  color: #333;
+  text-transform: lowercase;    
+}
+
 .container--deals .paragraph {
   margin: 0;
 }
