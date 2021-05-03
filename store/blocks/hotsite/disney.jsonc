@@ -1,0 +1,162 @@
+{
+    "store.custom#disney": {
+      "children": [
+        "flex-layout.row#row-2-disney",
+        "flex-layout.row#row-4-disney",
+        "flex-layout.row#row-6-disney",
+        "flex-layout.row#row-8-disney",
+        "flex-layout.row#row-10-disney"
+      ]
+    },
+    "flex-layout.row#row-2-disney":{
+        "children":[
+            "flex-layout.col#col-1-disney",
+            "flex-layout.col#col-2-disney"
+        ]
+    },
+    "flex-layout.row#row-4-disney":{
+        "children":[
+            "flex-layout.col#col-3-disney",
+            "flex-layout.col#col-4-disney"
+        ]
+    },
+    "flex-layout.row#row-6-disney":{
+        "children":[
+            "flex-layout.col#col-5-disney",
+            "flex-layout.col#col-6-disney"
+        ]
+    },        
+    "flex-layout.row#row-8-disney":{
+        "children":[
+            "flex-layout.col#col-7-disney",
+            "flex-layout.col#col-8-disney"
+        ]
+    },    
+    "flex-layout.row#row-10-disney":{
+        "children":[
+            "flex-layout.col#col-9-disney",
+            "flex-layout.col#col-10-disney"
+        ]
+    },    
+    "flex-layout.col#col-1-disney":{
+        "children":[
+            "image#disney1"
+        ]
+    },
+    "flex-layout.col#col-2-disney":{
+        "children":[
+            "image#disney2"
+        ]
+    },    
+    "flex-layout.col#col-3-disney":{
+        "children":[
+            "image#disney3"
+        ]
+    },    
+    "flex-layout.col#col-4-disney":{
+        "children":[
+            "image#disney4"
+        ]
+    },    
+    "flex-layout.col#col-5-disney":{
+        "children":[
+            "image#disney5"
+        ]
+    },    
+    "flex-layout.col#col-6-disney":{
+        "children":[
+            "image#disney6"
+        ]
+    },    
+    "flex-layout.col#col-7-disney":{
+        "children":[
+            "image#disney7"
+        ]
+    },    
+    "flex-layout.col#col-8-disney":{
+        "children":[
+            "image#disney8"
+        ]
+    },    
+    "flex-layout.col#col-9-disney":{
+        "children":[
+            "image#disney9"
+        ]
+    },    
+    "flex-layout.col#col-10-disney":{
+        "children":[
+            "image#disney10"
+        ]
+    },
+    "image#disney1":{
+        "props":{
+            "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bce2214c-934e-4ccf-bcee-def025cead79___f6ebc66d1bf238cbf7c3a4420ad78a5f.jpg",
+            "alt":"Tema Disney Vampirina | Festabox",
+            "blockClass":""
+        }
+    },
+    "image#disney2":{
+        "props":{
+            "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bce2214c-934e-4ccf-bcee-def025cead79___f6ebc66d1bf238cbf7c3a4420ad78a5f.jpg",
+            "alt":"Tema Disney Vampirina | Festabox",
+            "blockClass":""
+        }
+    },
+    "image#disney3":{
+        "props":{
+            "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bce2214c-934e-4ccf-bcee-def025cead79___f6ebc66d1bf238cbf7c3a4420ad78a5f.jpg",
+            "alt":"Tema Disney Vampirina | Festabox",
+            "blockClass":""
+        }
+    },
+    "image#disney4":{
+        "props":{
+            "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bce2214c-934e-4ccf-bcee-def025cead79___f6ebc66d1bf238cbf7c3a4420ad78a5f.jpg",
+            "alt":"Tema Disney Vampirina | Festabox",
+            "blockClass":""
+        }
+    },
+    "image#disney5":{
+        "props":{
+            "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bce2214c-934e-4ccf-bcee-def025cead79___f6ebc66d1bf238cbf7c3a4420ad78a5f.jpg",
+            "alt":"Tema Disney Vampirina | Festabox",
+            "blockClass":""
+        }
+    },
+    "image#disney6":{
+        "props":{
+            "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bce2214c-934e-4ccf-bcee-def025cead79___f6ebc66d1bf238cbf7c3a4420ad78a5f.jpg",
+            "alt":"Tema Disney Vampirina | Festabox",
+            "blockClass":""
+        }
+    },
+    "image#disney7":{
+        "props":{
+            "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bce2214c-934e-4ccf-bcee-def025cead79___f6ebc66d1bf238cbf7c3a4420ad78a5f.jpg",
+            "alt":"Tema Disney Vampirina | Festabox",
+            "blockClass":""
+        }
+    },
+    "image#disney8":{
+        "props":{
+            "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bce2214c-934e-4ccf-bcee-def025cead79___f6ebc66d1bf238cbf7c3a4420ad78a5f.jpg",
+            "alt":"Tema Disney Vampirina | Festabox",
+            "blockClass":""
+        }
+    },
+    "image#disney9":{
+        "props":{
+            "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bce2214c-934e-4ccf-bcee-def025cead79___f6ebc66d1bf238cbf7c3a4420ad78a5f.jpg",
+            "alt":"Tema Disney Vampirina | Festabox",
+            "blockClass":""
+        }
+    },
+    "image#disney10":{
+        "props":{
+            "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bce2214c-934e-4ccf-bcee-def025cead79___f6ebc66d1bf238cbf7c3a4420ad78a5f.jpg",
+            "alt":"Tema Disney Vampirina | Festabox",
+            "blockClass":""
+        }
+    }                                                    
+
+}

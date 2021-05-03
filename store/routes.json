@@ -25,5 +25,8 @@
   },
   "store.custom#duvidas": {
     "path": "/duvidas"
-  }
+  },
+  "store.custom#disney": {
+    "path": "/disney"
+  }  
 }
