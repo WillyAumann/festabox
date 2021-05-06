@@ -21,11 +21,12 @@
 
   "minicart.v2": {
     "props": {
-      //"customPixelEventId": "add-to-cart-button",
+      "customPixelEventId": "add-to-cart-button",
       "quantityDisplay": "always",
       "backdropMode": "visible",
       "variation":"drawer",
-      "customPixelEventName": "add-to-cart"
+      "customPixelEventName": "add-to-cart-button",
+      "itemCountMode": "total"
     },
     "children": ["minicart-base-content"]
   },
