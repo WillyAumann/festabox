@@ -19,8 +19,8 @@
     "children": [
       "op-confirmation-icon",
       "op-confirmation-title",
-      "op-confirmation-message",
-      "flex-layout.row#confirmation-buttons"
+      "op-confirmation-message"
+      //"flex-layout.row#confirmation-buttons"
     ]
   },
   "flex-layout.row#confirmation-buttons": {
@@ -35,13 +35,16 @@
     "children": ["flex-layout.col#confirmation-buttons"]
   },
   "flex-layout.col#confirmation-buttons": {
-    "children": ["op-print-button"]
+    "children": [
+      "op-print-button"
+    ]
   },
   "op-section#notices": {
     "props": {
       "name": "notices",
-      "marginBottom": 9,
-      "borderless": true
+      "marginBottom": 3,
+      "borderless": false,
+      "blockClass": "op-noticesClass"
     },
     "children": ["op-notices"]
   },

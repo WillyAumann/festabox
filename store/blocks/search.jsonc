@@ -69,7 +69,7 @@
     ],
     "props": {
       "pagination": "show-more",
-      "preventRouteChange": false,
+      "preventRouteChange": false, 
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"

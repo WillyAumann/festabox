@@ -1,0 +1,15 @@
+.cancelOrderButton,
+.bankInvoiceEmbedWrapper,
+.printHintWrapper,
+.updateOrderButton{display:none;}
+.noticesList{
+    display:flex;
+    flex-direction: column-reverse;    
+}
+.noticeListItem{padding: .5em 0; font-size:.8em;border:0;}
+.noticeListItem:last-child{font-size:0;}
+.noticeListItem :global(.vtex-button){font-size:15px;font-weight: bold;}
+.section--bank-invoice{text-align:center;}
+.printButtonWrapper{display:none;}
+.barCodeWrapper{width:100%;}
+.barCodeNumber{width: 100%;font-weight: bold;letter-spacing: 3;font-size:1em;}
