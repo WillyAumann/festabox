@@ -71,7 +71,7 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     },
-    "children": ["image#banner-dft-1", "image#banner-dft-2"]
+    "children": ["image#banner-dft-1", "image#banner-dft-2", "image#banner-dft-3", "image#banner-dft-4"]
   },   
           "image#banner-dft-1": {
             "props": {
@@ -86,6 +86,20 @@
               "link":"/bexigas-e-baloes"
             }
           },    
+          "image#banner-dft-3": {
+            "props": {
+              "src": "",
+              "alt": "",
+              "link":""
+            }
+          },          
+          "image#banner-dft-4": {
+            "props": {
+              "src": "",
+              "alt": "",
+              "link":""
+            }
+          },                      
 // Grid banners
           "flex-layout.row#grid-banners1":{
             "props":{
@@ -616,7 +630,7 @@
           "showPaginationDots":"always",
           "blockClass": "banner-full-mobile"
         },
-        "children": ["image#banner-full-mobile0","image#banner-full-mobile1", "image#banner-full-mobile2"]
+        "children": ["image#banner-full-mobile0","image#banner-full-mobile1", "image#banner-full-mobile2", "image#banner-full-mobile3"]
       },
       "image#banner-full-mobile0":{
         "props":{
@@ -641,7 +655,15 @@
           "link":"/festas-tematicas/now-united",
           "blockClass":"img-full-banner-mobile"
         }
-      },    
+      },   
+      "image#banner-full-mobile3":{
+        "props":{
+          "src":"",
+          "alt":"",
+          "link":"",
+          "blockClass":"img-full-banner-mobile"
+        }
+      },       
   // Menu Categorias
       "rich-text#menu-categorias-mobile":{
         "props":{
