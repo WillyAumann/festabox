@@ -9,6 +9,11 @@
     padding-top:.7em;
 }
 
+.quantitySelectorStepper{
+    border: 1px solid #63d6bb;
+    border-radius: 1em;    
+}
+
 .quantitySelectorStepper--content-qtd{
     width:30%;
     display: inline-flex;
@@ -18,16 +23,24 @@
     border-radius: 100% !important;
     width: 32px !important;
     margin-left: .4em;
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
     line-height: 1;    
+    background: #63d6bb;
+    color: #fff;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;    
 }
 
 .quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button){ 
     border-radius: 100% !important;
     width: 32px !important;
     margin-right: .4em;
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
     line-height: 1;    
+    background: #63d6bb;
+    color: #fff;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;    
 }
 
 .quantitySelectorStepper :global(.vtex-numeric-stepper__input){
@@ -35,7 +48,7 @@
 }
 
 .quantitySelectorStepper :global(.vtex-numeric-stepper__input){
-    width:3em;
+    width:3.3em;
 }
 
 @media screen and (min-width: 80em) {

@@ -351,6 +351,9 @@
   .flexRowContent--mainInfos{padding: 2rem;}
   .flexColChild--productDesk-content-col-buyBox :global(.vtex-button){
     border-radius: 3em;
+    padding: 11px;
+    font-size: 1.1em;
+    font-weight: bold;    
   }
   .flexCol--filterCol{
     margin-left: 2em;
