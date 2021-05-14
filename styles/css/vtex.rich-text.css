@@ -54,7 +54,7 @@
 
 .headingLevel2--shelfTitle-related::before{
   position: absolute;
-  top: -2em;
+  top: -1em;
   content: "";
   width: 150px;
   height: 8px;

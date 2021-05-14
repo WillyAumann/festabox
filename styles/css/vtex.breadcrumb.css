@@ -19,4 +19,5 @@
         padding-left: 0;
     }
     .container--breadcrumb-link{margin-top:1em;}
+    .link--breadcrumb-link--2{color: #f71a63;}
 }

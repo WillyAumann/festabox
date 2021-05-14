@@ -48,10 +48,13 @@
 }
 
 .quantitySelectorStepper :global(.vtex-numeric-stepper__input){
-    width:3.3em;
+    width:100% !important;
 }
 
 @media screen and (min-width: 80em) {
+    .quantitySelectorStepper :global(.vtex-numeric-stepper__input){
+        width:3.3em;
+    }    
     .quantitySelectorTitle{
         width: 100%;
         padding-top:0;
@@ -78,23 +81,17 @@
 }
 
 .quantitySelectorStepper--summary :global(.vtex-numeric-stepper__minus-button){
-    border-radius: 100%!important;
     width: 25px!important;
     margin-right: .4em;
     border: 1px solid #ccc;
     line-height: 1;
-    height: 25px;
-    margin-top: .3em;
 }
 
 .quantitySelectorStepper--summary :global(.vtex-numeric-stepper__plus-button){
-    border-radius: 100%!important;
     width: 25px!important;
-    margin-right: .4em;
+    margin-right: 0;
     border: 1px solid #ccc;
     line-height: 1;
-    height: 25px;
-    margin-top: .3em;    
 }
 
 .quantitySelectorStepper--summary :global(.vtex-numeric-stepper__input){
@@ -107,16 +104,17 @@
 
 @media screen and (max-width: 80em) {
     .summaryContainer--summary{ width: 100%;}
-    .quantitySelectorContainer--summary{display: flex;flex-direction: inherit;margin-bottom: .3em;}
+    .quantitySelectorContainer--summary{display: block;flex-direction: inherit;margin-bottom: .3em;width:150px;}
     .quantitySelectorContainer--summary :global(.vtex-numeric-stepper__input){background: inherit}
     .quantitySelectorTitle--summary{
+        display:none;
         color: #aaa;
         font-weight: 500;
         font-size: .6em;
         text-transform: uppercase;
         width: 40%;
         text-align: center;
-        display: flex;
+        /* display: flex; */
         max-width: 75px;
         padding-top: 1em;
         line-height: 1.8;
@@ -124,8 +122,13 @@
     }
     .quantitySelectorStepper--summary{
         display: flex;
-        width: 53%;
+        /*width: 53%;
         max-width: 100px;
         margin-left: .5em;        
+        */
+        margin: 0 .3em;
+    }
+    .quantitySelectorStepper--summary :global(.vtex-numeric-stepper-wrapper){
+        width: 100%;
     }
 }

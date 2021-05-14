@@ -245,6 +245,13 @@
 }
 .flexRow--feedInstagram{margin-bottom: 3em;}
 .flexRow--text-artigos{background: #f2f4dd;}
+@media screen and (max-width: 80em) {
+  .flexRowContent--productDesk-row-buyButton :global(.vtex-button){
+    border-radius: 3em;
+    padding: 10px;
+    font-size: 1.3em;
+  }
+}
 @media screen and (min-width: 40em) {
   .flexCol--col-hotsite-highlight-content{
     margin: 0;
