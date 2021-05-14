@@ -23,10 +23,9 @@
     border-radius: 100% !important;
     width: 32px !important;
     margin-left: .4em;
-    border: 1px solid #fff;
     line-height: 1;    
-    background: #63d6bb;
-    color: #fff;
+    background: #cff1e9;
+    color: #43ab93;
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;    
 }
@@ -35,10 +34,9 @@
     border-radius: 100% !important;
     width: 32px !important;
     margin-right: .4em;
-    border: 1px solid #fff;
     line-height: 1;    
-    background: #63d6bb;
-    color: #fff;
+    background: #cff1e9;
+    color: #43ab93;
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;    
 }
@@ -83,7 +81,6 @@
 .quantitySelectorStepper--summary :global(.vtex-numeric-stepper__minus-button){
     width: 25px!important;
     margin-right: .4em;
-    border: 1px solid #ccc;
     line-height: 1;
 }
 
@@ -104,7 +101,7 @@
 
 @media screen and (max-width: 80em) {
     .summaryContainer--summary{ width: 100%;}
-    .quantitySelectorContainer--summary{display: block;flex-direction: inherit;margin-bottom: .3em;width:150px;}
+    .quantitySelectorContainer--summary{display: block;flex-direction: inherit;margin-bottom: .3em;width:100%;}
     .quantitySelectorContainer--summary :global(.vtex-numeric-stepper__input){background: inherit}
     .quantitySelectorTitle--summary{
         display:none;
@@ -126,9 +123,24 @@
         max-width: 100px;
         margin-left: .5em;        
         */
-        margin: 0 .3em;
+        margin: 0 auto;
+        width: 100px;
     }
     .quantitySelectorStepper--summary :global(.vtex-numeric-stepper-wrapper){
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 80em) {
+    .quantitySelectorContainer--summary{
+        margin-right: .5em
+    }
+    .quantitySelectorStepper--summary :global(.vtex-numeric-stepper__plus-button),
+    .quantitySelectorStepper--summary :global(.vtex-numeric-stepper__minus-button),
+    .quantitySelectorStepper--summary :global(.vtex-numeric-stepper__input){
+        height: 25px;
+    }
+    .quantitySelectorStepper{
+        height: 27px;
     }
 }

@@ -588,19 +588,24 @@
 "responsive-layout.mobile#mobile":{
   "children":[
     "flex-layout.row#content-1-mobile",
-    "flex-layout.row#grid-banners-mobile-1",
+    "flex-layout.row#grid-banners-mobile-1",     
+    "flex-layout.row#grid-banners-mobile-3",
     "flex-layout.row#grid-mobile--row-2",
-    "__fold__.experimentalLazyAssets",    
-    "flex-layout.row#grid-banners-mobile-3",        
+    "flex-layout.row#grid-mobile--row-4", 
+    "flex-layout.row#grid-mobile--row-5",
+    "flex-layout.row#grid-mobile--row-6", 
+    "flex-layout.row#grid-mobile--row-8",
+    "flex-layout.row#grid-mobile--row-7",
+    "__fold__.experimentalLazyAssets",           
     "flex-layout.row#title-shelf-1-mobile",
-    "__fold__",
-    "flex-layout.row#shelf-1-mobile",    
-    "flex-layout.row#title-shelf-2-mobile",
-    "flex-layout.row#shelf-2-mobile",
-    "image#grid-banners-middle",
-    "flex-layout.row#title-shelf-3-mobile",
-    "flex-layout.row#shelf-3-mobile"    
-    // "flex-layout.row#shelf-mobile"    
+    "flex-layout.row#shelf-1-mobile",   
+    "__fold__"
+    //"flex-layout.row#title-shelf-1-mobile",
+    //"flex-layout.row#shelf-1-mobile",    
+    //"flex-layout.row#title-shelf-2-mobile",
+    //"flex-layout.row#shelf-2-mobile",
+    //"flex-layout.row#title-shelf-3-mobile",
+    //"flex-layout.row#shelf-3-mobile"    
   ]
 },
   // Row Content 1 Mobile
@@ -875,9 +880,10 @@
       "infinite": true,
       "fullWidth": true,
       "blockClass": "shelf",
-      "centerMode":"center",
+      "centerMode":"disabled",
+      "arrowSize": "25",
       "showPaginationDots":false,
-      "showNavigationArrows":false
+      "showNavigationArrows":"always"
     }
   },  
   // Grid Banners Mobile
@@ -996,6 +1002,126 @@
               "link":"/lembrancinhas-infantis"
             }
           },
+// LInha 04 de banner
+"flex-layout.row#grid-mobile--row-4":{
+  "children":[
+    "flex-layout.col#grid-mobile--col-temas-1",
+    "flex-layout.col#grid-mobile--col-temas-2"
+  ],
+  "props":{
+    "blockClass":"grid-banners-mobile"
+  }
+},
+    "flex-layout.col#grid-mobile--col-temas-1":{
+      "children":[
+        "image#grid-mobile--img-tema-1"
+      ],
+      "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+    },
+        "image#grid-mobile--img-tema-1":{
+          "props":{
+            "src":"https://via.placeholder.com/640x395",
+            "alt": "Bexigas e Balões | Festabox",
+            "link":"/bexigas-e-baloes"
+          }
+        },
+    "flex-layout.col#grid-mobile--col-temas-2":{
+      "children":[
+        "image#grid-mobile--img-tema-2"
+      ],
+      "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+    },
+        "image#grid-mobile--img-tema-2":{
+          "props":{
+            "src":"https://via.placeholder.com/640x395",
+            "alt":"Festa Infantil de Sereia | Festabox",
+            "link":"/festa-meninas/sereia"
+          }
+        },  
+// Linha 5
+  "flex-layout.row#grid-mobile--row-5":{
+    "children":[
+      "image#grid-mobile-img-tema-full-01"
+    ],
+    "props":{
+      "blockClass": "grid-mobile-banner-tema-full"
+    }
+  },
+    "image#grid-mobile-img-tema-full-01":{
+      "props":{
+        "src":"https://via.placeholder.com/1080x395",
+        "alt":"Festa Infantil de Sereia | Festabox",
+        "link":"/festa-meninas/sereia"
+      }
+    },
+// Linha 6
+"flex-layout.row#grid-mobile--row-6":{
+  "children":[
+    "image#grid-mobile-img-tema-full-02"
+  ],
+  "props":{
+    "blockClass": "grid-mobile-banner-tema-full"
+  }
+},
+  "image#grid-mobile-img-tema-full-02":{
+    "props":{
+      "src":"https://via.placeholder.com/1080x395",
+      "alt":"Festa Infantil de Sereia | Festabox",
+      "link":"/festa-meninas/sereia"
+    }
+  },   
+// LInha 07 de banner
+"flex-layout.row#grid-mobile--row-7":{
+  "children":[
+    "flex-layout.col#grid-mobile--col-temas-7",
+    "flex-layout.col#grid-mobile--col-temas-8"
+  ],
+  "props":{
+    "blockClass":"grid-banners-mobile"
+  }
+},
+    "flex-layout.col#grid-mobile--col-temas-7":{
+      "children":[
+        "image#grid-mobile--img-tema-7"
+      ],
+      "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+    },
+        "image#grid-mobile--img-tema-7":{
+          "props":{
+            "src":"https://via.placeholder.com/640x395",
+            "alt": "Bexigas e Balões | Festabox",
+            "link":"/bexigas-e-baloes"
+          }
+        },
+    "flex-layout.col#grid-mobile--col-temas-8":{
+      "children":[
+        "image#grid-mobile--img-tema-8"
+      ],
+      "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+    },
+        "image#grid-mobile--img-tema-8":{
+          "props":{
+            "src":"https://via.placeholder.com/640x395",
+            "alt":"Festa Infantil de Sereia | Festabox",
+            "link":"/festa-meninas/sereia"
+          }
+        },  
+// Linha 8
+"flex-layout.row#grid-mobile--row-8":{
+  "children":[
+    "image#grid-mobile-img-tema-full-03"
+  ],
+  "props":{
+    "blockClass": "grid-mobile-banner-tema-full"
+  }
+},
+  "image#grid-mobile-img-tema-full-03":{
+    "props":{
+      "src":"https://via.placeholder.com/1080x395",
+      "alt":"Festa Infantil de Sereia | Festabox",
+      "link":"/festa-meninas/sereia"
+    }
+  },           
 // Vitrine 2
   // Título Vitrine Mobile 02
   "flex-layout.row#title-shelf-2-mobile":{
@@ -1065,15 +1191,7 @@
       "showPaginationDots":false,
       "showNavigationArrows":false
     }
-  },
-  // Grid Banners Middle
-  "image#grid-banners-middle":{
-    "props":{
-      "src":"",
-      "alt":"Temas Disney"
-    }
-  },   
-// Vitrine 3
+  }, 
   // Título Vitrine Mobile 03
   "flex-layout.row#title-shelf-3-mobile":{
     "children":[

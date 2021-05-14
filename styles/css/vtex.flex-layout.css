@@ -251,6 +251,9 @@
     padding: 10px;
     font-size: 1.3em;
   }
+  .flexRowContent--grid-mobile-banner-tema-full{
+    padding: 0 .22em;
+  }
 }
 @media screen and (min-width: 40em) {
   .flexCol--col-hotsite-highlight-content{
@@ -399,4 +402,8 @@
     height: auto;
   }  
   .flexRowContent--search-result{margin-bottom: 5em;}
+  .flexColChild :global(.vtex-button){
+    border-radius: 2em;
+    font-weight: bold;
+  }
 }

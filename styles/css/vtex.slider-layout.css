@@ -105,10 +105,23 @@
   .slide--shelf{
     margin-left: 3px !important;
     margin-right: 3px !important;
-    width:5.1% !important;
+    /* width:5.1% !important; */
     background: #fff;
   }
   .sliderLayoutContainer--shelf{
     padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 40em){
+  .sliderRightArrow--shelf,
+  .sliderLeftArrow--shelf{
+    margin: 0;
+    font-size: 0;
+  }
+  .sliderArrows{
+    top: 38%;
+    width: 22px;
+    background: rgba(253 227 238) !important;
   }
 }
