@@ -1,0 +1,281 @@
+{
+  "store.custom#silverPlastic": {
+    "blocks": [
+      "flex-layout.row#header-silverPlastic",
+      "flex-layout.row#slogan-silverPlastic",
+      "flex-layout.row#vitrine-01-silverPlastic",
+      "flex-layout.row#vitrine-02-silverPlastic",
+      "flex-layout.row#vitrine-03-silverPlastic"
+    ],
+    "props":{
+      "blockClass": "bg-silverPlastic"
+    }
+  },
+  "flex-layout.row#header-silverPlastic":{
+    "children":[
+      
+    ],
+    "props":{
+      "blockClass":"background-silverPlastic"
+    }
+  },
+  "flex-layout.row#slogan-silverPlastic":{
+    "children":[
+      "rich-text#header-silverPlastic"
+    ],
+    "props":{
+      "blockClass": "bg-silverPlastic2"
+    }
+  },  
+    "rich-text#header-silverPlastic":{
+      "props":{
+        "text":"Queremos participar de mais momentos alegres. \n Fazemos isso com inovação, qualidade e preço!",
+        "blockClass": "slogan-silverPlastic"
+      }
+    },
+  "flex-layout.row#vitrine-01-silverPlastic":{
+    "children":[
+      "flex-layout.col#vitrine-01-silverPlastic-banner",
+      "flex-layout.col#vitrine-01-silverPlastic-produtos"
+    ],
+    "props":{
+      "blockClass": "bg-silverPlastic"
+    }
+  },
+    "flex-layout.col#vitrine-01-silverPlastic-produtos":{
+      "children":[
+        "flex-layout.row#shelf-silverPlastic-01"
+      ],
+      "props":{
+        "width": "70%"
+      }
+    },
+    "flex-layout.row#shelf-silverPlastic-01": {
+      "children": ["list-context.product-list#plastic01"],
+      "props":{"blockClass":"container-shelf"}
+    },
+    "list-context.product-list#plastic01": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#silverPlastic-products"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "installmentCriteria": "MAX_WITH_INTEREST",
+        "titleText":"Festa de Princesa"
+      }
+    },
+    "slider-layout#silverPlastic-products": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 2
+        },
+        "infinite": true,
+        "fullWidth": false,
+        "blockClass": "shelf",
+        "showPaginationDots":false
+      }
+    },       
+    //
+    "flex-layout.col#vitrine-01-silverPlastic-banner":{
+      "children":[
+        "image#banner-vitrine-01-silverPlastic",
+        "rich-text#nomeLinha-vitrine-01-silverPlastic",
+        "rich-text#resumoLinha-vitrine-01-silverPlastic",
+        "rich-text#botaoLinha-vitrine-01-silverPlastic"
+      ],
+      "props":{
+        "width": "30%"
+      }
+    },
+        "image#banner-vitrine-01-silverPlastic":{
+          "props":{
+            "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/d82b3c1b-5442-4e0a-be1e-91bdd7e21d0c___e0ddd13ad82370b27b3a8f34a505741c.jpg",
+            "blockClass": "bannerLinha"
+          }
+        },
+        "rich-text#nomeLinha-vitrine-01-silverPlastic":{
+          "props":{
+            "text":"Linha Cortadores",
+            "blockClass": "nomeLinha"
+          }
+        },
+        "rich-text#resumoLinha-vitrine-01-silverPlastic":{
+          "props":{
+            "text":"Os cortadores da SilverPlastic vendidos na Festabox são ideais para trabalhos manuais e artesanais. A ferramenta certa para criar e deixar seus trabalhos mais bonitos.",
+            "blockClass": "resumoLinha"
+          }
+        }, 
+        "rich-text#botaoLinha-vitrine-01-silverPlastic":{
+          "props":{
+            "text":"[Ver todos os produtos](/162?map=productClusterIds)",
+            "blockClass": "botaoLinha"
+          }
+        },
+
+// Vitrine 02                          
+
+"flex-layout.row#vitrine-02-silverPlastic":{
+  "children":[
+    "flex-layout.col#vitrine-02-silverPlastic-banner",
+    "flex-layout.col#vitrine-02-silverPlastic-produtos"
+  ],
+  "props":{
+    "blockClass": "bg-silverPlastic"
+  }
+},
+  "flex-layout.col#vitrine-02-silverPlastic-produtos":{
+    "children":[
+      "flex-layout.row#shelf-silverPlastic-02"
+    ],
+    "props":{
+      "width": "70%"
+    }
+  },
+  "flex-layout.row#shelf-silverPlastic-02": {
+    "children": ["list-context.product-list#plastic02"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#plastic02": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#silverPlastic-products-02"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Festa de Princesa"
+    }
+  },
+  "slider-layout#silverPlastic-products-02": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":false
+    }
+  },       
+  //
+  "flex-layout.col#vitrine-02-silverPlastic-banner":{
+    "children":[
+      "image#banner-vitrine-02-silverPlastic",
+      "rich-text#nomeLinha-vitrine-02-silverPlastic",
+      "rich-text#resumoLinha-vitrine-02-silverPlastic",
+      "rich-text#botaoLinha-vitrine-02-silverPlastic"
+    ],
+    "props":{
+      "width": "30%"
+    }
+  },
+      "image#banner-vitrine-02-silverPlastic":{
+        "props":{
+          "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/0a8caf68-af1e-44cb-889b-eb3333c571ea___d838a5b7c30250b61962b46f5fb36228.jpg",
+          "blockClass": "bannerLinha"
+        }
+      },
+      "rich-text#nomeLinha-vitrine-02-silverPlastic":{
+        "props":{
+          "text":"Formas para Chocolate",
+          "blockClass": "nomeLinha"
+        }
+      },
+      "rich-text#resumoLinha-vitrine-02-silverPlastic":{
+        "props":{
+          "text":"As formas de chocolate da Silver Plastic vendidas na Festabox são flexiveis e permitem uma boa torça, isto facilita no momento de desenformar.",
+          "blockClass": "resumoLinha"
+        }
+      }, 
+      "rich-text#botaoLinha-vitrine-02-silverPlastic":{
+        "props":{
+          "text":"[Ver todos os produtos](/163?map=productClusterIds)",
+          "blockClass": "botaoLinha"
+        }
+      },
+      
+// Vitrine 03
+             
+
+"flex-layout.row#vitrine-03-silverPlastic":{
+  "children":[
+    "flex-layout.col#vitrine-03-silverPlastic-banner",
+    "flex-layout.col#vitrine-03-silverPlastic-produtos"
+  ],
+  "props":{
+    "blockClass": "bg-silverPlastic"
+  }
+},
+  "flex-layout.col#vitrine-03-silverPlastic-produtos":{
+    "children":[
+      "flex-layout.row#shelf-silverPlastic-03"
+    ],
+    "props":{
+      "width": "70%"
+    }
+  },
+  "flex-layout.row#shelf-silverPlastic-03": {
+    "children": ["list-context.product-list#plastic03"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#plastic03": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#silverPlastic-products-03"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Festa de Princesa"
+    }
+  },
+  "slider-layout#silverPlastic-products-03": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":false
+    }
+  },       
+  //
+  "flex-layout.col#vitrine-03-silverPlastic-banner":{
+    "children":[
+      "image#banner-vitrine-03-silverPlastic",
+      "rich-text#nomeLinha-vitrine-03-silverPlastic",
+      "rich-text#resumoLinha-vitrine-03-silverPlastic",
+      "rich-text#botaoLinha-vitrine-03-silverPlastic"
+    ],
+    "props":{
+      "width": "30%"
+    }
+  },
+      "image#banner-vitrine-03-silverPlastic":{
+        "props":{
+          "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/e3ab0f82-6b28-4733-ba14-49bc6b631b76___97438bc128efe4e8fb3ec0283146107b.jpg",
+          "blockClass": "bannerLinha"
+        }
+      },
+      "rich-text#nomeLinha-vitrine-03-silverPlastic":{
+        "props":{
+          "text":"Bico Inox",
+          "blockClass": "nomeLinha"
+        }
+      },
+      "rich-text#resumoLinha-vitrine-03-silverPlastic":{
+        "props":{
+          "text":"Os bicos de confeitar em aço ixo permitem um resultado mais preciso e delicado. Capriche na decoração junto com a Silver Plastic e Festabox.",
+          "blockClass": "resumoLinha"
+        }
+      }, 
+      "rich-text#botaoLinha-vitrine-03-silverPlastic":{
+        "props":{
+          "text":"[Ver todos os produtos](/164?map=productClusterIds)",
+          "blockClass": "botaoLinha"
+        }
+      }     
+
+}

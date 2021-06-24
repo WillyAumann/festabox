@@ -919,3 +919,35 @@
       font-style: normal;
     }
 }
+
+.container--slogan-silverPlastic{
+  text-align: center;
+  display: block;
+  color: #f4821f;  
+}
+
+.paragraph--nomeLinha{
+  color: #F29E00;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;  
+}
+
+.paragraph--resumoLinha{
+  max-width: 400px;
+  padding: 0 0px;
+  font-size: .9em;
+  color: #888;  
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.link--botaoLinha{
+  background: #f59d51;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: .5em 1.5em;  
+}

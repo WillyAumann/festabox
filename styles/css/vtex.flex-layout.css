@@ -407,3 +407,40 @@
     font-weight: bold;
   }
 }
+
+/* SilverPlastic */
+
+.flexRow--background-silverPlastic{
+  background: url(https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/fcda9cc7-1893-452c-85b0-4d8c261e397a___5f40b96959c2f490019cf17d1ce2c46d.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 200px;
+  height: 100px;
+}
+
+.flexRow--bg-silverPlastic{
+  background: #fafafa;
+  padding: .5em 0 2em;
+}
+
+.flexRow--bg-silverPlastic2{
+  background: #fafafa;
+}
+
+.container--nomeLinha, 
+.container--resumoLinha, 
+.container--botaoLinha{
+  text-align: center;
+  display: block;  
+}
+
+@media screen and (min-width: 40em) {
+  .flexRow--bg-silverPlastic{
+    padding: .5em 0 8em;
+  }
+  .container--nomeLinha, .container--resumoLinha, .container--botaoLinha{
+    text-align: left;
+    display: inherit;  
+  }  
+}

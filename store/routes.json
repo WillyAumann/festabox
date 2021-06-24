@@ -28,5 +28,9 @@
   },
   "store.custom#disney": {
     "path": "/disney"
-  }  
+  },  
+  "store.custom#silverPlastic": {
+    "path": "/silver-plastic"
+  }
+  
 }
