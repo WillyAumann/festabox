@@ -11,7 +11,10 @@
       "responsive-layout.desktop#actions-summary",
       "responsive-layout.tablet#actions-summary-tablet",
       "responsive-layout.mobile#actions-summary-mobile"
-    ]
+    ],
+    "props":{
+      "maxItems": 100
+    }
   },
   "responsive-layout.desktop#actions-summary":{
     "children":[
