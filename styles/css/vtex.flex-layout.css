@@ -502,10 +502,15 @@
   .flexRowContent--showCases-natal{
     padding: 0 10em;
   }
+}
+
   /* Vantagens */
   .flexColChild--col-vantagem{
     background: #61d6bb;
     border: .1rem dashed #fff;
   }
-}
 
+@media screen and (max-width: 40em) {
+  .flexRowContent--grid-vantagens{ margin: .5em 0;}
+  .flexColChild--col-vantagem{border: 0; border-top: 1px dashed #45bba0;}
+}  

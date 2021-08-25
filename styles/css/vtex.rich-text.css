@@ -1064,46 +1064,59 @@
     .headingLevel2--shelfTitle-natal{
       font-size: 2.25rem;
     }    
-    .container--text-vantagens{
-      justify-content: center;
-    }
-    .container--link-vantagens{
-      justify-content: center;
-    }
-    .heading--link-vantagens{
-      margin: .6em 0 0;
-      line-height: 1;
-      text-align: center;
-      color: #fff;
-      font-weight: bold;   
-      font-size: 1.3em;    
-    }
-    .heading--text-vantagens{
-      margin: .6em 0 0;
-      line-height: 1;
-      text-align: center;
-      color: #fff;
-      font-weight: bold;   
-      font-size: 1.3em;          
-    }
-    .paragraph--link-vantagens{
-      margin: 0 0 .5em;
-      color: #fff;
-      font-style: italic;  
-      text-align: center;
-    }
-    .strong--link-vantagens{
-      margin: .6em 0 0;
-      line-height: 1;
-      text-align: center;
-      font-weight: bold;   
-      color: #faff07;
-      font-size: 1.3em;
-      display: inline-block;
-    }
-    .strong--text-vantagens{
-      color: #faff07;
-    }
-    .link--link-vantagens{text-decoration: none;color:#fff;}
-    .paragraph--text-vantagens{text-decoration: none;color:#fff;margin: .3em 0 0}
+
+}
+
+
+/* Vantagens */
+
+.container--text-vantagens{
+  justify-content: center;
+}
+.container--link-vantagens{
+  justify-content: center;
+}
+.heading--link-vantagens{
+  margin: .6em 0 0;
+  line-height: 1;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;   
+  font-size: 1.3em;    
+}
+.heading--text-vantagens{
+  margin: .6em 0 0;
+  line-height: 1;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;   
+  font-size: 1.3em;          
+}
+.paragraph--link-vantagens{
+  margin: 0 0 .5em;
+  color: #fff;
+  font-style: italic;  
+  text-align: center;
+}
+.strong--link-vantagens{
+  margin: .6em 0 0;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;   
+  color: #faff07;
+  font-size: 1.3em;
+  display: inline-block;
+}
+.strong--text-vantagens{
+  color: #faff07;
+}
+.link--link-vantagens{text-decoration: none;color:#fff;}
+.paragraph--text-vantagens{text-decoration: none;color:#fff;margin: .3em 0 0}
+
+@media screen and (max-width: 40em) {
+  .paragraph--link-vantagens{margin: 0;}
+  .link--link-vantagens{font-size: .9em;}
+  .strong--link-vantagens{ font-size: 1.1em;}
+  .heading--text-vantagens{font-size:.9em;}
+  .paragraph--text-vantagens{font-style: italic; font-size: .9em;}
 }

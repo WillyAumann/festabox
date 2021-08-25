@@ -136,8 +136,8 @@
             },     
                 "rich-text#title-vantagem-02":{
                   "props":{
-                    "text":"# Tudo com **10% off** \n comprando acima de R$ 229,00",
-                    "blockClass": "text-vantagens"
+                    "text":"[**Tudo com 10% off** \n comprando acima de R$ 229,00*](/frete-gratis)",
+                    "blockClass": "link-vantagens"
                   }
                 },                   
             "flex-layout.col#grid-vantagens-03":{
@@ -642,6 +642,7 @@
 "responsive-layout.mobile#mobile":{
   "children":[
     "flex-layout.row#content-1-mobile",
+    "flex-layout.row#grid-vantagens",
     "flex-layout.row#grid-banners-mobile-1",     
     "flex-layout.row#grid-banners-mobile-3",
     "flex-layout.row#grid-mobile--row-2",
