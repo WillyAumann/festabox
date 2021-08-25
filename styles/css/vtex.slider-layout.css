@@ -4,7 +4,7 @@
 .sliderLayoutContainer--carousel{background:#fff;}
 /*.slide--carousel{margin-left: .25% !important;margin-right: .25% !important;} */
 
-.sliderLayoutContainer--carousel{margin-top:1em;margin-bottom: 1em;}
+/* .sliderLayoutContainer--carousel{margin-top:1em;} */
 
 /* Carousel grid */
 .paginationDot--carousel-grid{

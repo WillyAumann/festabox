@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "responsive-layout.desktop#promotions-tag",
+      // "responsive-layout.desktop#promotions-tag",
       "responsive-layout.desktop#banners",
       "responsive-layout.desktop#content",
       "responsive-layout.mobile#mobile"
@@ -52,6 +52,7 @@
     "children":[
       //"carousel#carousel-main"
       "slider-layout#banner-dft",
+      "flex-layout.row#grid-vantagens",
       "flex-layout.row#grid-banners1",
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#grid-banners2"
@@ -99,7 +100,60 @@
               "alt": "",
               "link":""
             }
-          },                      
+          },          
+// Grid Vantagens
+          "flex-layout.row#grid-vantagens":{
+            "props":{
+              "blockClass":"grid-vantagens"
+            },
+            "children":[
+              "flex-layout.col#grid-vantagens-01",
+              "flex-layout.col#grid-vantagens-02",
+              "flex-layout.col#grid-vantagens-03"
+            ]
+          },  
+            "flex-layout.col#grid-vantagens-01":{
+              "children":[
+                "rich-text#title-vantagem-01"
+              ],
+              "props":{
+                "blockClass":"col-vantagem"
+              }
+            },          
+                "rich-text#title-vantagem-01":{
+                  "props":{
+                    "text":"[**Frete Grátis** \n conferir regras](/frete-gratis)",
+                    "blockClass": "link-vantagens"
+                  }
+                },
+            "flex-layout.col#grid-vantagens-02":{
+              "children":[
+                "rich-text#title-vantagem-02"
+              ],
+              "props":{
+                "blockClass":"col-vantagem"
+              }
+            },     
+                "rich-text#title-vantagem-02":{
+                  "props":{
+                    "text":"# Tudo com **10% off** \n comprando acima de R$ 229,00",
+                    "blockClass": "text-vantagens"
+                  }
+                },                   
+            "flex-layout.col#grid-vantagens-03":{
+              "children":[
+                "rich-text#title-vantagem-03"
+              ],
+              "props":{
+                "blockClass":"col-vantagem"
+              }
+            },  
+                "rich-text#title-vantagem-03":{
+                  "props":{
+                    "text":"# Parcele em **até 06x** \n parcela mínima de R$ 35,00",
+                    "blockClass": "text-vantagens"
+                  }
+                },                       
 // Grid banners
           "flex-layout.row#grid-banners1":{
             "props":{

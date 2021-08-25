@@ -1,0 +1,436 @@
+{
+    "store.custom#festaNatal": {
+      "blocks": [
+        "flex-layout.row#content-natal",
+        "flex-layout.row#detail-natal",
+        "flex-layout.row#showCase-natal",
+        "flex-layout.row#showCase-natal-02",
+        "flex-layout.row#title-natal",        
+        "flex-layout.row#shelf-natal"
+      ]
+    },
+    "flex-layout.row#content-natal":{
+        "children":[
+            "flex-layout.col#content-row-natal"
+        ],
+        "props":{
+            "blockClass":"content-natal"
+        }
+    },
+    "flex-layout.col#content-row-natal":{
+        "children":[
+            "flex-layout.row#hotsite-natal-title",
+            "flex-layout.row#hotsite-natal-slogan"
+        ]
+    },
+        "flex-layout.row#hotsite-natal-title":{
+            "children":[
+                "rich-text#hotsite-natal-title"
+            ],
+            "props":{
+                "blockClass":"hotsite-title"
+            }   
+        },
+            "rich-text#hotsite-natal-title":{
+                "props":{
+                    "text":"Na festabox seu natal é mais encantador",
+                    "blockClass": "natal-title"
+                }
+            },
+        "flex-layout.row#hotsite-natal-slogan":{
+            "children":[
+                "rich-text#hotsite-natal-slogan"
+            ],
+            "props":{
+                "blockClass":"hotsite-meninos-slogan"
+            }
+        },
+            "rich-text#hotsite-natal-slogan":{
+                "props":{
+                    "text":"###### Aproveito nossos incríveis descontos de natal",
+                    "blockClass":"natal-slogan"
+                }
+            },
+    //
+    "flex-layout.row#detail-natal":{
+        "children":[
+            "rich-text#subTitle"
+        ],
+        "props":{
+            "blockClass":"detail-natal"
+        }
+    },
+        "rich-text#subTitle":{
+            "props":{
+                "text":"###### Monte sua festa",
+                "blockClass":"subTitle-natal"
+            }
+        },
+    "flex-layout.row#showCase-natal":{
+        "children":[
+            "flex-layout.col#showCase-natal-01",
+            "flex-layout.col#showCase-natal-02",
+            "flex-layout.col#showCase-natal-03",
+            "flex-layout.col#showCase-natal-04"
+        ],
+        "props":{
+            "blockClass":"showCases-natal"
+        }
+    },
+    "flex-layout.col#showCase-natal-01":{
+        "children":[
+            "image#decoracao-natal",
+            "rich-text#-title-decoracao-natal",
+            "rich-text#-price-decoracao-natal",
+            "rich-text#-button-decoracao-natal"
+        ],
+        "props":{
+            "blockClass":"showCase-natal-product"
+        }
+    },
+        "image#decoracao-natal":{
+            "props":{
+                "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/3a171971-81fa-496b-ba39-aa2213820459___32647443846e0f4b4772853b0c76deb2.jpeg",
+                "alt": "Decorações de Natal",
+                "link": "/decoracao-natal",
+                "blockClass": "image-showCase-natal"
+            }
+        },
+        "rich-text#-title-decoracao-natal":{
+            "props":{
+                "text":"Decoração de Natal",
+                "blockClass": "title-showCase-natal"
+            }
+        },
+        "rich-text#-price-decoracao-natal":{
+            "props":{
+                "text":"a partir de \n R$ 3,99",
+                "blockClass": "price-showCase-natal"
+            }
+        },  
+        "rich-text#-button-decoracao-natal":{
+            "props":{
+                "text":"[ver produtos](/decoracao-natal)",
+                "blockClass": "button-showCase-natal"
+            }
+        },                
+//
+    "flex-layout.col#showCase-natal-02":{
+        "children":[
+            "image#decoracao-natal-02",
+            "rich-text#-title-decoracao-natal-02",
+            "rich-text#-price-decoracao-natal-02",
+            "rich-text#-button-decoracao-natal-02"
+        ],
+        "props":{
+            "blockClass":"showCase-natal-product"
+        }
+    },
+        "image#decoracao-natal-02":{
+            "props":{
+                "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/3a171971-81fa-496b-ba39-aa2213820459___32647443846e0f4b4772853b0c76deb2.jpeg",
+                "alt": "Decorações de Natal",
+                "link": "/decoracao-natal",
+                "blockClass": "image-showCase-natal"
+            }
+        },
+        "rich-text#-title-decoracao-natal-02":{
+            "props":{
+                "text":"Decoração de Natal",
+                "blockClass": "title-showCase-natal"
+            }
+        },
+        "rich-text#-price-decoracao-natal-02":{
+            "props":{
+                "text":"a partir de \n R$ 3,99",
+                "blockClass": "price-showCase-natal"
+            }
+        },  
+        "rich-text#-button-decoracao-natal-02":{
+            "props":{
+                "text":"[ver produtos](/decoracao-natal)",
+                "blockClass": "button-showCase-natal"
+            }
+        },     
+//       
+    "flex-layout.col#showCase-natal-03":{
+        "children":[
+            "image#decoracao-natal-03",
+            "rich-text#-title-decoracao-natal-03",
+            "rich-text#-price-decoracao-natal-03",
+            "rich-text#-button-decoracao-natal-03"
+        ],
+        "props":{
+            "blockClass":"showCase-natal-product"
+        }
+    },
+    "image#decoracao-natal-03":{
+        "props":{
+            "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/3a171971-81fa-496b-ba39-aa2213820459___32647443846e0f4b4772853b0c76deb2.jpeg",
+            "alt": "Decorações de Natal",
+            "link": "/decoracao-natal",
+            "blockClass": "image-showCase-natal"
+        }
+    },
+    "rich-text#-title-decoracao-natal-03":{
+        "props":{
+            "text":"Decoração de Natal",
+            "blockClass": "title-showCase-natal"
+        }
+    },
+    "rich-text#-price-decoracao-natal-03":{
+        "props":{
+            "text":"a partir de \n R$ 3,99",
+            "blockClass": "price-showCase-natal"
+        }
+    },  
+    "rich-text#-button-decoracao-natal-03":{
+        "props":{
+            "text":"[ver produtos](/decoracao-natal)",
+            "blockClass": "button-showCase-natal"
+        }
+    },  
+//
+    "flex-layout.col#showCase-natal-04":{
+        "children":[
+            "image#decoracao-natal-04",
+            "rich-text#-title-decoracao-natal-04",
+            "rich-text#-price-decoracao-natal-04",
+            "rich-text#-button-decoracao-natal-04"
+        ],
+        "props":{
+            "blockClass":"showCase-natal-product"
+        }
+    },
+    "image#decoracao-natal-04":{
+        "props":{
+            "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/3a171971-81fa-496b-ba39-aa2213820459___32647443846e0f4b4772853b0c76deb2.jpeg",
+            "alt": "Decorações de Natal",
+            "link": "/decoracao-natal",
+            "blockClass": "image-showCase-natal"
+        }
+    },
+    "rich-text#-title-decoracao-natal-04":{
+        "props":{
+            "text":"Decoração de Natal",
+            "blockClass": "title-showCase-natal"
+        }
+    },
+    "rich-text#-price-decoracao-natal-04":{
+        "props":{
+            "text":"a partir de \n R$ 3,99",
+            "blockClass": "price-showCase-natal"
+        }
+    },  
+    "rich-text#-button-decoracao-natal-04":{
+        "props":{
+            "text":"[ver produtos](/decoracao-natal)",
+            "blockClass": "button-showCase-natal"
+        }
+    },     
+//
+"flex-layout.row#showCase-natal-02":{
+    "children":[
+        "flex-layout.col#showCase-natal-05",
+        "flex-layout.col#showCase-natal-06",
+        "flex-layout.col#showCase-natal-07",
+        "flex-layout.col#showCase-natal-08"
+    ],
+    "props":{
+        "blockClass":"showCases-natal"
+    }
+},
+"flex-layout.col#showCase-natal-05":{
+    "children":[
+        "image#decoracao-natal-05",
+        "rich-text#-title-decoracao-natal-05",
+        "rich-text#-price-decoracao-natal-05",
+        "rich-text#-button-decoracao-natal-05"
+    ],
+    "props":{
+        "blockClass":"showCase-natal-product"
+    }
+},
+    "image#decoracao-natal-05":{
+        "props":{
+            "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/3a171971-81fa-496b-ba39-aa2213820459___32647443846e0f4b4772853b0c76deb2.jpeg",
+            "alt": "Decorações de Natal",
+            "link": "/decoracao-natal",
+            "blockClass": "image-showCase-natal"
+        }
+    },
+    "rich-text#-title-decoracao-natal-05":{
+        "props":{
+            "text":"Decoração de Natal",
+            "blockClass": "title-showCase-natal"
+        }
+    },
+    "rich-text#-price-decoracao-natal-05":{
+        "props":{
+            "text":"a partir de \n R$ 3,99",
+            "blockClass": "price-showCase-natal"
+        }
+    },  
+    "rich-text#-button-decoracao-natal-05":{
+        "props":{
+            "text":"[ver produtos](/decoracao-natal)",
+            "blockClass": "button-showCase-natal"
+        }
+    },                
+//
+"flex-layout.col#showCase-natal-06":{
+    "children":[
+        "image#decoracao-natal-06",
+        "rich-text#-title-decoracao-natal-06",
+        "rich-text#-price-decoracao-natal-06",
+        "rich-text#-button-decoracao-natal-06"
+    ],
+    "props":{
+        "blockClass":"showCase-natal-product"
+    }
+},
+    "image#decoracao-natal-06":{
+        "props":{
+            "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/3a171971-81fa-496b-ba39-aa2213820459___32647443846e0f4b4772853b0c76deb2.jpeg",
+            "alt": "Decorações de Natal",
+            "link": "/decoracao-natal",
+            "blockClass": "image-showCase-natal"
+        }
+    },
+    "rich-text#-title-decoracao-natal-06":{
+        "props":{
+            "text":"Decoração de Natal",
+            "blockClass": "title-showCase-natal"
+        }
+    },
+    "rich-text#-price-decoracao-natal-06":{
+        "props":{
+            "text":"a partir de \n R$ 3,99",
+            "blockClass": "price-showCase-natal"
+        }
+    },  
+    "rich-text#-button-decoracao-natal-06":{
+        "props":{
+            "text":"[ver produtos](/decoracao-natal)",
+            "blockClass": "button-showCase-natal"
+        }
+    },     
+//       
+"flex-layout.col#showCase-natal-07":{
+    "children":[
+        "image#decoracao-natal-07",
+        "rich-text#-title-decoracao-natal-07",
+        "rich-text#-price-decoracao-natal-07",
+        "rich-text#-button-decoracao-natal-07"
+    ],
+    "props":{
+        "blockClass":"showCase-natal-product"
+    }
+},
+    "image#decoracao-natal-07":{
+        "props":{
+            "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/3a171971-81fa-496b-ba39-aa2213820459___32647443846e0f4b4772853b0c76deb2.jpeg",
+            "alt": "Decorações de Natal",
+            "link": "/decoracao-natal",
+            "blockClass": "image-showCase-natal"
+        }
+    },
+    "rich-text#-title-decoracao-natal-07":{
+        "props":{
+            "text":"Decoração de Natal",
+            "blockClass": "title-showCase-natal"
+        }
+    },
+    "rich-text#-price-decoracao-natal-07":{
+        "props":{
+            "text":"a partir de \n R$ 3,99",
+            "blockClass": "price-showCase-natal"
+        }
+    },  
+    "rich-text#-button-decoracao-natal-07":{
+        "props":{
+            "text":"[ver produtos](/decoracao-natal)",
+            "blockClass": "button-showCase-natal"
+        }
+    },  
+//
+"flex-layout.col#showCase-natal-08":{
+    "children":[
+        "image#decoracao-natal-08",
+        "rich-text#-title-decoracao-natal-08",
+        "rich-text#-price-decoracao-natal-08",
+        "rich-text#-button-decoracao-natal-08"
+    ],
+    "props":{
+        "blockClass":"showCase-natal-product"
+    }
+},
+    "image#decoracao-natal-08":{
+        "props":{
+            "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/3a171971-81fa-496b-ba39-aa2213820459___32647443846e0f4b4772853b0c76deb2.jpeg",
+            "alt": "Decorações de Natal",
+            "link": "/decoracao-natal",
+            "blockClass": "image-showCase-natal"
+        }
+    },
+    "rich-text#-title-decoracao-natal-08":{
+        "props":{
+            "text":"Decoração de Natal",
+            "blockClass": "title-showCase-natal"
+        }
+    },
+    "rich-text#-price-decoracao-natal-08":{
+        "props":{
+            "text":"a partir de \n R$ 3,99",
+            "blockClass": "price-showCase-natal"
+        }
+    },  
+    "rich-text#-button-decoracao-natal-08":{
+        "props":{
+            "text":"[ver produtos](/decoracao-natal)",
+            "blockClass": "button-showCase-natal"
+        }
+    },
+//
+    "flex-layout.row#title-natal":{
+        "children":[
+            "rich-text#shelf-title-natal"        
+        ]
+    },
+    "rich-text#shelf-title-natal": {
+        "props": {
+        "text": "## Melhores Produtos de Natal",
+        "blockClass": "shelfTitle-natal"
+        }
+    },
+//
+"flex-layout.row#shelf-natal": {
+    "children": ["list-context.product-list#natal01"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#natal01": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#natal-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Festa de Princesa"
+    }
+  },
+  "slider-layout#natal-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 3
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":false
+    }
+  }
+
+
+
+}   
