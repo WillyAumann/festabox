@@ -284,6 +284,11 @@
   margin-right: 3px;
 }
 
+.imageElement--banner-only-full{
+  border-radius: 1em;
+  margin-top: .5em;
+}
+
 
 @media only screen and (max-width: 49rem){
   .resultsList{

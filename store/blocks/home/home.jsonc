@@ -667,7 +667,8 @@
   // Row Content 1 Mobile
   "flex-layout.row#content-1-mobile":{
     "children":[
-      "slider-layout#banner-full-mobile",
+      //"slider-layout#banner-full-mobile",
+      "image#banner-only-full",
       "rich-text#menu-categorias-mobile",
       "slider-layout#menu-categorias"
     ],
@@ -676,6 +677,7 @@
     }
   },
   // Slider Layout Banner Full Mobile
+  /*
       "slider-layout#banner-full-mobile": {
         "props": {
           "itemsPerPage": {
@@ -724,7 +726,17 @@
           "link":"",
           "blockClass":"img-full-banner-mobile"
         }
-      },       
+      }, 
+  */
+  // Banner Only Full
+      "image#banner-only-full":{
+        "props":{
+          "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/78e393ba-17e6-4a84-8b9b-b40b5c50fb1a___d4f9ade6d699a38ae9fe851609bf85c9.jpg",
+          "alt": "Festa Hotwhells na Festabox",
+          "link": "/festa-meninos/hot-wheels?order=OrderByReleaseDateDESC",
+          "blockClass": "banner-only-full"
+        }
+      },
   // Menu Categorias
       "rich-text#menu-categorias-mobile":{
         "props":{
