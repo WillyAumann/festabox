@@ -16,6 +16,11 @@
       "maxItems": 100
     }
   },
+  "product-summary-name":{
+    "props":{
+      "tag": "h3"
+    }
+  },  
   "responsive-layout.desktop#actions-summary":{
     "children":[
       "flex-layout.row#qtd-buy"    
