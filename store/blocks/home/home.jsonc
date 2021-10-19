@@ -233,8 +233,8 @@
               },           
               "flex-layout.col#grid-banners2-03":{
               "children":[
-                // "image#grid-banners2-image-04"
-                "slider-layout#banners-grid"
+                "image#grid-banners2-image-04"
+                // "slider-layout#banners-grid"
               ],
               "props":{"marginLeft":4,"marginRight":4,"width":"50%"}          
               },               
@@ -258,7 +258,14 @@
                       "alt":"Artigos para Festa Infantil | Festabox",
                       "link":"/lembrancinhas-infantis"
                     }
-                  },              
+                  },    
+                  "image#grid-banners2-image-04":{
+                    "props":{
+                      "src": "https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/a1ce2ee6-a4cc-4c9c-ab39-26d5c4077aaa___0930c3d8dc7d31e6b85fef6ed804a039.jpg",
+                      "alt": "Festa Naruto | Festabox",
+                      "link": "/Festa-Meninos/Festa-Naruto"
+                    }
+                  },          
                       "slider-layout#banners-grid": {
                         "props": {
                           "autoplay":{

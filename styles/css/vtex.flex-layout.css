@@ -508,6 +508,7 @@
   .flexColChild--col-vantagem{
     background: #61d6bb;
     border: .1rem dashed #fff;
+    border-right: 0;
   }
 
 @media screen and (max-width: 40em) {
