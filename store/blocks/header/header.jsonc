@@ -37,6 +37,13 @@
             //"vtex.menu@2.x:menu#institutional"
           ]
         },
+        "image#contact-whatsapp":{
+          "props":{
+            "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/dfa41a68-89bc-4b93-b7c3-118e97894467___e68b22d….png",
+            "blockClass":"btn-wpp",
+            "link":"https://wa.me/5511949408882"
+          }
+        },         
                     "rich-text#social-header1":{
                       "props":{
                         "text":"[![Pinterest](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/bcacf6f9-81b8-4f12-8ff8-fbf139b45769___75fe4ec805d7a35ddb964071dbefa55d.png)](https://pinterest.com/festabox)",
@@ -79,14 +86,7 @@
                         "text":"Artigos para Festa e Decoração de Festa",
                         "blockClass": "slogan"
                       }
-                    },
-                    "image#contact-whatsapp":{
-                      "props":{
-                        "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/dfa41a68-89bc-4b93-b7c3-118e97894467___e68b22d….png",
-                        "link":"https://wa.me/5511949408882",
-                        "blockClass":"btn-wpp"
-                      }
-                    },                   
+                    },                  
                     "flex-layout.col#spacer": {
                       "props": {
                         "width": "grow"

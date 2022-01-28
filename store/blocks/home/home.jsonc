@@ -319,8 +319,8 @@
     "image#banner-middle-shelf",     
     "rich-text#shelf-title3",
     "flex-layout.row#shelf3",    
-    "rich-text#title-blog",
-    "flex-layout.row#blog",
+    // "rich-text#title-blog",
+    // "flex-layout.row#blog",
     "rich-text#shelf-title4",
     "flex-layout.row#shelf4",       
     "flex-layout.row#feedInstagram"

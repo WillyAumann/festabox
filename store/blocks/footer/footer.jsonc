@@ -22,6 +22,7 @@
             "blockClass":"content-footer"
           }
       },
+
           "flex-layout.col#footer-col1":{
             "children":[
               "rich-text#title-customerService",
