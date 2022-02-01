@@ -322,8 +322,8 @@
     // "rich-text#title-blog",
     // "flex-layout.row#blog",
     "rich-text#shelf-title4",
-    "flex-layout.row#shelf4",       
-    "flex-layout.row#feedInstagram"
+    "flex-layout.row#shelf4"
+    //"flex-layout.row#feedInstagram"
   ]
 },                                                              
   /* Vitrine */   
