@@ -344,7 +344,7 @@
             },
             "rich-text#link-blog-footer":{
               "props":{
-                "text":"[![Blog Festabox](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/e9e18208-bad0-4393-b5e6-6ae500b4e3f5___dc7d618c2793dbab476431f479ffe45d.png)](http://blog.festabox.com.br/)",
+                "text":"[![Blog Festabox](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/e9e18208-bad0-4393-b5e6-6ae500b4e3f5___dc7d618c2793dbab476431f479ffe45d.png)]()",
                 "blockClass":"link-footer-social"
               }
             },

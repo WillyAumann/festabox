@@ -515,7 +515,7 @@
             },            
             "rich-text#link-article1":{
               "props":{
-                "text":"[ver artigo](http://blog.festabox.com.br/galinha-pintadinha-saiba-tudo-sobre/)",
+                "text":"[ver artigo]()",
                 "blockClass": "link-article"
               }
             },   
@@ -550,7 +550,7 @@
             },            
             "rich-text#link-article2":{
               "props":{
-                "text":"[ver artigo](http://blog.festabox.com.br/now-united-conheca-os-membros/)",
+                "text":"[ver artigo]()",
                 "blockClass": "link-article"
               }
             },     
@@ -585,7 +585,7 @@
             },            
             "rich-text#link-article3":{
               "props":{
-                "text":"[ver artigo](http://blog.festabox.com.br/minecraft-o-que-e-como-surgiu/)",
+                "text":"[ver artigo]()",
                 "blockClass": "link-article"
               }
             },       
@@ -620,7 +620,7 @@
             },            
             "rich-text#link-article4":{
               "props":{
-                "text":"[ver artigo](http://blog.festabox.com.br/aniversario-adulto-como-planejar/)",
+                "text":"[ver artigo]()",
                 "blockClass": "link-article"
               }
             },                                                

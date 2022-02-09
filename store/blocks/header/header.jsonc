@@ -58,7 +58,7 @@
                     },
                     "rich-text#social-header3":{
                       "props":{
-                        "text":"[![Blog](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/23cd65bb-cedc-44e1-a57d-8800d37f39ef___ae4196ae81794300394fba687a9a4d8f.png)](http://blog.festabox.com.br/)",
+                        "text":"[![Blog](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/23cd65bb-cedc-44e1-a57d-8800d37f39ef___ae4196ae81794300394fba687a9a4d8f.png)]()",
                         "blockClass": "social-header3"
                       }
                     },                    
